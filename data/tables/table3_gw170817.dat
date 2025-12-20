@@ -1,0 +1,6 @@
+# Table III: GW170817 Compatibility
+# Binary: m1=1.46 Msun, m2=1.27 Msun
+# Theory          Lambda_tilde  Status
+GR_SLy4           1276          >720_90CI
+RDT_alpha0.30     1519          >720_90CI
+GW170817_obs      300+420-230   observed

@@ -1,0 +1,6 @@
+# Table II: RDT vs GR Comparison (alpha=0.30)
+# M(Msun)  Lambda_GR  Lambda_RDT  Delta_Lambda_pct
+1.0       10241.0      10483.0       +2.4
+1.2       2995.0      3274.0       +9.3
+1.4       984.7      1221.0       +24.0
+1.6       331.5      516.4       +55.8
