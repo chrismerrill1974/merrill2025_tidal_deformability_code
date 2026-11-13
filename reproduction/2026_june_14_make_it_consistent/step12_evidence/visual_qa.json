@@ -1,0 +1,79 @@
+{
+  "status": "pass",
+  "render_dpi": 110,
+  "pages": [
+    {
+      "paper": 1,
+      "page": 1,
+      "render_sha256": "95483b6ea9fbd1c2408f69c7ad6a97838f98c0ba8d1c0554ea484a490db33608",
+      "visually_inspected": true
+    },
+    {
+      "paper": 1,
+      "page": 2,
+      "render_sha256": "096297f6fc0399cde6042b84d8d09cd5f7d28828d115cd5476b03c4061b9da94",
+      "visually_inspected": true
+    },
+    {
+      "paper": 1,
+      "page": 3,
+      "render_sha256": "8a0c3682a2c59a3ddaa7ca9b47e96d70075877ed1996184e8b09caf4a89b891b",
+      "visually_inspected": true
+    },
+    {
+      "paper": 1,
+      "page": 4,
+      "render_sha256": "cdd52ea86e051f883301c0534149d55fabd1dc8e5197f267a8959a0ce25c8c49",
+      "visually_inspected": true
+    },
+    {
+      "paper": 1,
+      "page": 5,
+      "render_sha256": "66520a22eaa9e4291c796ee952f4c2e202f37f02748eb5534e2227c65add0ebb",
+      "visually_inspected": true
+    },
+    {
+      "paper": 1,
+      "page": 6,
+      "render_sha256": "2358fd9fbef54fcf7a01c447ded06bf34ef4f0b8cb9feb92a82e36078fe5e6f3",
+      "visually_inspected": true
+    },
+    {
+      "paper": 1,
+      "page": 7,
+      "render_sha256": "11a74b948246ea7b49e584ae815fb9d10048d195bcfca2301652cbc11ac50083",
+      "visually_inspected": true
+    },
+    {
+      "paper": 2,
+      "page": 1,
+      "render_sha256": "c3f05156ed27476bc5c4f2e7073cd6faaeecc06c7f6d78c2d34cd83fafda6a44",
+      "visually_inspected": true
+    },
+    {
+      "paper": 2,
+      "page": 2,
+      "render_sha256": "0a99c524060cf15132293ea00a52cc60980c3e670abfaf4de208b003bb6cf585",
+      "visually_inspected": true
+    },
+    {
+      "paper": 2,
+      "page": 3,
+      "render_sha256": "a9068373e1349806a85383582ee2d428ecde682b33b30352e01f4c58c6819353",
+      "visually_inspected": true
+    },
+    {
+      "paper": 2,
+      "page": 4,
+      "render_sha256": "c5375769114b55b5850b206496d6e0e31dad3f26f18954c8c0b64697b5127287",
+      "visually_inspected": true
+    },
+    {
+      "paper": 2,
+      "page": 5,
+      "render_sha256": "9ffc1eb6621f37a82f540d8b6a337c129d33f0cfc4953e21660a44a1f2d77914",
+      "visually_inspected": true
+    }
+  ],
+  "findings": "All 12 final pages inspected: no clipping, overlap, missing figures, unreadable labels or broken tables."
+}

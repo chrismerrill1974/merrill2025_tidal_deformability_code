@@ -1,0 +1,15 @@
+{
+  "paper3_NeutronStars/037/eos_sly4_dh2001_v2.dat": "91389fbdc35ddba6fad6ef2bf5d7cdf02e3d3ad211f2a3ae33211036fd3cfb90",
+  "paper3_NeutronStars/ns_step14/audit_sources.py": "8e5c7c0d481f8b67b592d1eb64f3928c3c9ee50007f8833d404cd9afb0faaf17",
+  "paper3_NeutronStars/ns_step14/direct.py": "044f1e34d729ffe4cedfb410b38200bbc1fa028551905f3c454f3869ca019820",
+  "paper3_NeutronStars/ns_step14/endpoint_probe.py": "f0859d8ea4b481543283255c2646952a1a42d4214ff3103702ec4fc5c30398f6",
+  "paper3_NeutronStars/ns_step14/fixed_mass_crosscheck.py": "c70f8cf6aa01ad645efb495d0c72d325bccfb4dd61ce768cf9aaa449032931eb",
+  "paper3_NeutronStars/ns_step14/model.py": "12cf740a1bc67e49af1444f8244b9d8dfe2f425b79088977d52e80cf80498061",
+  "paper3_NeutronStars/ns_step14/reproduce.py": "7d7976c108e5cc057dcf12783d30b8b15f2bed427ae8345216edd71bb734dacc",
+  "paper3_NeutronStars/ns_step14/run.py": "3d96ae7c14dc3b8b8153287cdebabbcff62b009736efd14da8427f9c1eaa3f45",
+  "paper3_NeutronStars/ns_step14/test_model.py": "bb463948ee246070a0e454b85de89457778e3c119fc407b763eaceb6d741dd5c",
+  "paper3_NeutronStars/ns_step14/verify.py": "90492d52b5381bbe66a7ae96fb4769beb7a94dd2d3218bcec166331f05e74caa",
+  "paper3_NeutronStars/ns_v7/eos.mr": "a1579a26e509759760ba67a9448cf44741084995d715805d948c706d77828dd2",
+  "paper3_NeutronStars/ns_v7/eos.nb": "2aaa0129e05fa57a5c5e5f52adf5fdb66e5f1ab5c46c3bc25284f27109ad175f",
+  "paper3_NeutronStars/ns_v7/eos.thermo": "2bd6548281a66938e87b24db83555deb89cdbcbf61f2bf9dbf909e63cc376f5d"
+}

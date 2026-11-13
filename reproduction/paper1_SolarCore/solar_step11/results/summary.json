@@ -1,0 +1,576 @@
+{
+  "envelopes": {
+    "source_precision_diagonal_proxy_v1": {
+      "sampled_maximum": [
+        0.008747171181272032,
+        0.12228445449938519
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.008747171181272032,
+        0.12228445449938519
+      ]
+    },
+    "legacy_diagonal_proxy": {
+      "sampled_maximum": [
+        0.008716721303958466,
+        0.12228445449938519
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.008716721303958466,
+        0.12228445449938519
+      ]
+    },
+    "measurement_only": {
+      "sampled_maximum": [
+        0.007461036733699272,
+        0.09043038394024115
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.007461036733699272,
+        0.09043038394024115
+      ]
+    },
+    "helioseismic_scale_0.001": {
+      "sampled_maximum": [
+        0.005037886566260475,
+        0.13522496441040663
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.005037886566260475,
+        0.13522496441040663
+      ]
+    },
+    "helioseismic_scale_0.004": {
+      "sampled_maximum": [
+        0.013511426879286857,
+        0.08599467551300759
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.013489199134898551,
+        0.08177654339579425
+      ]
+    },
+    "omit_pep": {
+      "sampled_maximum": [
+        0.008890173343293969,
+        0.12859203321989024
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.00888516047834854,
+        0.12228445449938519
+      ]
+    },
+    "all_lower_error_sides": {
+      "sampled_maximum": [
+        0.008761769941471908,
+        0.12228445449938519
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.008761769941471908,
+        0.12228445449938519
+      ]
+    },
+    "all_upper_error_sides": {
+      "sampled_maximum": [
+        0.008733318105872967,
+        0.12228445449938519
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.008733318105872967,
+        0.12228445449938519
+      ]
+    },
+    "neutrino_only": {
+      "sampled_maximum": [
+        0.039227607773405476,
+        0.05200480062655882
+      ],
+      "grid_limited_slices": 19,
+      "coarser_alpha_sample_maximum": [
+        0.036826913567439515,
+        0.05468727057042106
+      ]
+    }
+  },
+  "reference_R_envelopes": {
+    "source_precision_diagonal_proxy_v1": {
+      "sampled_maximum": [
+        0.006071773681226125,
+        0.5
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.006071773681226125,
+        0.5
+      ]
+    },
+    "legacy_diagonal_proxy": {
+      "sampled_maximum": [
+        0.006047532684365654,
+        0.5
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.006047532684365654,
+        0.5
+      ]
+    },
+    "measurement_only": {
+      "sampled_maximum": [
+        0.006133325016957417,
+        0.5
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.006133325016957417,
+        0.5
+      ]
+    },
+    "helioseismic_scale_0.001": {
+      "sampled_maximum": [
+        0.0030542964838458754,
+        0.5
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.0030542964838458754,
+        0.5
+      ]
+    },
+    "helioseismic_scale_0.004": {
+      "sampled_maximum": [
+        0.011234117545006455,
+        0.5
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.011234117545006455,
+        0.5
+      ]
+    },
+    "omit_pep": {
+      "sampled_maximum": [
+        0.006079745748523996,
+        0.5
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.006079745748523996,
+        0.5
+      ]
+    },
+    "all_lower_error_sides": {
+      "sampled_maximum": [
+        0.006068646927194522,
+        0.5
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.006068646927194522,
+        0.5
+      ]
+    },
+    "all_upper_error_sides": {
+      "sampled_maximum": [
+        0.00607616465415477,
+        0.5
+      ],
+      "grid_limited_slices": 0,
+      "coarser_alpha_sample_maximum": [
+        0.00607616465415477,
+        0.5
+      ]
+    },
+    "neutrino_only": {
+      "sampled_maximum": [
+        0.03915377205602032,
+        0.334370152488211
+      ],
+      "grid_limited_slices": 28,
+      "coarser_alpha_sample_maximum": [
+        0.03915377205602032,
+        0.334370152488211
+      ]
+    }
+  },
+  "mesh_errors": {
+    "source_precision_diagonal_proxy_v1": {
+      "coarse_endpoint_max_abs_difference": 1.6132457809061793e-05,
+      "fine_endpoint_max_abs_difference": 5.236670103575536e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 1.7178816147378484e-08,
+      "minima_A_range": [
+        4.7971291566010334e-05,
+        0.000932660057516727
+      ]
+    },
+    "legacy_diagonal_proxy": {
+      "coarse_endpoint_max_abs_difference": 1.5768537193063675e-05,
+      "fine_endpoint_max_abs_difference": 4.957635474815876e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 1.9566073650167937e-08,
+      "minima_A_range": [
+        4.659691772567488e-05,
+        0.0008405532310806782
+      ]
+    },
+    "measurement_only": {
+      "coarse_endpoint_max_abs_difference": 2.827655272696645e-05,
+      "fine_endpoint_max_abs_difference": 8.979088621774087e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 6.69659141472323e-08,
+      "minima_A_range": [
+        7.301502179076847e-05,
+        0.0018496953344712414
+      ]
+    },
+    "helioseismic_scale_0.001": {
+      "coarse_endpoint_max_abs_difference": 1.262849600632953e-05,
+      "fine_endpoint_max_abs_difference": 8.048044030066134e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 1.0471423816937886e-07,
+      "minima_A_range": [
+        1.2004796233440628e-05,
+        0.00034208658759020893
+      ]
+    },
+    "helioseismic_scale_0.004": {
+      "coarse_endpoint_max_abs_difference": 1.1480858451883708e-05,
+      "fine_endpoint_max_abs_difference": 3.578422434556694e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 3.259547520784167e-08,
+      "minima_A_range": [
+        0.00019112352175896865,
+        0.0017447312501043572
+      ]
+    },
+    "omit_pep": {
+      "coarse_endpoint_max_abs_difference": 1.7239071371435294e-05,
+      "fine_endpoint_max_abs_difference": 5.0510657160010575e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 1.152978645890812e-08,
+      "minima_A_range": [
+        0.0,
+        0.0011043113213260634
+      ]
+    },
+    "all_lower_error_sides": {
+      "coarse_endpoint_max_abs_difference": 1.630681930400984e-05,
+      "fine_endpoint_max_abs_difference": 5.00164691327222e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 2.3163450268981478e-08,
+      "minima_A_range": [
+        4.598384469031807e-05,
+        0.0009234824098087596
+      ]
+    },
+    "all_upper_error_sides": {
+      "coarse_endpoint_max_abs_difference": 1.6893362102081422e-05,
+      "fine_endpoint_max_abs_difference": 5.0713691169441966e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 4.5038777152228704e-08,
+      "minima_A_range": [
+        4.976499190940337e-05,
+        0.0009464678034986192
+      ]
+    },
+    "neutrino_only": {
+      "coarse_endpoint_max_abs_difference": 1.2830573778332272e-05,
+      "fine_endpoint_max_abs_difference": 2.5432718446308233e-06,
+      "component_count_disagreements": 0,
+      "max_root_score_residual": 1.6727348839395972e-08,
+      "minima_A_range": [
+        0.0013897057288467121,
+        0.032203153113303434
+      ]
+    }
+  },
+  "numerical_endpoint_checks": {
+    "tight": {
+      "successful_pairs": 6,
+      "maximum_abs_endpoint_shift": 3.4848339491855285e-13,
+      "failures": [
+        {
+          "alpha": 0.02,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          },
+          "baseline": {
+            "status": "complete",
+            "endpoint": 0.0043106775510410545
+          }
+        },
+        {
+          "alpha": 0.029906975624424414,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          },
+          "baseline": {
+            "status": "complete",
+            "endpoint": 0.0048135184367240685
+          }
+        },
+        {
+          "alpha": 0.044721359549995794,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          },
+          "baseline": {
+            "status": "complete",
+            "endpoint": 0.0056143111430345585
+          }
+        }
+      ]
+    },
+    "start": {
+      "successful_pairs": 9,
+      "maximum_abs_endpoint_shift": 4.973469552860266e-13,
+      "failures": []
+    },
+    "profile": {
+      "successful_pairs": 9,
+      "maximum_abs_endpoint_shift": 3.5138315581870194e-09,
+      "failures": []
+    },
+    "floor_1e-6": {
+      "successful_pairs": 9,
+      "maximum_abs_endpoint_shift": 5.119521655563841e-09,
+      "failures": []
+    },
+    "floor_1e-10": {
+      "successful_pairs": 5,
+      "maximum_abs_endpoint_shift": 5.085740856225485e-13,
+      "failures": [
+        {
+          "alpha": 0.02,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          },
+          "baseline": {
+            "status": "complete",
+            "endpoint": 0.0043106775510410545
+          }
+        },
+        {
+          "alpha": 0.029906975624424414,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          },
+          "baseline": {
+            "status": "complete",
+            "endpoint": 0.0048135184367240685
+          }
+        },
+        {
+          "alpha": 0.044721359549995794,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          },
+          "baseline": {
+            "status": "complete",
+            "endpoint": 0.0056143111430345585
+          }
+        },
+        {
+          "alpha": 0.0668740304976422,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          },
+          "baseline": {
+            "status": "complete",
+            "endpoint": 0.006861947374774512
+          }
+        }
+      ]
+    },
+    "si": {
+      "successful_pairs": 9,
+      "maximum_abs_endpoint_shift": 5.7827007071686864e-15,
+      "failures": []
+    }
+  },
+  "response_differences": {
+    "tight": {
+      "successful_pairs": 11,
+      "max_abs": {
+        "R_pp": 1.5765166949677223e-12,
+        "R_pep": 9.867662242868391e-13,
+        "R_be7": 3.8122838219578625e-12,
+        "R_b8": 9.61164481338983e-12,
+        "h": 1.1324274851176597e-13
+      },
+      "failures": [
+        {
+          "A": 0.04,
+          "alpha": 0.02,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          }
+        }
+      ]
+    },
+    "start": {
+      "successful_pairs": 12,
+      "max_abs": {
+        "R_pp": 2.205347016115411e-12,
+        "R_pep": 1.3791190411893695e-12,
+        "R_be7": 5.331513008854927e-12,
+        "R_b8": 1.344102606992692e-11,
+        "h": 1.5831780331154732e-13
+      },
+      "failures": []
+    },
+    "profile": {
+      "successful_pairs": 12,
+      "max_abs": {
+        "R_pp": 0.0,
+        "R_pep": 0.0,
+        "R_be7": 0.0,
+        "R_b8": 0.0,
+        "h": 5.193973695583054e-09
+      },
+      "failures": []
+    },
+    "floor_1e-6": {
+      "successful_pairs": 12,
+      "max_abs": {
+        "R_pp": 6.214308745366992e-08,
+        "R_pep": 4.378740814381388e-08,
+        "R_be7": 1.1997216731174376e-07,
+        "R_b8": 2.260329330372457e-07,
+        "h": 3.5837709466690626e-08
+      },
+      "failures": []
+    },
+    "floor_1e-10": {
+      "successful_pairs": 9,
+      "max_abs": {
+        "R_pp": 5.2378990034185335e-11,
+        "R_pep": 3.5888403360218035e-11,
+        "R_be7": 1.0991607624077915e-10,
+        "R_b8": 2.378601760000265e-10,
+        "h": 2.7413626924044365e-12
+      },
+      "failures": [
+        {
+          "A": 0.0042,
+          "alpha": 0.02,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          }
+        },
+        {
+          "A": 0.009,
+          "alpha": 0.02,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          }
+        },
+        {
+          "A": 0.04,
+          "alpha": 0.02,
+          "test": {
+            "status": "failed",
+            "error": "ODE solver failed: Required step size is less than spacing between numbers."
+          }
+        }
+      ]
+    },
+    "si": {
+      "successful_pairs": 12,
+      "max_abs": {
+        "R_pp": 2.353672812205332e-14,
+        "R_pep": 1.3988810110276972e-14,
+        "R_be7": 5.1736392947532295e-14,
+        "R_b8": 1.170175067954915e-13,
+        "h": 2.220446049250313e-15
+      },
+      "failures": []
+    },
+    "loose": {
+      "successful_pairs": 12,
+      "max_abs": {
+        "R_pp": 3.8656855494423326e-11,
+        "R_pep": 2.726951997544802e-11,
+        "R_be7": 7.473799357171629e-11,
+        "R_b8": 1.4168466400121815e-10,
+        "h": 2.6125768215479184e-12
+      },
+      "failures": []
+    }
+  },
+  "sampled_joint_minima": {
+    "source_precision_diagonal_proxy_v1": {
+      "alpha": 0.14953487812212204,
+      "A": 0.0009147511284231931,
+      "Q": 0.7296364579051682,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    },
+    "legacy_diagonal_proxy": {
+      "alpha": 0.14953487812212204,
+      "A": 0.0008241200480927049,
+      "Q": 0.7474578812133569,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    },
+    "measurement_only": {
+      "alpha": 0.15724806635261093,
+      "A": 0.0016263964692070972,
+      "Q": 0.802276678143178,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    },
+    "helioseismic_scale_0.001": {
+      "alpha": 0.31796893379840147,
+      "A": 0.0002606367451336881,
+      "Q": 0.7545083543262092,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    },
+    "helioseismic_scale_0.004": {
+      "alpha": 0.14220003014127125,
+      "A": 0.0016319877424911138,
+      "Q": 0.7004882106790155,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    },
+    "omit_pep": {
+      "alpha": 0.5,
+      "A": 0.0009378377449190886,
+      "Q": 0.08802029138162215,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    },
+    "all_lower_error_sides": {
+      "alpha": 0.14953487812212204,
+      "A": 0.0009061671830807877,
+      "Q": 0.6748824001265876,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    },
+    "all_upper_error_sides": {
+      "alpha": 0.14953487812212204,
+      "A": 0.0009275126781522175,
+      "Q": 0.7956896249627378,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    },
+    "neutrino_only": {
+      "alpha": 0.02445689089987704,
+      "A": 0.02794727317457886,
+      "Q": 0.4987359561757035,
+      "interpretation": "minimum over refined A slices at sampled alpha; no significance claim"
+    }
+  }
+}

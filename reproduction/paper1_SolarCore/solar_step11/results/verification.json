@@ -1,0 +1,24 @@
+{
+  "solar_a": {
+    "slices": 65,
+    "evaluations": 19951,
+    "declared_grid_points": 5265,
+    "crossings_checked": 566,
+    "max_crossing_score_residual": 1.0471423816937886e-07,
+    "max_minimum_score_difference": 0.0,
+    "grid_membership_mismatches": 0,
+    "max_calibration_residual": 9.985345883478658e-13,
+    "max_calibration_iterations": 9
+  },
+  "solar_R": {
+    "slices": 33,
+    "evaluations": 8361,
+    "declared_grid_points": 1353,
+    "crossings_checked": 269,
+    "max_crossing_score_residual": 1.305442793864131e-07,
+    "max_minimum_score_difference": 0.0,
+    "grid_membership_mismatches": 0,
+    "max_calibration_residual": 9.99866855977416e-13,
+    "max_calibration_iterations": 10
+  }
+}

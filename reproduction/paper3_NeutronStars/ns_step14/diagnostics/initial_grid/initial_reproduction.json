@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "byte_identical": {
+    "results/evaluations.jsonl": true,
+    "results/summary.json": true,
+    "verification.json": true,
+    "fixed_mass_crosscheck.json": true,
+    "fixed_mass_tight.json": true
+  }
+}

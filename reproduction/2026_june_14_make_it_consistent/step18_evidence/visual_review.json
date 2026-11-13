@@ -1,0 +1,28 @@
+{
+  "status": "pass",
+  "review": "All eight final rendered pages opened and visually inspected; no clipping, overlapping content, broken tables or unreadable figure labels.",
+  "papers": [
+    {
+      "paper": "paper3",
+      "pages": 4,
+      "pdf_sha256": "f8325e4ab3105384b3b7daaa483a4fb7d64499eb2a4793a41c588240191422e4",
+      "render_sha256": {
+        "/tmp/rdt-step18-build-c/paper3/render/page-1.png": "863d65aa2e14ac90532bb6709aa47755f92aead353d433f2d9061ebd1fd9063b",
+        "/tmp/rdt-step18-build-c/paper3/render/page-2.png": "114df803612374efa99bd66daf04d6597fc462e1dec0a5d11ca64b3560c160b1",
+        "/tmp/rdt-step18-build-c/paper3/render/page-3.png": "037f9671baf536f8748a9797276ac6b839caa672f93b59384685e41cb6a290c2",
+        "/tmp/rdt-step18-build-c/paper3/render/page-4.png": "1456cfb82afa2a6c2de4614c390f99169bbe32a99a6c39ca2456b90b92036770"
+      }
+    },
+    {
+      "paper": "paper4",
+      "pages": 4,
+      "pdf_sha256": "79fb830efa4e7e52136e0b50310480016331005363ef397af63f31c7513a9280",
+      "render_sha256": {
+        "/tmp/rdt-step18-build-e/paper4/render/page-1.png": "4288c2e1901a584bf0cb41394c98c35cd218972ae450f533c06255f0b9977dfa",
+        "/tmp/rdt-step18-build-e/paper4/render/page-2.png": "2533c95966aaa1205bb0bb9e850ec684917bbdda16ccc26ff57af7c9093b0a9b",
+        "/tmp/rdt-step18-build-e/paper4/render/page-3.png": "117a0a5493ec87ca303c642298b2fa836c6f0e2030b4634773a3731b558293f7",
+        "/tmp/rdt-step18-build-e/paper4/render/page-4.png": "432de10749cf9001cfa8eee2755e08c9a15c84b193cbc68267ec78ee11a21aea"
+      }
+    }
+  ]
+}

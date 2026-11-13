@@ -1,0 +1,26 @@
+[
+  {
+    "A": 0.0042,
+    "alpha": 0.02,
+    "rho_c": 100000.0,
+    "failure": "ODE solver failed: Required step size is less than spacing between numbers."
+  },
+  {
+    "A": 0.0042,
+    "alpha": 0.02,
+    "rho_c": 3000000.0,
+    "failure": "ODE solver failed: Required step size is less than spacing between numbers."
+  },
+  {
+    "A": 0.0083,
+    "alpha": 0.15,
+    "rho_c": 1000000.0,
+    "failure": "ODE solver failed: Required step size is less than spacing between numbers."
+  },
+  {
+    "A": 0.0087,
+    "alpha": 0.15,
+    "rho_c": 1000000.0,
+    "failure": "ODE solver failed: Required step size is less than spacing between numbers."
+  }
+]

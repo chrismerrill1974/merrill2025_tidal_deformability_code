@@ -1,0 +1,3 @@
+  PID  PPID NI  %CPU COMMAND
+ 4535   957 19   0.0 /opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python 2026_june_14_make_it_consistent/step20_tools/launch.py --log 2026_june_14_make_it_consistent/step20_evidence/audit_resource.json 2026_june_14_make_it_consistent/step20_tools/audit.py
+ 4537  4535 19   0.0 /bin/ps -axo pid,ppid,ni,%cpu,command

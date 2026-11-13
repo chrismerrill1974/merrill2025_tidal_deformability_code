@@ -1,0 +1,23 @@
+{
+  "primary_references": [
+    {
+      "url": "https://arxiv.org/pdf/0711.2420",
+      "use": "Corrected GR Love extraction; Newtonian n=1 reference"
+    },
+    {
+      "url": "https://arxiv.org/html/2007.01139",
+      "use": "GR tidal equation and finite-pressure density-jump relation, equations 2-11"
+    }
+  ],
+  "legacy_source_sha256": {
+    "paper4_TidalLoveNumbers/tidal_v6/operator_tidal.py": "c7e22a5d4242431b7a56026af27bbf31b567abee04ed18e6b17f372ad82cbbb1",
+    "paper4_TidalLoveNumbers/tidal_v5/tidal.py": "65d0e9205a0a041ac142907ce22b4fb9a48e542e2d42d2287e06e84f564852c6",
+    "paper4_TidalLoveNumbers/tidal_v5/validate.py": "0f181c95ca537dcd1ae0a971eff7417a72bc94688e80e8ba9d01a098ba232b31",
+    "2026_june_14_make_it_consistent/paper3_keystone/tov_operator.py": "98875e7357da0f3f5f147bad289776b98d0f42c38839a7f6fd7d60473acecb64",
+    "paper3_NeutronStars/ns_v7/eos.py": "91844774c8550e413c5203d3e230a25ec8ac623f28d57d0ac8d0d8c221353101",
+    "paper3_NeutronStars/ns_v7/tov.py": "48bac0a014d13dc841b738620c690897ab86a56726f4933a492bc47a9b0049da",
+    "paper3_NeutronStars/ns_v7/eos.nb": "2aaa0129e05fa57a5c5e5f52adf5fdb66e5f1ab5c46c3bc25284f27109ad175f",
+    "paper3_NeutronStars/ns_v7/eos.thermo": "2bd6548281a66938e87b24db83555deb89cdbcbf61f2bf9dbf909e63cc376f5d"
+  },
+  "legacy_disposition": "Unchanged historical scripts; only V6 1.4-solar-mass example replayed. Static audit of validation/figure behavior."
+}

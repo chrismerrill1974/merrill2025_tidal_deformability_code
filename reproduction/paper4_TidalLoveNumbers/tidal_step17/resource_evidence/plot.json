@@ -1,0 +1,21 @@
+{
+  "status": "complete",
+  "pid": 42309,
+  "nice": 19,
+  "worker_processes": 1,
+  "cpu_fraction_target": 0.95,
+  "cpu_quantum_seconds": 0.01,
+  "wall_seconds": 0.32483795896405354,
+  "cpu_seconds": 0.302001,
+  "measured_cpu_fraction": 0.9296973819288753,
+  "throttle_sleeps": 28,
+  "throttle_sleep_seconds": 0.01523283507797866,
+  "native_thread_environment": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1",
+    "BLIS_NUM_THREADS": "1"
+  }
+}

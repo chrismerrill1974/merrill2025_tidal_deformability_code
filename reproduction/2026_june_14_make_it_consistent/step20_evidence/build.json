@@ -1,0 +1,227 @@
+[
+  {
+    "paper": "paper6",
+    "source": "paper6/V1_Paper/paper6_v1.tex",
+    "tools": [
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 6205,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.31304291599985845,
+        "cpu_seconds": 0.27824099999999996,
+        "average_CPU_fraction": 0.8888270130991425,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 6206,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.3112165829998048,
+        "cpu_seconds": 0.2774040000000001,
+        "average_CPU_fraction": 0.8913535304774363,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/pdftoppm",
+          "-r",
+          "90",
+          "-png",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_paper6_step20_review_2026-11-12.pdf",
+          "/tmp/rdt-step20-delivery/paper6/render/page"
+        ],
+        "pid": 6207,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.4143546249999872,
+        "cpu_seconds": 0.32069999999999993,
+        "average_CPU_fraction": 0.7739747082586802,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/pdftotext",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_paper6_step20_review_2026-11-12.pdf",
+          "/Users/chris/Documents/rdt/2026_june_14_make_it_consistent/step20_evidence/paper6_text.txt"
+        ],
+        "pid": 6219,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.09632000000010521,
+        "cpu_seconds": 0.01338900000000006,
+        "average_CPU_fraction": 0.13900539867094514,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      }
+    ],
+    "pdf": "output/pdf/rdt_paper6_step20_review_2026-11-12.pdf",
+    "render_dir": "/tmp/rdt-step20-delivery/paper6/render",
+    "pages": 3,
+    "layout_reference_checks": "pass"
+  },
+  {
+    "paper": "terrestrial",
+    "source": "paper6/terrestrial_G_note/note_terrestrial_G_v2.tex",
+    "tools": [
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 6225,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.31271570800004156,
+        "cpu_seconds": 0.29378,
+        "average_CPU_fraction": 0.9394475316857475,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 6238,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.30831229199998234,
+        "cpu_seconds": 0.277313,
+        "average_CPU_fraction": 0.8994548942603167,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/pdftoppm",
+          "-r",
+          "90",
+          "-png",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_terrestrial_step20_review_2026-11-12.pdf",
+          "/tmp/rdt-step20-delivery/terrestrial/render/page"
+        ],
+        "pid": 6239,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.4160090420000415,
+        "cpu_seconds": 0.34369100000000014,
+        "average_CPU_fraction": 0.8261623313465524,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/pdftotext",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_terrestrial_step20_review_2026-11-12.pdf",
+          "/Users/chris/Documents/rdt/2026_june_14_make_it_consistent/step20_evidence/terrestrial_text.txt"
+        ],
+        "pid": 6242,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.09986724999998842,
+        "cpu_seconds": 0.013088999999999948,
+        "average_CPU_fraction": 0.13106398744334571,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      }
+    ],
+    "pdf": "output/pdf/rdt_terrestrial_step20_review_2026-11-12.pdf",
+    "render_dir": "/tmp/rdt-step20-delivery/terrestrial/render",
+    "pages": 4,
+    "layout_reference_checks": "pass"
+  },
+  {
+    "paper": "companion",
+    "source": "companionpaper_GeometricCompletion/V3_Paper/paper6_v3.tex",
+    "tools": [
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 6257,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.31301341600010346,
+        "cpu_seconds": 0.27450199999999986,
+        "average_CPU_fraction": 0.8769656058445403,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 6258,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.3124093329997777,
+        "cpu_seconds": 0.279773,
+        "average_CPU_fraction": 0.8955334250535949,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/pdftoppm",
+          "-r",
+          "90",
+          "-png",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_companion_step20_review_2026-11-12.pdf",
+          "/tmp/rdt-step20-delivery/companion/render/page"
+        ],
+        "pid": 6259,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.42188804200009145,
+        "cpu_seconds": 0.390463,
+        "average_CPU_fraction": 0.9255133142643455,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/pdftotext",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_companion_step20_review_2026-11-12.pdf",
+          "/Users/chris/Documents/rdt/2026_june_14_make_it_consistent/step20_evidence/companion_text.txt"
+        ],
+        "pid": 6262,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.10017399999992449,
+        "cpu_seconds": 0.014610000000000067,
+        "average_CPU_fraction": 0.1458462275641492,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      }
+    ],
+    "pdf": "output/pdf/rdt_companion_step20_review_2026-11-12.pdf",
+    "render_dir": "/tmp/rdt-step20-delivery/companion/render",
+    "pages": 4,
+    "layout_reference_checks": "pass"
+  }
+]

@@ -1,0 +1,48 @@
+{
+  "contract": {
+    "schema": 1,
+    "source_sha256": {
+      "model.py": "7716f73f30ecddda7a6c58da6457045e6b0a25217ea5589c9a0ca65ca7f86919",
+      "predict.py": "14d507b08bd8a6ffc19114d52a21570805b0276d7d93f7fbcf4618409988e2f1",
+      "validate.py": "a22cbf277e6699921aab96b60a994489fd64e19f151172eba501de1010563f3c"
+    },
+    "guardrails_sha256": "59d137e9879222facc737bd7560649c53f813d00740c5e46bfc587edc3e3b54e",
+    "settings": {
+      "points": [
+        [
+          0.02,
+          0.0042
+        ],
+        [
+          0.15,
+          0.0083
+        ],
+        [
+          0.5,
+          0.0067
+        ]
+      ],
+      "rho_c": [
+        100000.0,
+        1000000.0,
+        3000000.0
+      ],
+      "solver": {
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.05
+      },
+      "theta_floor": 1e-08,
+      "source": "legacy nominal solar-boundary samples; not new inference"
+    },
+    "runtime": {
+      "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+      "numpy": "2.4.2",
+      "scipy": "1.17.1",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+    }
+  },
+  "status": "complete",
+  "rows": 9,
+  "sha256": "1441573dc463e211d5d729089f0f5cbff21f746b7162f28205c617e97098aa89"
+}

@@ -1,0 +1,28 @@
+{
+  "status": "complete",
+  "scope": "Historical V6 pipeline replay, not admission of its numerical/matching assumptions",
+  "columns": [
+    "M",
+    "R",
+    "C",
+    "k2",
+    "Lambda"
+  ],
+  "A": 0.0087,
+  "alpha": 0.122,
+  "GR": [
+    1.399999992776455,
+    11.685869005748977,
+    0.1769091845683858,
+    0.07746602675419872,
+    298.0355834026558
+  ],
+  "modified": [
+    1.4000000090442435,
+    11.636582586486757,
+    0.17765848052356176,
+    0.07596885914437966,
+    286.1637567808733
+  ],
+  "fractional_Lambda_shift": -0.039833587943568616
+}

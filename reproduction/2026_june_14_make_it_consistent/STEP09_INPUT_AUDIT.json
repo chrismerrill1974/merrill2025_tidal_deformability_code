@@ -1,0 +1,112 @@
+{
+  "sources": {
+    "borexino_author_manuscript": "https://unige.iris.cineca.it/bitstream/11567/930098/5/11567_930098_merged_1534757340.pdf",
+    "borexino_locator": "Table 2, manuscript page 15; visually checked. HZ pep and combined HE B8.",
+    "b16": "https://arxiv.org/html/1611.09867v4",
+    "b16_locator": "Table 6; use GS98 model column, not Solar fit column."
+  },
+  "source_rows": [
+    {
+      "branch": "pp",
+      "flux_unit_power10_cm_minus2_s_minus1": 10,
+      "measured_central": 6.1,
+      "stat_lower": 0.5,
+      "stat_upper": 0.5,
+      "syst_lower": 0.5,
+      "syst_upper": 0.3,
+      "b16_gs98": 5.98,
+      "theory_fraction": 0.006,
+      "ratio": 1.0200668896321068,
+      "sigma_ratio_lower": 0.11824528113487416,
+      "sigma_ratio_upper": 0.0975075567699883,
+      "sigma_ratio_rms": 0.10837359027437893,
+      "source_precision_diagonal_total": 0.10853955531951916,
+      "legacy_ratio": 1.02,
+      "legacy_sigma_meas": 0.1,
+      "legacy_sigma_total": 0.1
+    },
+    {
+      "branch": "pep",
+      "flux_unit_power10_cm_minus2_s_minus1": 8,
+      "measured_central": 1.27,
+      "stat_lower": 0.19,
+      "stat_upper": 0.19,
+      "syst_lower": 0.12,
+      "syst_upper": 0.08,
+      "b16_gs98": 1.44,
+      "theory_fraction": 0.01,
+      "ratio": 0.8819444444444445,
+      "sigma_ratio_lower": 0.15605697954336273,
+      "sigma_ratio_upper": 0.143163389778391,
+      "sigma_ratio_rms": 0.14974901842255434,
+      "source_precision_diagonal_total": 0.1500825390194293,
+      "legacy_ratio": 0.88,
+      "legacy_sigma_meas": 0.15,
+      "legacy_sigma_total": 0.15
+    },
+    {
+      "branch": "be7",
+      "flux_unit_power10_cm_minus2_s_minus1": 9,
+      "measured_central": 4.99,
+      "stat_lower": 0.11,
+      "stat_upper": 0.11,
+      "syst_lower": 0.08,
+      "syst_upper": 0.06,
+      "b16_gs98": 4.93,
+      "theory_fraction": 0.06,
+      "ratio": 1.0121703853955377,
+      "sigma_ratio_lower": 0.027589189672891368,
+      "sigma_ratio_upper": 0.025415748653431377,
+      "sigma_ratio_rms": 0.026524740021545683,
+      "source_precision_diagonal_total": 0.06560153834484819,
+      "legacy_ratio": 1.01,
+      "legacy_sigma_meas": 0.03,
+      "legacy_sigma_total": 0.0670820393249937
+    },
+    {
+      "branch": "b8",
+      "flux_unit_power10_cm_minus2_s_minus1": 6,
+      "measured_central": 5.68,
+      "stat_lower": 0.41,
+      "stat_upper": 0.39,
+      "syst_lower": 0.03,
+      "syst_upper": 0.03,
+      "b16_gs98": 5.46,
+      "theory_fraction": 0.12,
+      "ratio": 1.0402930402930401,
+      "sigma_ratio_lower": 0.07529232524210426,
+      "sigma_ratio_upper": 0.07163958687035878,
+      "sigma_ratio_rms": 0.0734886543873219,
+      "source_precision_diagonal_total": 0.1407145419765109,
+      "legacy_ratio": 1.04,
+      "legacy_sigma_meas": 0.08,
+      "legacy_sigma_total": 0.14422205101855956
+    }
+  ],
+  "symmetrization": "sqrt((sigma_lower^2+sigma_upper^2)/2); chosen proxy approximation, not reconstructed likelihood",
+  "legacy_null_measurement_score": 1.041111111111112,
+  "legacy_null_headline_score": 0.7791452991452995,
+  "scan": {
+    "rows": 1353,
+    "A_range": [
+      0.0,
+      0.04
+    ],
+    "alpha_range": [
+      0.02,
+      0.5
+    ],
+    "null_cached_score_values": [
+      1.1176417233560099
+    ],
+    "cached_score_mismatch_count_at_1e_minus10": 1353,
+    "max_cached_score_abs_difference": 53.71001401270922,
+    "interpretation": "Cached chi2 is incompatible with current model.EXP_R/EXP_SIGMA; analyze.py recomputes scores from ratios."
+  },
+  "evidence_sha256": {
+    "paper1_SolarCore/solarcore_v3/model.py": "8ade362e1549a2737bec97cf711d9acc1ea8991b3a1f4a7b500d0c4d8c07eae9",
+    "paper1_SolarCore/solarcore_v3/analyze.py": "120f90d0e5544b0384eefbb24171b3615119e09ca8652ce601f717a7ecff0cda",
+    "paper1_SolarCore/solarcore_v3/results_scan.csv": "32535f191298e1253fe309ba8d0cd148ec77df8fbbb646e868ff9c263deed4f0",
+    "2026_june_14_make_it_consistent/STEP09_INPUT_AUDIT.py": "35dc98dc6dd70ec8385ff809cbf674cf9bfd79d12a385c80f19689b4db96f23c"
+  }
+}

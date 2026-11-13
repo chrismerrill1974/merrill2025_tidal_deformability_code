@@ -1,0 +1,16 @@
+{
+  "status": "complete",
+  "scan_manifest_sha256": "4c41adfefc2188322adb568160ed8cdfd052fb93eaf86293deb7a4f69f688389",
+  "refinement_manifest_sha256": "b8629bad40c879d7701e3b8e5842ed0ef3faeaab31f1b73acfc3a7d8f6b8a714",
+  "source_sha256": {
+    "paper3_NeutronStars/ns_step15/analyze.py": "95bd1345da4754328c2a029caea2fd4c7b14041732c1c77b1ba46025a1ab0c5b",
+    "paper3_NeutronStars/ns_step15/scan.py": "dd99d02c9688f8488eae0908d1763bdd1bbc0694c43d7fa1aa8cfa2828fa9ec4",
+    "paper3_NeutronStars/ns_step15/refine.py": "526c39188324449631c36a8001e65ee22eaa4d38babececa4e3f9ec8518a25b8"
+  },
+  "sha256": {
+    "summary.json": "ec39f1a8fe8b304c482c78d56d564f7094e3de81d759076bb574212786b283da",
+    "predictions.csv": "6a0bdeeffff658602949c3fb93cab709aa4a8491763e0b5ef04da82bb0299045",
+    "monotonicity.json": "4b523b912047397593971e8ae3bab2483c71797e7da9e39b8f1c528a4a433f6d",
+    "reference_sensitivity.json": "456ab6c31df08667baf30aabec4dbec02d4986480c5f4157506bb36b981ed392"
+  }
+}

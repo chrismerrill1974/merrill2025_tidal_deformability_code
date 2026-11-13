@@ -1,0 +1,15 @@
+{
+  "version": "v7",
+  "works": [
+    "paper4"
+  ],
+  "scientific_input_commit": "f4cff7fbcbd795e876c2e0232dbde5a73637a9d7",
+  "capsule_sha256": "5161938424717431238be79504422526427126502815f6596f5b5d9de1bfc42e",
+  "manuscripts": {
+    "paper4": "reproduction/paper4_TidalLoveNumbers/V6_Paper/paper4_v6.tex"
+  },
+  "pdfs": {
+    "paper4": "reproduction/output/pdf/publication/paper4/merrill_rdt_tidal_deformability_v7.pdf"
+  },
+  "repository": "https://github.com/chrismerrill1974/merrill2025_tidal_deformability_code"
+}

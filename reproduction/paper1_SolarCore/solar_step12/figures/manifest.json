@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "contract": {
+    "schema": 1,
+    "source_sha256": {
+      "paper1_SolarCore/solar_step12/figures.py": "d5a55a605f203d68d66f5a06350dde764067cbacba40cdd680c0ed7732ae5edb",
+      "paper1_SolarCore/solar_step11/solver.py": "df14607070439065ae6e51cd5f8da304295eef20e7d5909b2de19021d6f2648a",
+      "paper1_SolarCore/solar_step11/inference.py": "b5011e0f2a63cb45550705a6cd796ab37d65a53387a663bfb0bc02cce13a52af"
+    },
+    "guardrails_sha256": "59d137e9879222facc737bd7560649c53f813d00740c5e46bfc587edc3e3b54e",
+    "settings": {
+      "solar_region_sha256": "8fe8af6dbb71395ff80c7ad0017e300dd511d308b592b23b58b560b0078e6b21",
+      "reference_region_sha256": "0c5127f865101d209649cdfd10502eea33d96a91e508a35719df04b8a11c68bb",
+      "peak_sha256": "fc07f034231cdc4a55395d73aa4959e0b4185ec4f7426fdf5464443a3273fa78"
+    },
+    "runtime": {
+      "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+      "numpy": "2.4.2",
+      "scipy": "1.17.1",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+    }
+  },
+  "sha256": {
+    "summary.json": "994dd1c8f525b2474a1e666c05cb69e8013ce711ff03f1c9b6a4aaef65ca6051",
+    "slice_table.tex": "fb4587bfbec70a797b5ac40d3362fb92ae077bea253476aa7eec5a2db7882620",
+    "slice_endpoints.png": "8eaba8107eaf3e645c29ba31752ad6b3954ca41884a7ebbcd8c5cd7c4018ca82",
+    "slice_endpoints.pdf": "bfee5b94ca7e6f510855c0ec7d793442ec19c7ba8280d3b191519b55b41c9b8e",
+    "score_map.pdf": "5842f7c01743e54f18e253f6a166772b9d167f7e8abca4f5441b9f4d5f547b93",
+    "score_map.png": "21f0ce53d63aacb054a7cec0893384ad88256c063bcc8a0a7a40248a3a1383c8"
+  }
+}

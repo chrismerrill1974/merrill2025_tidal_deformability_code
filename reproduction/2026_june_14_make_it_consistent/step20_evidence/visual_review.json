@@ -1,0 +1,55 @@
+{
+  "paper6": {
+    "pages": [
+      1,
+      2,
+      3
+    ],
+    "render_dir": "/tmp/rdt-step20-delivery/paper6/render",
+    "pdf_sha256": "ebfd6501dce71628aab1a5901375f075416eefccc4bb499bc40c12ffad18612d",
+    "result": "pass",
+    "checks": [
+      "opened all final rendered pages",
+      "legible equations and tables",
+      "no clipping or overlapping text",
+      "references resolved",
+      "page numbering checked"
+    ]
+  },
+  "terrestrial": {
+    "pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "render_dir": "/tmp/rdt-step20-delivery/terrestrial/render",
+    "pdf_sha256": "d660b9031f72e842083e3a06054f7d1e00a43f327c546e4502a18f16e8a95489",
+    "result": "pass",
+    "checks": [
+      "opened all final rendered pages",
+      "legible equations and tables",
+      "no clipping or overlapping text",
+      "references resolved",
+      "page numbering checked"
+    ]
+  },
+  "companion": {
+    "pages": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "render_dir": "/tmp/rdt-step20-delivery/companion/render",
+    "pdf_sha256": "272c1a8615f89a207bba5bbeadc56ea278107ae642e428c62965ad9d4fd666e0",
+    "result": "pass",
+    "checks": [
+      "opened all final rendered pages",
+      "legible equations and tables",
+      "no clipping or overlapping text",
+      "references resolved",
+      "page numbering checked"
+    ]
+  }
+}

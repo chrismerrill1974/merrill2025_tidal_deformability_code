@@ -1,0 +1,22 @@
+{
+  "tight": {
+    "status": "complete",
+    "endpoint": 0.008750201899126262,
+    "shift": 1.7999646911848188e-12
+  },
+  "profile": {
+    "status": "complete",
+    "endpoint": 0.008750197406792086,
+    "shift": -4.490534211837316e-09
+  },
+  "floor_1e-6": {
+    "status": "complete",
+    "endpoint": 0.008750202041461513,
+    "shift": 1.4413521591538636e-10
+  },
+  "floor_1e-10": {
+    "status": "complete",
+    "endpoint": 0.00875020189923714,
+    "shift": 1.9108430115988284e-12
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "tools": [
+    {
+      "command": [
+        "/Library/TeX/texbin/pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      "pid": 2730,
+      "nice": 19,
+      "returncode": 0,
+      "wall_seconds": 0.41793012499999804,
+      "cpu_seconds": 0.30762999999999996,
+      "average_CPU_fraction": 0.7360799846625112,
+      "wall_duty_target": 0.94,
+      "one_child_at_a_time": true
+    },
+    {
+      "command": [
+        "/Library/TeX/texbin/pdflatex",
+        "-interaction=nonstopmode",
+        "-halt-on-error",
+        "main.tex"
+      ],
+      "pid": 2731,
+      "nice": 19,
+      "returncode": 0,
+      "wall_seconds": 0.3053341250000017,
+      "cpu_seconds": 0.283748,
+      "average_CPU_fraction": 0.9293032673632482,
+      "wall_duty_target": 0.94,
+      "one_child_at_a_time": true
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/pdftoppm",
+        "-r",
+        "110",
+        "-png",
+        "/Users/chris/Documents/rdt/output/pdf/rdt_paper5_step19_review_2026-11-12.pdf",
+        "/tmp/rdt-step19-final/render/page"
+      ],
+      "pid": 2732,
+      "nice": 19,
+      "returncode": 0,
+      "wall_seconds": 0.7317591249999964,
+      "cpu_seconds": 0.628304,
+      "average_CPU_fraction": 0.8586213393649216,
+      "wall_duty_target": 0.94,
+      "one_child_at_a_time": true
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/pdftotext",
+        "/Users/chris/Documents/rdt/output/pdf/rdt_paper5_step19_review_2026-11-12.pdf",
+        "/Users/chris/Documents/rdt/2026_june_14_make_it_consistent/step19_evidence/paper5_text.txt"
+      ],
+      "pid": 2757,
+      "nice": 19,
+      "returncode": 0,
+      "wall_seconds": 0.10046941699999934,
+      "cpu_seconds": 0.01676999999999986,
+      "average_CPU_fraction": 0.16691646573404492,
+      "wall_duty_target": 0.94,
+      "one_child_at_a_time": true
+    }
+  ],
+  "pages": 5,
+  "render_dir": "/tmp/rdt-step19-final/render",
+  "shared_macros_equal_III_IV": true,
+  "shared_sha256": "9327187dd5a3c106c9905cded4fcc7f5b4bdd1577f2bb7864ab2c4574fdae961",
+  "layout_reference_checks": "pass"
+}

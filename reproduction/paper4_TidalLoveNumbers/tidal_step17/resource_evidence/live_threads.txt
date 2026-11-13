@@ -1,0 +1,2 @@
+USER    PID   TT   %CPU STAT PRI     STIME     UTIME COMMAND
+chris 41485   ??   90.7 R    31T   0:00.19   0:47.17 /opt/homebrew/Cellar/python@3.14/3.14.3_1/Frameworks/Python.framework/Versions/3.14/Resources/Python.app/Contents/MacOS/Python paper4_TidalLoveNumbers/tidal_step17/launch.py --log paper4_TidalLoveNumbers/tidal_step17/resource_evidence/run.json paper4_TidalLoveNumbers/tidal_step17/run.py --output paper4_TidalLoveNumbers/tidal_step17/results

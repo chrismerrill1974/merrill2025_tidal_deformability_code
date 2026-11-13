@@ -1,0 +1,2 @@
+/private/tmp/rdt-step12-reproduction/output/pdf/rdt_paper1_step12_review_2026-11-11.pdf /private/tmp/rdt-step12-reproduction/tmp/build/paper1/render
+/private/tmp/rdt-step12-reproduction/output/pdf/rdt_paper2_step12_review_2026-11-11.pdf /private/tmp/rdt-step12-reproduction/tmp/build/paper2/render

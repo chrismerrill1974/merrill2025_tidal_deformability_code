@@ -1,0 +1,66 @@
+{
+  "status": "pass",
+  "papers": [
+    {
+      "paper": "paper3",
+      "pages": 4,
+      "source_sha256": "b70e48823024419eea631219a4605fc57893e23e0f3e3051dd76c35df3d22f64",
+      "pdf_sha256": "f8325e4ab3105384b3b7daaa483a4fb7d64499eb2a4793a41c588240191422e4",
+      "text_sha256": "e407baa67fde7dfa77d8c2c7151735f386104294c2a7c03ca59aefb9f2bea88d",
+      "render_sha256": {
+        "/tmp/rdt-step18-build-c/paper3/render/page-1.png": "863d65aa2e14ac90532bb6709aa47755f92aead353d433f2d9061ebd1fd9063b",
+        "/tmp/rdt-step18-build-c/paper3/render/page-2.png": "114df803612374efa99bd66daf04d6597fc462e1dec0a5d11ca64b3560c160b1",
+        "/tmp/rdt-step18-build-c/paper3/render/page-3.png": "037f9671baf536f8748a9797276ac6b839caa672f93b59384685e41cb6a290c2",
+        "/tmp/rdt-step18-build-c/paper3/render/page-4.png": "1456cfb82afa2a6c2de4614c390f99169bbe32a99a6c39ca2456b90b92036770"
+      },
+      "extraction_resource": {
+        "command": [
+          "/opt/homebrew/bin/pdftotext",
+          "-layout",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_paper3_step18_review_2026-11-11.pdf",
+          "/Users/chris/Documents/rdt/2026_june_14_make_it_consistent/step18_evidence/paper3_text.txt"
+        ],
+        "pid": 48072,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.10450487502384931,
+        "cpu_seconds": 0.028135999999999998,
+        "average_CPU_fraction": 0.26923145923650943,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      }
+    },
+    {
+      "paper": "paper4",
+      "pages": 4,
+      "source_sha256": "f10858aa0c73da06f4ff026d892cbd1e870b395026cc6adf07cc6089d98a8396",
+      "pdf_sha256": "79fb830efa4e7e52136e0b50310480016331005363ef397af63f31c7513a9280",
+      "text_sha256": "500e4ea13666acd0e6c497e6fd2f937f5e5166dbdf008bec7bfb6aef5ae3d16e",
+      "render_sha256": {
+        "/tmp/rdt-step18-build-e/paper4/render/page-1.png": "4288c2e1901a584bf0cb41394c98c35cd218972ae450f533c06255f0b9977dfa",
+        "/tmp/rdt-step18-build-e/paper4/render/page-2.png": "2533c95966aaa1205bb0bb9e850ec684917bbdda16ccc26ff57af7c9093b0a9b",
+        "/tmp/rdt-step18-build-e/paper4/render/page-3.png": "117a0a5493ec87ca303c642298b2fa836c6f0e2030b4634773a3731b558293f7",
+        "/tmp/rdt-step18-build-e/paper4/render/page-4.png": "432de10749cf9001cfa8eee2755e08c9a15c84b193cbc68267ec78ee11a21aea"
+      },
+      "extraction_resource": {
+        "command": [
+          "/opt/homebrew/bin/pdftotext",
+          "-layout",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_paper4_step18_review_2026-11-11.pdf",
+          "/Users/chris/Documents/rdt/2026_june_14_make_it_consistent/step18_evidence/paper4_text.txt"
+        ],
+        "pid": 48073,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.10520266700768843,
+        "cpu_seconds": 0.022299999999999997,
+        "average_CPU_fraction": 0.21197181244816032,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      }
+    }
+  ],
+  "shared_inputs_identical": true,
+  "scientific_inputs_unchanged": true,
+  "new_stellar_runs": 0
+}

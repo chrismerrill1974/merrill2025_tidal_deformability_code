@@ -1,0 +1,1 @@
+{"point": {"A": 0.0042, "alpha": 0.02}, "error": "Solar calibration did not converge after 60 iterations", "type": "RuntimeError"}

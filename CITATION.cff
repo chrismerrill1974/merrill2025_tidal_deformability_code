@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "Cite the paper and its source revision."
+title: "Radial Dimensionality Theory IV: Tidal Deformability Ceilings under Solar-Constrained Density-Dependent Dimensionality"
+version: "v7"
+authors:
+  - family-names: Merrill
+    given-names: Christopher K.
+  - name: "Claude (Anthropic)"
+  - name: "Astra (Open AI)"
+repository-code: "https://github.com/chrismerrill1974/merrill2025_tidal_deformability_code"

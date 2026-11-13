@@ -1,0 +1,2784 @@
+{
+  "score_contract": "source_precision_diagonal_proxy_v1",
+  "coverage_claimed": false,
+  "interpretation": "sampled nominal fixed-alpha slice sets; toy response and deterministic helioseismic penalty",
+  "reference": "Rsun",
+  "slices": [
+    {
+      "alpha": 0.02,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034153289475928384,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034153289475928384,
+          "maximum_root_score_residual": 1.4684564675349066e-10,
+          "coarse_mesh_endpoint": 0.0034117313202470744,
+          "fine_mesh_endpoint": 0.0034169360212777623,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 6.216794631408857e-06,
+          "minimum_Q": 0.7791363039893155,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034177486748238066,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034177486748238066,
+          "maximum_root_score_residual": 1.4352785626670084e-10,
+          "coarse_mesh_endpoint": 0.003414067656048702,
+          "fine_mesh_endpoint": 0.0034193409027982284,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0032931361870946964,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0032931361870946964,
+          "maximum_root_score_residual": 5.517453161019148e-11,
+          "coarse_mesh_endpoint": 0.003294449652582425,
+          "fine_mesh_endpoint": 0.003295506558540428,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017094331673711452,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017094331673711452,
+          "maximum_root_score_residual": 8.809297202816424e-08,
+          "coarse_mesh_endpoint": 0.0016365737911809518,
+          "fine_mesh_endpoint": 0.0017075692427101345,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 1.3985581828977781e-05,
+          "minimum_Q": 0.7693272264227837,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0068008227803774,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0068008227803774,
+          "maximum_root_score_residual": 3.73282560417465e-09,
+          "coarse_mesh_endpoint": 0.0068043435826218,
+          "fine_mesh_endpoint": 0.006800358610429429,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003375192596204282,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003375192596204282,
+          "maximum_root_score_residual": 1.0928991045489056e-10,
+          "coarse_mesh_endpoint": 0.003373113706463769,
+          "fine_mesh_endpoint": 0.0033771124893812146,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7135236694188506,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034148185551595186,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034148185551595186,
+          "maximum_root_score_residual": 1.6048629092324518e-10,
+          "coarse_mesh_endpoint": 0.003411238591974739,
+          "fine_mesh_endpoint": 0.0034164294949527423,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.8368965660718305,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034153482387742585,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034153482387742585,
+          "maximum_root_score_residual": 1.8932810874616735e-10,
+          "coarse_mesh_endpoint": 0.0034117515683287996,
+          "fine_mesh_endpoint": 0.003416955805921818,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.0009989047913982424,
+          "minimum_Q": 0.7685226506476377,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.022116460340604705,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034230115519259486,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034230115519259486,
+          "maximum_root_score_residual": 1.1321077408865676e-10,
+          "coarse_mesh_endpoint": 0.003419115147555997,
+          "fine_mesh_endpoint": 0.0034245440689015757,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 6.612739304007127e-06,
+          "minimum_Q": 0.7791351716885342,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003425388088235242,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003425388088235242,
+          "maximum_root_score_residual": 1.5033352340765305e-10,
+          "coarse_mesh_endpoint": 0.003421411947515444,
+          "fine_mesh_endpoint": 0.0034269063696623745,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0033024369857145956,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0033024369857145956,
+          "maximum_root_score_residual": 7.83688669514504e-11,
+          "coarse_mesh_endpoint": 0.0033033244143761517,
+          "fine_mesh_endpoint": 0.0033047642217306538,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017131310054032804,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017131310054032804,
+          "maximum_root_score_residual": 8.218491220901569e-08,
+          "coarse_mesh_endpoint": 0.0016409229568593337,
+          "fine_mesh_endpoint": 0.0017111245474102721,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 1.570661683700126e-05,
+          "minimum_Q": 0.7693242867654438,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.006817552111795897,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.006817552111795897,
+          "maximum_root_score_residual": 2.724602765624695e-09,
+          "coarse_mesh_endpoint": 0.006820920281594659,
+          "fine_mesh_endpoint": 0.006817094952131111,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0033828287415001877,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0033828287415001877,
+          "maximum_root_score_residual": 1.1148726386522867e-10,
+          "coarse_mesh_endpoint": 0.00338043145810508,
+          "fine_mesh_endpoint": 0.0033846839946870943,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7135236694188506,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034224887335113385,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034224887335113385,
+          "maximum_root_score_residual": 1.5461720792586675e-10,
+          "coarse_mesh_endpoint": 0.0034186102553126047,
+          "fine_mesh_endpoint": 0.0034240253480270866,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.8368965660718305,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003423045376829744,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003423045376829744,
+          "maximum_root_score_residual": 1.9955326280296504e-10,
+          "coarse_mesh_endpoint": 0.0034191492618329024,
+          "fine_mesh_endpoint": 0.0034245782288478913,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.0011437605851728767,
+          "minimum_Q": 0.7682948672718846,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.02445689089987704,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034315489667732274,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034315489667732274,
+          "maximum_root_score_residual": 1.1712808500874416e-10,
+          "coarse_mesh_endpoint": 0.00342732802121831,
+          "fine_mesh_endpoint": 0.003432997277619313,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 7.05205523581589e-06,
+          "minimum_Q": 0.7791338332960814,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.00343387719460824,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.00343387719460824,
+          "maximum_root_score_residual": 1.5688073062847252e-10,
+          "coarse_mesh_endpoint": 0.003429580625529003,
+          "fine_mesh_endpoint": 0.0034353120641790113,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0033127817291922624,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0033127817291922624,
+          "maximum_root_score_residual": 6.674305552678561e-11,
+          "coarse_mesh_endpoint": 0.0033132022447372937,
+          "fine_mesh_endpoint": 0.0033150557689477804,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.001717239941533443,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.001717239941533443,
+          "maximum_root_score_residual": 7.590972250781647e-08,
+          "coarse_mesh_endpoint": 0.0016457628602329444,
+          "fine_mesh_endpoint": 0.0017150786427229192,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 1.763256064506852e-05,
+          "minimum_Q": 0.7693206230999687,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.006836143173775804,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.006836143173775804,
+          "maximum_root_score_residual": 1.8397017242932634e-09,
+          "coarse_mesh_endpoint": 0.006839338319509633,
+          "fine_mesh_endpoint": 0.006835701154147221,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0033913150033191767,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0033913150033191767,
+          "maximum_root_score_residual": 8.391465300405798e-11,
+          "coarse_mesh_endpoint": 0.0033885705037948527,
+          "fine_mesh_endpoint": 0.0033930963941472014,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7135236694188506,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034310122938965896,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034310122938965896,
+          "maximum_root_score_residual": 1.5755974303033327e-10,
+          "coarse_mesh_endpoint": 0.0034268095361170833,
+          "fine_mesh_endpoint": 0.0034324649564813413,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 5.067329778288447e-06,
+          "minimum_Q": 0.836890646547907,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034315952684699194,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034315952684699194,
+          "maximum_root_score_residual": 1.1913270370200735e-10,
+          "coarse_mesh_endpoint": 0.0034273776340287966,
+          "fine_mesh_endpoint": 0.0034330474722040235,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.0013121265161432564,
+          "minimum_Q": 0.7680025449169704,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.027044992882081332,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003441041679673488,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003441041679673488,
+          "maximum_root_score_residual": 1.560236384534619e-10,
+          "coarse_mesh_endpoint": 0.003436469291995513,
+          "fine_mesh_endpoint": 0.0034423948807639515,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 7.544192531094956e-06,
+          "minimum_Q": 0.7791322456335937,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003443315799097805,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003443315799097805,
+          "maximum_root_score_residual": 1.652171732757779e-10,
+          "coarse_mesh_endpoint": 0.003438672421281878,
+          "fine_mesh_endpoint": 0.00344465658341144,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0033242955292752878,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0033242955292752878,
+          "maximum_root_score_residual": 3.774136558831742e-11,
+          "coarse_mesh_endpoint": 0.0033242051193036657,
+          "fine_mesh_endpoint": 0.0033265042591181016,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017218082080158242,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017218082080158242,
+          "maximum_root_score_residual": 6.937201835199858e-08,
+          "coarse_mesh_endpoint": 0.0016511527908844685,
+          "fine_mesh_endpoint": 0.0017194792054957846,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 1.978208705930139e-05,
+          "minimum_Q": 0.7693160564565552,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.006856814988196888,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.006856814988196888,
+          "maximum_root_score_residual": 1.1247873743513992e-09,
+          "coarse_mesh_endpoint": 0.006859814041074197,
+          "fine_mesh_endpoint": 0.006856399369215162,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034007514562916837,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034007514562916837,
+          "maximum_root_score_residual": 1.7151746689592073e-10,
+          "coarse_mesh_endpoint": 0.003397629211345824,
+          "fine_mesh_endpoint": 0.0034024484040416883,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7135236694188506,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003440489544026066,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003440489544026066,
+          "maximum_root_score_residual": 1.506310631782526e-10,
+          "coarse_mesh_endpoint": 0.0034359355972768484,
+          "fine_mesh_endpoint": 0.003441847374977693,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 5.6241177682415655e-06,
+          "minimum_Q": 0.8368893105671655,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003441105241672607,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003441105241672607,
+          "maximum_root_score_residual": 1.5296386379759497e-10,
+          "coarse_mesh_endpoint": 0.0034365362516740536,
+          "fine_mesh_endpoint": 0.0034424629813733024,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.0015089193367758343,
+          "minimum_Q": 0.7676259938318745,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.029906975624424414,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 5.603645110233117e-06,
+          "minimum_Q": 0.7693315607577482,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034515987318434155,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034515987318434155,
+          "maximum_root_score_residual": 1.553619455307853e-10,
+          "coarse_mesh_endpoint": 0.0034466517624534274,
+          "fine_mesh_endpoint": 0.003452849090749274,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 8.095958806493578e-06,
+          "minimum_Q": 0.7791303553094171,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034538167005625773,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034538167005625773,
+          "maximum_root_score_residual": 1.6017054349504178e-10,
+          "coarse_mesh_endpoint": 0.0034487994163510164,
+          "fine_mesh_endpoint": 0.0034550514037267116,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003337120456498191,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003337120456498191,
+          "maximum_root_score_residual": 7.981082461583355e-11,
+          "coarse_mesh_endpoint": 0.0033364722012044225,
+          "fine_mesh_endpoint": 0.0033392493635976913,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.001726890300590965,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.001726890300590965,
+          "maximum_root_score_residual": 6.266417518219214e-08,
+          "coarse_mesh_endpoint": 0.0016571601493698405,
+          "fine_mesh_endpoint": 0.0017243803350237147,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 2.2193258669138134e-05,
+          "minimum_Q": 0.7693103618281508,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.006879815192736331,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.006879815192736331,
+          "maximum_root_score_residual": 5.850808726393097e-10,
+          "coarse_mesh_endpoint": 0.006882592171603824,
+          "fine_mesh_endpoint": 0.006879441447865517,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003411251267681147,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003411251267681147,
+          "maximum_root_score_residual": 1.328905874231623e-10,
+          "coarse_mesh_endpoint": 0.0034077192625900496,
+          "fine_mesh_endpoint": 0.0034128516592369846,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7135236694188506,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034510338692994007,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034510338692994007,
+          "maximum_root_score_residual": 1.642148639291463e-10,
+          "coarse_mesh_endpoint": 0.003446101023534783,
+          "fine_mesh_endpoint": 0.0034522846101526362,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 6.250573156022036e-06,
+          "minimum_Q": 0.8368876617741071,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034516860473168998,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034516860473168998,
+          "maximum_root_score_residual": 1.6045698103539507e-10,
+          "coarse_mesh_endpoint": 0.003446738168251201,
+          "fine_mesh_endpoint": 0.003452937213450508,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.001740528496814807,
+          "minimum_Q": 0.7671387402729578,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.033071822015250704,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 6.286524465049246e-06,
+          "minimum_Q": 0.7693297687285338,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034633567715580895,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034633567715580895,
+          "maximum_root_score_residual": 1.630411361475126e-10,
+          "coarse_mesh_endpoint": 0.003458003884200101,
+          "fine_mesh_endpoint": 0.003464487121339422,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 8.714156426437831e-06,
+          "minimum_Q": 0.7791280959941036,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034655076767868493,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034655076767868493,
+          "maximum_root_score_residual": 1.7190782131137894e-10,
+          "coarse_mesh_endpoint": 0.00346008921826401,
+          "fine_mesh_endpoint": 0.00346662288271337,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0033514183131564167,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0033514183131564167,
+          "maximum_root_score_residual": 8.998402023507879e-11,
+          "coarse_mesh_endpoint": 0.003350162697916267,
+          "fine_mesh_endpoint": 0.0033534501098839665,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017325479314962105,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017325479314962105,
+          "maximum_root_score_residual": 5.57817045887532e-08,
+          "coarse_mesh_endpoint": 0.001663861781714872,
+          "fine_mesh_endpoint": 0.0017298435924842591,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 2.490412109958254e-05,
+          "minimum_Q": 0.7693032554216181,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.006905424437159879,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.006905424437159879,
+          "maximum_root_score_residual": 2.3719515240827604e-10,
+          "coarse_mesh_endpoint": 0.006907950264257006,
+          "fine_mesh_endpoint": 0.006905113716230982,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003422942716166948,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003422942716166948,
+          "maximum_root_score_residual": 1.4133449965925138e-10,
+          "coarse_mesh_endpoint": 0.0034189678294258554,
+          "fine_mesh_endpoint": 0.003424432731140411,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 5.29121355886275e-06,
+          "minimum_Q": 0.7135173289826544,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034627696931185375,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034627696931185375,
+          "maximum_root_score_residual": 1.6598855623328745e-10,
+          "coarse_mesh_endpoint": 0.003457434012595489,
+          "fine_mesh_endpoint": 0.003463903637649154,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 6.947506806286837e-06,
+          "minimum_Q": 0.836885623655614,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003463466625262945,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003463466625262945,
+          "maximum_root_score_residual": 1.623243761628146e-10,
+          "coarse_mesh_endpoint": 0.003458112128507675,
+          "fine_mesh_endpoint": 0.0034645976659742955,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.002015212189358444,
+          "minimum_Q": 0.7665048013627669,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.03657158199959149,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 7.054106987362951e-06,
+          "minimum_Q": 0.7693275309478771,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003476458303692252,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003476458303692252,
+          "maximum_root_score_residual": 1.6469892116788287e-10,
+          "coarse_mesh_endpoint": 0.0034706723982090614,
+          "fine_mesh_endpoint": 0.003477453594898927,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 9.40897583347513e-06,
+          "minimum_Q": 0.7791253848945089,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034785338325930733,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034785338325930733,
+          "maximum_root_score_residual": 1.684230532816855e-10,
+          "coarse_mesh_endpoint": 0.0034726875732556607,
+          "fine_mesh_endpoint": 0.0034795146407406333,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003367373961272679,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003367373961272679,
+          "maximum_root_score_residual": 9.21920317864533e-11,
+          "coarse_mesh_endpoint": 0.0033654594635246908,
+          "fine_mesh_endpoint": 0.0033692881957021422,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017388511556048992,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017388511556048992,
+          "maximum_root_score_residual": 4.885655213726636e-08,
+          "coarse_mesh_endpoint": 0.0016713455826941335,
+          "fine_mesh_endpoint": 0.0017359392477123818,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 2.7949759886707285e-05,
+          "minimum_Q": 0.7692943779005919,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.006933961583279471,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.006933961583279471,
+          "maximum_root_score_residual": 5.92339510774309e-11,
+          "coarse_mesh_endpoint": 0.006936204002678808,
+          "fine_mesh_endpoint": 0.006933742700721191,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034359715861222873,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034359715861222873,
+          "maximum_root_score_residual": 1.3947065724551067e-10,
+          "coarse_mesh_endpoint": 0.0034315201895764908,
+          "fine_mesh_endpoint": 0.003437335531981635,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 6.040117135609009e-06,
+          "minimum_Q": 0.7135154646940005,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034758498116760875,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034758498116760875,
+          "maximum_root_score_residual": 1.64556368531521e-10,
+          "coarse_mesh_endpoint": 0.0034700810077330784,
+          "fine_mesh_endpoint": 0.00347684880284253,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 7.736553882390663e-06,
+          "minimum_Q": 0.8368830991904552,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003476593437008012,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003476593437008012,
+          "maximum_root_score_residual": 1.6084156229112523e-10,
+          "coarse_mesh_endpoint": 0.003470805218013185,
+          "fine_mesh_endpoint": 0.0034775892922757775,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.0023438448791733768,
+          "minimum_Q": 0.7656746654340212,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.0404416971443569,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 7.917653873890297e-06,
+          "minimum_Q": 0.7693247327010171,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034910697523747257,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034910697523747257,
+          "maximum_root_score_residual": 1.6810242087217375e-10,
+          "coarse_mesh_endpoint": 0.00348482552325568,
+          "fine_mesh_endpoint": 0.003491913420962412,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 1.0190821413933102e-05,
+          "minimum_Q": 0.7791221181024612,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034930603837891134,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034930603837891134,
+          "maximum_root_score_residual": 1.6173151706766475e-10,
+          "coarse_mesh_endpoint": 0.0034867615193460285,
+          "fine_mesh_endpoint": 0.003493890406902802,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003385199332091406,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003385199332091406,
+          "maximum_root_score_residual": 1.053215292756704e-10,
+          "coarse_mesh_endpoint": 0.003382573414684123,
+          "fine_mesh_endpoint": 0.0033869720125948985,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017458797047225757,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017458797047225757,
+          "maximum_root_score_residual": 4.1950145579505715e-08,
+          "coarse_mesh_endpoint": 0.0016797124297598981,
+          "fine_mesh_endpoint": 0.0017427477807493476,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 3.138181320745579e-05,
+          "minimum_Q": 0.7692832724493323,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.006965789868230129,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.006965789868230129,
+          "maximum_root_score_residual": 8.714806654097629e-12,
+          "coarse_mesh_endpoint": 0.006967713544725882,
+          "fine_mesh_endpoint": 0.006965702015829719,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034505040134360653,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034505040134360653,
+          "maximum_root_score_residual": 1.305888730485094e-10,
+          "coarse_mesh_endpoint": 0.003445542886598843,
+          "fine_mesh_endpoint": 0.0034517241928362715,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 6.882872724132085e-06,
+          "minimum_Q": 0.713513095312765,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034904372363169698,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034904372363169698,
+          "maximum_root_score_residual": 1.6017365211951073e-10,
+          "coarse_mesh_endpoint": 0.003484209876443632,
+          "fine_mesh_endpoint": 0.003491284691244232,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 8.623907532270852e-06,
+          "minimum_Q": 0.8368799656488222,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034912332917977247,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034912332917977247,
+          "maximum_root_score_residual": 1.667457283360818e-10,
+          "coarse_mesh_endpoint": 0.0034849860633634423,
+          "fine_mesh_endpoint": 0.00349207739024868,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.002741083328238482,
+          "minimum_Q": 0.7645792533101087,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.044721359549995794,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 8.891673189089668e-06,
+          "minimum_Q": 0.7693212275783445,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035073811811946786,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035073811811946786,
+          "maximum_root_score_residual": 1.475521926863621e-10,
+          "coarse_mesh_endpoint": 0.0035006568242394484,
+          "fine_mesh_endpoint": 0.0035080552502281016,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 1.1074383962031895e-05,
+          "minimum_Q": 0.7791181645269798,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003509275963820301,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003509275963820301,
+          "maximum_root_score_residual": 1.447428843448506e-10,
+          "coarse_mesh_endpoint": 0.003502503208951325,
+          "fine_mesh_endpoint": 0.0035099374312693187,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003405138271411636,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003405138271411636,
+          "maximum_root_score_residual": 1.1167067270889675e-10,
+          "coarse_mesh_endpoint": 0.003401748976264518,
+          "fine_mesh_endpoint": 0.0034067415551855074,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017537245708022767,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017537245708022767,
+          "maximum_root_score_residual": 3.516809510273333e-08,
+          "coarse_mesh_endpoint": 0.0016890785299060235,
+          "fine_mesh_endpoint": 0.001750361701541551,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 3.526215825677065e-05,
+          "minimum_Q": 0.7692693555032698,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.007001324216332001,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.007001324216332001,
+          "maximum_root_score_residual": 8.455294242537548e-10,
+          "coarse_mesh_endpoint": 0.007002891135621429,
+          "fine_mesh_endpoint": 0.0070014206222641226,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003466729876509264,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003466729876509264,
+          "maximum_root_score_residual": 1.4002488057940354e-10,
+          "coarse_mesh_endpoint": 0.003461227565356671,
+          "fine_mesh_endpoint": 0.0034677865211409672,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 7.8379581757834e-06,
+          "minimum_Q": 0.7135100845421871,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003506721663454683,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003506721663454683,
+          "maximum_root_score_residual": 1.588338349733931e-10,
+          "coarse_mesh_endpoint": 0.0035000137662701035,
+          "fine_mesh_endpoint": 0.0035073995722114284,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 9.624808667700334e-06,
+          "minimum_Q": 0.8368760665442985,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003507576705462546,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003507576705462546,
+          "maximum_root_score_residual": 1.485438438919573e-10,
+          "coarse_mesh_endpoint": 0.0035008487156086027,
+          "fine_mesh_endpoint": 0.003508251069275284,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.0032269283672052493,
+          "minimum_Q": 0.7631206571633324,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.049453908743270276,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 9.995466160836755e-06,
+          "minimum_Q": 0.7693168276712548,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035256102748812456,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035256102748812456,
+          "maximum_root_score_residual": 2.356248529622462e-10,
+          "coarse_mesh_endpoint": 0.0035183899245133446,
+          "fine_mesh_endpoint": 0.0035260956313030493,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 1.2073983422132678e-05,
+          "minimum_Q": 0.7791133576236006,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003527396553766619,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003527396553766619,
+          "maximum_root_score_residual": 1.475415345453257e-10,
+          "coarse_mesh_endpoint": 0.0035201345615689956,
+          "fine_mesh_endpoint": 0.003527870587876401,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003427472406805197,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003427472406805197,
+          "maximum_root_score_residual": 1.2035661356435412e-10,
+          "coarse_mesh_endpoint": 0.0034232708380914304,
+          "fine_mesh_endpoint": 0.003428874436552501,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017624898894926188,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017624898894926188,
+          "maximum_root_score_residual": 2.869863457988231e-08,
+          "coarse_mesh_endpoint": 0.0016995782682395202,
+          "fine_mesh_endpoint": 0.0017588877564519486,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 3.965389483844839e-05,
+          "minimum_Q": 0.7692518777954628,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.007041039900445092,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.007041039900445092,
+          "maximum_root_score_residual": 1.172906216595493e-10,
+          "coarse_mesh_endpoint": 0.00704221026277044,
+          "fine_mesh_endpoint": 0.007041339732859765,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003484866840959955,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003484866840959955,
+          "maximum_root_score_residual": 1.447650888053431e-10,
+          "coarse_mesh_endpoint": 0.0034787956465119276,
+          "fine_mesh_endpoint": 0.003485738167408156,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 8.91584751557035e-06,
+          "minimum_Q": 0.7135062569316404,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035249203469923064,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035249203469923064,
+          "maximum_root_score_residual": 1.5585266410766963e-10,
+          "coarse_mesh_endpoint": 0.003517715801035492,
+          "fine_mesh_endpoint": 0.0035254095426751095,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 1.0759274415069879e-05,
+          "minimum_Q": 0.8368712013836732,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035258418969960972,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035258418969960972,
+          "maximum_root_score_residual": 1.4728618324966192e-10,
+          "coarse_mesh_endpoint": 0.0035186173821378014,
+          "fine_mesh_endpoint": 0.0035263274234560377,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.003829352051950961,
+          "minimum_Q": 0.7611576274859242,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.05468727057042106,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 1.1250850216352715e-05,
+          "minimum_Q": 0.7693112903781003,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035460070734924143,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035460070734924143,
+          "maximum_root_score_residual": 6.020823839492095e-10,
+          "coarse_mesh_endpoint": 0.003538284270987724,
+          "fine_mesh_endpoint": 0.0035462840236476856,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 1.3206579787180387e-05,
+          "minimum_Q": 0.7791074845507528,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035476701507819717,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035476701507819717,
+          "maximum_root_score_residual": 5.972626837547068e-10,
+          "coarse_mesh_endpoint": 0.0035399129505019316,
+          "fine_mesh_endpoint": 0.0035479373180005067,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003452528257755518,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003452528257755518,
+          "maximum_root_score_residual": 1.2868905940877085e-10,
+          "coarse_mesh_endpoint": 0.003447472384318474,
+          "fine_mesh_endpoint": 0.0034536932865401365,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.001772295172742781,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.001772295172742781,
+          "maximum_root_score_residual": 2.262184306545123e-08,
+          "coarse_mesh_endpoint": 0.0017113676916022812,
+          "fine_mesh_endpoint": 0.0017684496248169374,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 4.464503432867951e-05,
+          "minimum_Q": 0.7692298709693778,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.007085482798659766,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.007085482798659766,
+          "maximum_root_score_residual": 1.1197021088094061e-09,
+          "coarse_mesh_endpoint": 0.007086216674292844,
+          "fine_mesh_endpoint": 0.007085960866102408,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035051651846995796,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035051651846995796,
+          "maximum_root_score_residual": 1.3843282076209107e-10,
+          "coarse_mesh_endpoint": 0.0034985040479954817,
+          "fine_mesh_endpoint": 0.0035058276582774247,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 1.0141503378687773e-05,
+          "minimum_Q": 0.7135013852857018,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035452828188005576,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035452828188005576,
+          "maximum_root_score_residual": 6.076184000392004e-10,
+          "coarse_mesh_endpoint": 0.0035375748250795706,
+          "fine_mesh_endpoint": 0.0035455635235250985,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 1.2045952187500995e-05,
+          "minimum_Q": 0.8368651117166183,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035462795410897653,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035462795410897653,
+          "maximum_root_score_residual": 2.648762098544921e-09,
+          "coarse_mesh_endpoint": 0.0035385522172615173,
+          "fine_mesh_endpoint": 0.0035465565656771676,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.00458831155020584,
+          "minimum_Q": 0.7584822900496807,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.06047444253533181,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 1.2679241571211704e-05,
+          "minimum_Q": 0.7693043005170911,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035688595927174304,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035688595927174304,
+          "maximum_root_score_residual": 4.855764679234653e-10,
+          "coarse_mesh_endpoint": 0.003560642213237074,
+          "fine_mesh_endpoint": 0.003568908854082951,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 1.4499275111289984e-05,
+          "minimum_Q": 0.7791002712503392,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035703823044215253,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035703823044215253,
+          "maximum_root_score_residual": 8.051341815473734e-10,
+          "coarse_mesh_endpoint": 0.0035621381780422965,
+          "fine_mesh_endpoint": 0.003570423595817349,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0034806858448013095,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0034806858448013095,
+          "maximum_root_score_residual": 1.2672574101202372e-10,
+          "coarse_mesh_endpoint": 0.0034747462716727363,
+          "fine_mesh_endpoint": 0.003481574877903326,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.001783277961829331,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.001783277961829331,
+          "maximum_root_score_residual": 1.705884722369433e-08,
+          "coarse_mesh_endpoint": 0.0017246287717708343,
+          "fine_mesh_endpoint": 0.001779191218494146,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 5.033313183210942e-05,
+          "minimum_Q": 0.7692020765169333,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.007135281439562025,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.007135281439562025,
+          "maximum_root_score_residual": 3.631163369988144e-09,
+          "coarse_mesh_endpoint": 0.007135541637328731,
+          "fine_mesh_endpoint": 0.007135904659818761,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035279135464270656,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035279135464270656,
+          "maximum_root_score_residual": 2.1300028407722493e-10,
+          "coarse_mesh_endpoint": 0.0035206522137228727,
+          "fine_mesh_endpoint": 0.0035283424874074545,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 1.1537715731653076e-05,
+          "minimum_Q": 0.7134951736519183,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035680964923458743,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035680964923458743,
+          "maximum_root_score_residual": 4.897726668673386e-10,
+          "coarse_mesh_endpoint": 0.0035598924550968233,
+          "fine_mesh_endpoint": 0.0035681492949954496,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 1.3511429996707872e-05,
+          "minimum_Q": 0.8368574622132899,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035691784115816226,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035691784115816226,
+          "maximum_root_score_residual": 4.875704284756921e-10,
+          "coarse_mesh_endpoint": 0.0035609564347772937,
+          "fine_mesh_endpoint": 0.0035692277112844436,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.0055626748145359605,
+          "minimum_Q": 0.7547818996465175,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.0668740304976422,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 1.4314292801081733e-05,
+          "minimum_Q": 0.769295445681176,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.00359450046859115,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.00359450046859115,
+          "maximum_root_score_residual": 3.799964787276622e-10,
+          "coarse_mesh_endpoint": 0.0035858177311518975,
+          "fine_mesh_endpoint": 0.0035943048388833694,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 1.5977317792938872e-05,
+          "minimum_Q": 0.7790913624124186,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035958626542674944,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035958626542674944,
+          "maximum_root_score_residual": 3.6858427421293527e-10,
+          "coarse_mesh_endpoint": 0.0035871610641896217,
+          "fine_mesh_endpoint": 0.003595661131532182,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035123890847976137,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035123890847976137,
+          "maximum_root_score_residual": 1.2541034877244783e-10,
+          "coarse_mesh_endpoint": 0.003505557782923738,
+          "fine_mesh_endpoint": 0.0035129614101220537,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0017955969641484221,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0017955969641484221,
+          "maximum_root_score_residual": 1.2222045597809483e-08,
+          "coarse_mesh_endpoint": 0.0017395746440268302,
+          "fine_mesh_endpoint": 0.0017912807386515884,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 5.684199443500792e-05,
+          "minimum_Q": 0.7691668468204611,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.007191161070085434,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.007191161070085434,
+          "maximum_root_score_residual": 8.255965688874767e-09,
+          "coarse_mesh_endpoint": 0.0071909178545928945,
+          "fine_mesh_endpoint": 0.007191888682022979,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003553445756561585,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003553445756561585,
+          "maximum_root_score_residual": 5.300666572338741e-10,
+          "coarse_mesh_endpoint": 0.0035455907824942013,
+          "fine_mesh_endpoint": 0.0035536164958160487,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 1.3132960097876883e-05,
+          "minimum_Q": 0.713487233846232,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035936932867494213,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035936932867494213,
+          "maximum_root_score_residual": 3.7558844923069046e-10,
+          "coarse_mesh_endpoint": 0.0035850217718884038,
+          "fine_mesh_endpoint": 0.0035935007916853587,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 1.5187414058199815e-05,
+          "minimum_Q": 0.8368478146966114,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035948720549807125,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035948720549807125,
+          "maximum_root_score_residual": 3.7366953975492834e-10,
+          "coarse_mesh_endpoint": 0.0035861850798785296,
+          "fine_mesh_endpoint": 0.00359467653524947,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.006841214224308872,
+          "minimum_Q": 0.7495746565112968,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.07395084216587466,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 1.618829741229789e-05,
+          "minimum_Q": 0.7692841822571025,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0036233147828464807,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0036233147828464807,
+          "maximum_root_score_residual": 2.6895685678596237e-10,
+          "coarse_mesh_endpoint": 0.0036142272441220787,
+          "fine_mesh_endpoint": 0.0036228618486943837,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 1.76719236922207e-05,
+          "minimum_Q": 0.7790802932482002,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003624492618287802,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003624492618287802,
+          "maximum_root_score_residual": 2.6443425227284933e-10,
+          "coarse_mesh_endpoint": 0.0036153940684162584,
+          "fine_mesh_endpoint": 0.0036240360795667145,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003548158277888722,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003548158277888722,
+          "maximum_root_score_residual": 5.020073245987078e-10,
+          "coarse_mesh_endpoint": 0.0035404617960875127,
+          "fine_mesh_endpoint": 0.003548374486429969,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0018094357517039097,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0018094357517039097,
+          "maximum_root_score_residual": 8.17883094583749e-09,
+          "coarse_mesh_endpoint": 0.0017564560664638212,
+          "fine_mesh_endpoint": 0.001804915686045338,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 6.432485740693873e-05,
+          "minimum_Q": 0.7691220092434743,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.007253959854827373,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.007253959854827373,
+          "maximum_root_score_residual": 1.4981793139412503e-08,
+          "coarse_mesh_endpoint": 0.0072531985191100785,
+          "fine_mesh_endpoint": 0.00725474495868767,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035821489236687403,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035821489236687403,
+          "maximum_root_score_residual": 1.295605400741806e-09,
+          "coarse_mesh_endpoint": 0.003573732327222007,
+          "fine_mesh_endpoint": 0.0035820388260668504,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 1.496869746409804e-05,
+          "minimum_Q": 0.7134770530177892,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0036224574270823802,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0036224574270823802,
+          "maximum_root_score_residual": 2.778337560016553e-10,
+          "coarse_mesh_endpoint": 0.0036133780818988796,
+          "fine_mesh_endpoint": 0.003622006932795233,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 1.711278154159647e-05,
+          "minimum_Q": 0.8368355923736944,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0036237466515960737,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0036237466515960737,
+          "maximum_root_score_residual": 2.7695712390141125e-10,
+          "coarse_mesh_endpoint": 0.0036146558973326045,
+          "fine_mesh_endpoint": 0.0036232940824434696,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.008561521302550543,
+          "minimum_Q": 0.7421007517717308,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    },
+    {
+      "alpha": 0.08177654339579425,
+      "variants": {
+        "source_precision_diagonal_proxy_v1": {
+          "minimum_A": 1.8350484196239353e-05,
+          "minimum_Q": 0.7692697882004027,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0036557492145672305,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0036557492145672305,
+          "maximum_root_score_residual": 1.7495604964778977e-10,
+          "coarse_mesh_endpoint": 0.003646363076444155,
+          "fine_mesh_endpoint": 0.0036550356522842445,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "legacy_diagonal_proxy": {
+          "minimum_A": 1.9624911563673232e-05,
+          "minimum_Q": 0.7790664513801937,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0036567143707105787,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0036567143707105787,
+          "maximum_root_score_residual": 1.7933210472165229e-10,
+          "coarse_mesh_endpoint": 0.0036473244997397326,
+          "fine_mesh_endpoint": 0.0036559995750516648,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "measurement_only": {
+          "minimum_A": 0.0,
+          "minimum_Q": 1.1669385244316992,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0035886049858857533,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0035886049858857533,
+          "maximum_root_score_residual": 3.545030935470095e-10,
+          "coarse_mesh_endpoint": 0.00358012452116858,
+          "fine_mesh_endpoint": 0.003588432455172536,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.001": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.7693387213302955,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0018250071032839734,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0018250071032839734,
+          "maximum_root_score_residual": 5.014329396146877e-09,
+          "coarse_mesh_endpoint": 0.0017755694210932814,
+          "fine_mesh_endpoint": 0.00182032908662215,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "helioseismic_scale_0.004": {
+          "minimum_A": 7.296087720372899e-05,
+          "minimum_Q": 0.7690646771252575,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.00732464720141805,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.00732464720141805,
+          "maximum_root_score_residual": 2.2827315593332287e-08,
+          "coarse_mesh_endpoint": 0.007323379997341185,
+          "fine_mesh_endpoint": 0.007325440201775356,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "omit_pep": {
+          "minimum_A": 0.0,
+          "minimum_Q": 0.1505925537027533,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0036144729471464365,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0036144729471464365,
+          "maximum_root_score_residual": 2.6672219988199686e-10,
+          "coarse_mesh_endpoint": 0.0036055647337058733,
+          "fine_mesh_endpoint": 0.0036140648011320476,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_lower_error_sides": {
+          "minimum_A": 1.7084959702429967e-05,
+          "minimum_Q": 0.7134639484988798,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.003654834565951362,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.003654834565951362,
+          "maximum_root_score_residual": 1.5190515512131242e-10,
+          "coarse_mesh_endpoint": 0.0036454523188163292,
+          "fine_mesh_endpoint": 0.00365412232134488,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "all_upper_error_sides": {
+          "minimum_A": 1.9334752999781958e-05,
+          "minimum_Q": 0.8368200299105241,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.0036562502110144236,
+              "upper_grid_limited": false
+            }
+          ],
+          "upper_endpoint": 0.0036562502110144236,
+          "maximum_root_score_residual": 1.6847589989765765e-10,
+          "coarse_mesh_endpoint": 0.00364686287619775,
+          "fine_mesh_endpoint": 0.0036555375701463155,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        },
+        "neutrino_only": {
+          "minimum_A": 0.010937354947907655,
+          "minimum_Q": 0.7311414081691352,
+          "intervals": [
+            {
+              "lower": 0.0,
+              "upper": 0.04,
+              "upper_grid_limited": true
+            }
+          ],
+          "upper_endpoint": null,
+          "maximum_root_score_residual": 0.0,
+          "coarse_mesh_endpoint": null,
+          "fine_mesh_endpoint": null,
+          "mesh_component_counts": [
+            1,
+            1,
+            1
+          ]
+        }
+      }
+    }
+  ],
+  "envelopes": {}
+}

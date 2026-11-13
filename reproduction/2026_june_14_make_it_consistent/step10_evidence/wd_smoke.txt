@@ -1,0 +1,9 @@
+Gate 1 (A=0 regression): xi1 = 3.653754 (rel err 1.0e-09), omega = 2.71405 (rel err 1.8e-06) -> PASS
+Gate 2 (scalings): d lnR/d lnrho = -0.166667 (ref -1/6), d lnM/d lnrho = 0.500000 (ref +1/2) -> PASS
+Gate 3 (physical): rho_c=1e6 -> R = 1.122e+09 cm (16.1 mR_sun), M = 0.496 Msun -> PASS
+Gate 4 (start inside star): xi0/xi1 = 2.74e-07 (V4 equivalent was >1: started OUTSIDE) -> PASS
+Gate 5 (unit invariance): |dR/R diff| = 1.1e-16, |dM/M diff| = 2.2e-16 -> PASS
+Gate 6 (fiducial A=0.0087, alpha=0.15): dR/R = -4.8562e-03, dM/M = -1.2515e-02, xi1 mod = 3.63601 -> PASS
+ALL GATES PASS
+Complete: 9 white-dwarf pairs; /tmp/rdt_step10_smoke/wd.csv
+Accepted nine real pairs; all four tight-cutoff failures explicitly rejected.

@@ -1,0 +1,32 @@
+{
+  "rows": 1980,
+  "nonzero_rows": 1584,
+  "stellar_evaluations": 56618,
+  "extrema_indices": {
+    "500000/emb1": {
+      "delta_mass": 1287,
+      "delta_R14": 1287
+    },
+    "500000/emb2": {
+      "delta_mass": 1291,
+      "delta_R14": 1291
+    },
+    "1e+06/emb1": {
+      "delta_mass": 1295,
+      "delta_R14": 1295
+    },
+    "1e+06/emb2": {
+      "delta_mass": 1299,
+      "delta_R14": 1299
+    },
+    "2e+06/emb1": {
+      "delta_mass": 1303,
+      "delta_R14": 1303
+    },
+    "2e+06/emb2": {
+      "delta_mass": 1307,
+      "delta_R14": 1307
+    }
+  },
+  "global_envelope_certified": false
+}

@@ -1,0 +1,20 @@
+Traceback (most recent call last):
+  File "/Users/chris/Documents/rdt/paper1_SolarCore/solar_step11/run.py", line 34, in run
+    refined=intervals(aa,values,evaluate=lambda A:score(get(A,alpha),variant))
+  File "/Users/chris/Documents/rdt/paper1_SolarCore/solar_step11/inference.py", line 46, in intervals
+    fit=minimize_scalar(f,bounds=bounds,method='bounded',options={'xatol':2e-10})
+  File "/opt/homebrew/lib/python3.14/site-packages/scipy/optimize/_minimize.py", line 1027, in minimize_scalar
+    res = _minimize_scalar_bounded(fun, bounds, args, **options)
+  File "/opt/homebrew/lib/python3.14/site-packages/scipy/optimize/_optimize.py", line 2389, in _minimize_scalar_bounded
+    fu = func(x, *args)
+  File "/Users/chris/Documents/rdt/paper1_SolarCore/solar_step11/run.py", line 34, in <lambda>
+    refined=intervals(aa,values,evaluate=lambda A:score(get(A,alpha),variant))
+                                                        ~~~^^^^^^^^^
+  File "/Users/chris/Documents/rdt/paper1_SolarCore/solar_step11/run.py", line 24, in get
+    row=response(*key,s,std);cache[key]=row
+  File "/Users/chris/Documents/rdt/paper1_SolarCore/solar_step11/solver.py", line 66, in response
+    mod=std if A==0 else calibrate(A,alpha,s)
+                         ~~~~~~~~~^^^^^^^^^^^
+  File "/Users/chris/Documents/rdt/paper1_SolarCore/solar_step11/solver.py", line 61, in calibrate
+    raise RuntimeError(f'Calibration failed A={A}, alpha={alpha}, residual={residual}')
+RuntimeError: Calibration failed A=0.0009999998761959581, alpha=0.09043038394024115, residual=1.5420997812043424e-12

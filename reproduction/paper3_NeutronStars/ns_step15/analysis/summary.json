@@ -1,0 +1,678 @@
+{
+  "status": "verified_sampled_results",
+  "original_rows": 1980,
+  "refined_rows": 24,
+  "alpha_count": 70,
+  "extrema": {
+    "500000/emb1": {
+      "delta_mass": {
+        "min": {
+          "alpha": 0.12859203321989024,
+          "boundary_A": 0.008738820028020296,
+          "origin": "solar_slice",
+          "A": 0.008738820028020296,
+          "fraction": 1.0,
+          "rstar_cm": 500000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0352294840541387,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.63673673110862,
+          "Pc14": 1.3993281700471788e+35,
+          "delta_mass": -0.007100990583476019,
+          "delta_R14": -0.00420414355133214
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 500000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      },
+      "delta_R14": {
+        "min": {
+          "alpha": 0.13021912306085653,
+          "boundary_A": 0.008728136977533798,
+          "origin": "NS_alpha_refinement_2",
+          "A": 0.008728136977533798,
+          "fraction": 1.0,
+          "rstar_cm": 500000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0352322929474314,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.636728163025856,
+          "Pc14": 1.3993230161214015e+35,
+          "delta_mass": -0.007099620247899785,
+          "delta_R14": -0.00420487675184289
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 500000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      }
+    },
+    "500000/emb2": {
+      "delta_mass": {
+        "min": {
+          "alpha": 0.12859203321989024,
+          "boundary_A": 0.008738820028020296,
+          "origin": "solar_slice",
+          "A": 0.008738820028020296,
+          "fraction": 1.0,
+          "rstar_cm": 500000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.038094780664055,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.639401888213113,
+          "Pc14": 1.3938774479583689e+35,
+          "delta_mass": -0.005703138307867728,
+          "delta_R14": -0.003976076829297903
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 500000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      },
+      "delta_R14": {
+        "min": {
+          "alpha": 0.13021912306085653,
+          "boundary_A": 0.008728136977533798,
+          "origin": "NS_alpha_refinement_2",
+          "A": 0.008728136977533798,
+          "fraction": 1.0,
+          "rstar_cm": 500000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.03809690199279,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.639394755630263,
+          "Pc14": 1.393873158610608e+35,
+          "delta_mass": -0.005702103404817915,
+          "delta_R14": -0.003976687189110262
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 500000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      }
+    },
+    "1e+06/emb1": {
+      "delta_mass": {
+        "min": {
+          "alpha": 0.12859203321989024,
+          "boundary_A": 0.008738820028020296,
+          "origin": "solar_slice",
+          "A": 0.008738820028020296,
+          "fraction": 1.0,
+          "rstar_cm": 1000000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0351970805720856,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.63610947717204,
+          "Pc14": 1.399398475554061e+35,
+          "delta_mass": -0.007116798818116998,
+          "delta_R14": -0.00425781984266882
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 1000000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      },
+      "delta_R14": {
+        "min": {
+          "alpha": 0.12859203321989024,
+          "boundary_A": 0.008738820028020296,
+          "origin": "solar_slice",
+          "A": 0.008738820028020296,
+          "fraction": 1.0,
+          "rstar_cm": 1000000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0351970805720856,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.63610947717204,
+          "Pc14": 1.399398475554061e+35,
+          "delta_mass": -0.007116798818116998,
+          "delta_R14": -0.00425781984266882
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 1000000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      }
+    },
+    "1e+06/emb2": {
+      "delta_mass": {
+        "min": {
+          "alpha": 0.12859203321989024,
+          "boundary_A": 0.008738820028020296,
+          "origin": "solar_slice",
+          "A": 0.008738820028020296,
+          "fraction": 1.0,
+          "rstar_cm": 1000000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.038066445109766,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.638777997884404,
+          "Pc14": 1.3939427288798593e+35,
+          "delta_mass": -0.005716961979352897,
+          "delta_R14": -0.004029465285062095
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 1000000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      },
+      "delta_R14": {
+        "min": {
+          "alpha": 0.12859203321989024,
+          "boundary_A": 0.008738820028020296,
+          "origin": "solar_slice",
+          "A": 0.008738820028020296,
+          "fraction": 1.0,
+          "rstar_cm": 1000000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.038066445109766,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.638777997884404,
+          "Pc14": 1.3939427288798593e+35,
+          "delta_mass": -0.005716961979352897,
+          "delta_R14": -0.004029465285062095
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 1000000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      }
+    },
+    "2e+06/emb1": {
+      "delta_mass": {
+        "min": {
+          "alpha": 0.12859203321989024,
+          "boundary_A": 0.008738820028020296,
+          "origin": "solar_slice",
+          "A": 0.008738820028020296,
+          "fraction": 1.0,
+          "rstar_cm": 2000000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.035164610861674,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.635480679427543,
+          "Pc14": 1.3994687700139194e+35,
+          "delta_mass": -0.007132639362663062,
+          "delta_R14": -0.004311628242994692
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 2000000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      },
+      "delta_R14": {
+        "min": {
+          "alpha": 0.12755584622802546,
+          "boundary_A": 0.008743789462346042,
+          "origin": "NS_alpha_refinement_2",
+          "A": 0.008743789462346042,
+          "fraction": 1.0,
+          "rstar_cm": 2000000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.035164828998434,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.635479107936998,
+          "Pc14": 1.3994653032098285e+35,
+          "delta_mass": -0.007132532943325831,
+          "delta_R14": -0.004311762720882295
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 2000000.0,
+          "embedding": "emb1",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      }
+    },
+    "2e+06/emb2": {
+      "delta_mass": {
+        "min": {
+          "alpha": 0.12859203321989024,
+          "boundary_A": 0.008738820028020296,
+          "origin": "solar_slice",
+          "A": 0.008738820028020296,
+          "fraction": 1.0,
+          "rstar_cm": 2000000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.038038137653479,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.638154888342845,
+          "Pc14": 1.3940078602468732e+35,
+          "delta_mass": -0.005730771943058044,
+          "delta_R14": -0.004082786926166038
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 2000000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      },
+      "delta_R14": {
+        "min": {
+          "alpha": 0.12755584622802546,
+          "boundary_A": 0.008743789462346042,
+          "origin": "NS_alpha_refinement_2",
+          "A": 0.008743789462346042,
+          "fraction": 1.0,
+          "rstar_cm": 2000000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.038038310613545,
+          "domain_peak_Pc": 1.3839708437412267e+36,
+          "peak_status": "upper_EOS_boundary",
+          "R14_km": 11.63815315663492,
+          "Pc14": 1.3940049450477878e+35,
+          "delta_mass": -0.005730687563444192,
+          "delta_R14": -0.004082935114409603
+        },
+        "max": {
+          "alpha": 0.02,
+          "boundary_A": 0.004310677556525902,
+          "origin": "solar_slice",
+          "A": 0.0,
+          "fraction": 0.0,
+          "rstar_cm": 2000000.0,
+          "embedding": "emb2",
+          "domain_peak_mass": 2.0497849879517345,
+          "domain_peak_Pc": 1.3736636367529e+36,
+          "peak_status": "interior_refined",
+          "R14_km": 11.685865788404675,
+          "Pc14": 1.358790653000285e+35,
+          "delta_mass": 0.0,
+          "delta_R14": 0.0
+        }
+      }
+    }
+  },
+  "grid_comparison": {
+    "500000/emb1": {
+      "delta_mass": {
+        "coarse_min": -0.007090101579223185,
+        "original_fine_min": -0.007100990583476019,
+        "refined_min": -0.007100990583476019
+      },
+      "delta_R14": {
+        "coarse_min": -0.004195312553986641,
+        "original_fine_min": -0.00420414355133214,
+        "refined_min": -0.00420487675184289
+      }
+    },
+    "500000/emb2": {
+      "delta_mass": {
+        "coarse_min": -0.005694241304094683,
+        "original_fine_min": -0.005703138307867728,
+        "refined_min": -0.005703138307867728
+      },
+      "delta_R14": {
+        "coarse_min": -0.003967732070457419,
+        "original_fine_min": -0.003976076829297903,
+        "refined_min": -0.003976687189110262
+      }
+    },
+    "1e+06/emb1": {
+      "delta_mass": {
+        "coarse_min": -0.007107317317665451,
+        "original_fine_min": -0.007116798818116998,
+        "refined_min": -0.007116798818116998
+      },
+      "delta_R14": {
+        "coarse_min": -0.004250764834038856,
+        "original_fine_min": -0.00425781984266882,
+        "refined_min": -0.00425781984266882
+      }
+    },
+    "1e+06/emb2": {
+      "delta_mass": {
+        "coarse_min": -0.005709245278410546,
+        "original_fine_min": -0.005716961979352897,
+        "refined_min": -0.005716961979352897
+      },
+      "delta_R14": {
+        "coarse_min": -0.004022523696914804,
+        "original_fine_min": -0.004029465285062095,
+        "refined_min": -0.004029465285062095
+      }
+    },
+    "2e+06/emb1": {
+      "delta_mass": {
+        "coarse_min": -0.007124456267022405,
+        "original_fine_min": -0.007132639362663062,
+        "refined_min": -0.007132639362663062
+      },
+      "delta_R14": {
+        "coarse_min": -0.004307747230790637,
+        "original_fine_min": -0.004311628242994692,
+        "refined_min": -0.004311762720882295
+      }
+    },
+    "2e+06/emb2": {
+      "delta_mass": {
+        "coarse_min": -0.005724315643630518,
+        "original_fine_min": -0.005730771943058044,
+        "refined_min": -0.005730771943058044
+      },
+      "delta_R14": {
+        "coarse_min": -0.004079301041369443,
+        "original_fine_min": -0.004082786926166038,
+        "refined_min": -0.004082935114409603
+      }
+    }
+  },
+  "amplitude_traces": 396,
+  "amplitude_monotonic": {
+    "delta_mass": true,
+    "delta_R14": true
+  },
+  "amplitude_reversals": [],
+  "largest_reference_span": {
+    "delta_mass": {
+      "alpha": 0.0668740304976422,
+      "fraction": 1.0,
+      "embedding": "emb1",
+      "delta_mass": 6.404305540508304e-05,
+      "delta_R14": 0.00015653054150399637
+    },
+    "delta_R14": {
+      "alpha": 0.08177654339579425,
+      "fraction": 1.0,
+      "embedding": "emb1",
+      "delta_mass": 6.142872877201722e-05,
+      "delta_R14": 0.0001615033459646531
+    }
+  },
+  "peak_status_counts": {
+    "interior_refined": 1661,
+    "interior_sample": 73,
+    "upper_EOS_boundary": 270
+  },
+  "global_envelope_certified": false,
+  "rounds": [
+    {
+      "round": 1,
+      "before": {
+        "500000/emb1/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.007100990583476019
+        },
+        "500000/emb1/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.00420414355133214
+        },
+        "500000/emb2/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.005703138307867728
+        },
+        "500000/emb2/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.003976076829297903
+        },
+        "1e+06/emb1/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.007116798818116998
+        },
+        "1e+06/emb1/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.00425781984266882
+        },
+        "1e+06/emb2/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.005716961979352897
+        },
+        "1e+06/emb2/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.004029465285062095
+        },
+        "2e+06/emb1/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.007132639362663062
+        },
+        "2e+06/emb1/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.004311628242994692
+        },
+        "2e+06/emb2/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.005730771943058044
+        },
+        "2e+06/emb2/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.004082786926166038
+        }
+      },
+      "new_alphas": [
+        0.1265280087696055,
+        0.13186680065741144
+      ],
+      "fractions": [
+        1.0
+      ],
+      "new_rows": 12
+    },
+    {
+      "round": 2,
+      "before": {
+        "500000/emb1/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.007100990583476019
+        },
+        "500000/emb1/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.00420414355133214
+        },
+        "500000/emb2/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.005703138307867728
+        },
+        "500000/emb2/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.003976076829297903
+        },
+        "1e+06/emb1/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.007116798818116998
+        },
+        "1e+06/emb1/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.00425781984266882
+        },
+        "1e+06/emb2/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.005716961979352897
+        },
+        "1e+06/emb2/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.004029465285062095
+        },
+        "2e+06/emb1/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.007132639362663062
+        },
+        "2e+06/emb1/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.004311628242994692
+        },
+        "2e+06/emb2/delta_mass": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.005730771943058044
+        },
+        "2e+06/emb2/delta_R14": {
+          "alpha": 0.12859203321989024,
+          "A": 0.008738820028020296,
+          "value": -0.004082786926166038
+        }
+      },
+      "new_alphas": [
+        0.12755584622802546,
+        0.13021912306085653
+      ],
+      "fractions": [
+        1.0
+      ],
+      "new_rows": 12
+    }
+  ]
+}

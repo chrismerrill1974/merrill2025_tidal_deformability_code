@@ -1,0 +1,516 @@
+{
+  "status": "complete",
+  "parent_manifest_sha256": "4c41adfefc2188322adb568160ed8cdfd052fb93eaf86293deb7a4f69f688389",
+  "refinement_manifest_sha256": "b8629bad40c879d7701e3b8e5842ed0ef3faeaab31f1b73acfc3a7d8f6b8a714",
+  "source_sha256": {
+    "paper3_NeutronStars/ns_step15/checks.py": "5bd63ceaf9a409c38b22299534208fcc455f447eea8800d1a520190c5cc34f89",
+    "paper3_NeutronStars/ns_step15/scan.py": "dd99d02c9688f8488eae0908d1763bdd1bbc0694c43d7fa1aa8cfa2828fa9ec4",
+    "paper3_NeutronStars/ns_step15/refine.py": "526c39188324449631c36a8001e65ee22eaa4d38babececa4e3f9ec8518a25b8",
+    "paper3_NeutronStars/ns_step15/analyze.py": "95bd1345da4754328c2a029caea2fd4c7b14041732c1c77b1ba46025a1ab0c5b",
+    "paper3_NeutronStars/ns_step15/resource_control.py": "714c417ab8708215cd2feead52ce99c7fbc5dfd74f1de3feea49eafc8ea3cd1a",
+    "paper3_NeutronStars/ns_step14/model.py": "12cf740a1bc67e49af1444f8244b9d8dfe2f425b79088977d52e80cf80498061",
+    "paper3_NeutronStars/ns_step14/direct.py": "044f1e34d729ffe4cedfb410b38200bbc1fa028551905f3c454f3869ca019820"
+  },
+  "jobs": [
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 500000.0,
+        "embedding": "emb1"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.13021912306085653,
+        "boundary_A": 0.008728136977533798,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008728136977533798,
+        "fraction": 1.0,
+        "rstar_cm": 500000.0,
+        "embedding": "emb1"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 500000.0,
+        "embedding": "emb2"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.13021912306085653,
+        "boundary_A": 0.008728136977533798,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008728136977533798,
+        "fraction": 1.0,
+        "rstar_cm": 500000.0,
+        "embedding": "emb2"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "tight",
+      "reason": "refined_extremum_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "start10",
+      "reason": "strongest_across_references_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "start1000",
+      "reason": "strongest_across_references_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "pchip",
+      "reason": "strongest_across_references_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "direct",
+      "reason": "strongest_across_references_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "start10",
+      "reason": "strongest_across_references_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "start1000",
+      "reason": "strongest_across_references_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "pchip",
+      "reason": "strongest_across_references_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "direct",
+      "reason": "strongest_across_references_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.02,
+        "boundary_A": 0.004310677556525902,
+        "origin": "solar_slice",
+        "A": 0.004310677556525902,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "tight",
+      "reason": "low_alpha"
+    },
+    {
+      "point": {
+        "alpha": 0.02,
+        "boundary_A": 0.004310677556525902,
+        "origin": "solar_slice",
+        "A": 0.004310677556525902,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "saturated",
+      "reason": "low_alpha"
+    },
+    {
+      "point": {
+        "alpha": 0.5,
+        "boundary_A": 0.006734928264094687,
+        "origin": "solar_slice",
+        "A": 0.006734928264094687,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "tight",
+      "reason": "high_alpha"
+    },
+    {
+      "point": {
+        "alpha": 0.5,
+        "boundary_A": 0.006734928264094687,
+        "origin": "solar_slice",
+        "A": 0.006734928264094687,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "saturated",
+      "reason": "high_alpha"
+    },
+    {
+      "point": {
+        "alpha": 0.1244971138750537,
+        "boundary_A": 0.008750201897326297,
+        "origin": "solar_amplitude_peak",
+        "A": 0.008750201897326297,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "tight",
+      "reason": "solar_peak"
+    },
+    {
+      "point": {
+        "alpha": 0.1244971138750537,
+        "boundary_A": 0.008750201897326297,
+        "origin": "solar_amplitude_peak",
+        "A": 0.008750201897326297,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb1"
+      },
+      "mode": "saturated",
+      "reason": "solar_peak"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "start10",
+      "reason": "strongest_across_references_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "start1000",
+      "reason": "strongest_across_references_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "pchip",
+      "reason": "strongest_across_references_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12859203321989024,
+        "boundary_A": 0.008738820028020296,
+        "origin": "solar_slice",
+        "A": 0.008738820028020296,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "direct",
+      "reason": "strongest_across_references_delta_mass"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "start10",
+      "reason": "strongest_across_references_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "start1000",
+      "reason": "strongest_across_references_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "pchip",
+      "reason": "strongest_across_references_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.12755584622802546,
+        "boundary_A": 0.008743789462346042,
+        "origin": "NS_alpha_refinement_2",
+        "A": 0.008743789462346042,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "direct",
+      "reason": "strongest_across_references_delta_R14"
+    },
+    {
+      "point": {
+        "alpha": 0.02,
+        "boundary_A": 0.004310677556525902,
+        "origin": "solar_slice",
+        "A": 0.004310677556525902,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "tight",
+      "reason": "low_alpha"
+    },
+    {
+      "point": {
+        "alpha": 0.02,
+        "boundary_A": 0.004310677556525902,
+        "origin": "solar_slice",
+        "A": 0.004310677556525902,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "saturated",
+      "reason": "low_alpha"
+    },
+    {
+      "point": {
+        "alpha": 0.5,
+        "boundary_A": 0.006734928264094687,
+        "origin": "solar_slice",
+        "A": 0.006734928264094687,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "tight",
+      "reason": "high_alpha"
+    },
+    {
+      "point": {
+        "alpha": 0.5,
+        "boundary_A": 0.006734928264094687,
+        "origin": "solar_slice",
+        "A": 0.006734928264094687,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "saturated",
+      "reason": "high_alpha"
+    },
+    {
+      "point": {
+        "alpha": 0.1244971138750537,
+        "boundary_A": 0.008750201897326297,
+        "origin": "solar_amplitude_peak",
+        "A": 0.008750201897326297,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "tight",
+      "reason": "solar_peak"
+    },
+    {
+      "point": {
+        "alpha": 0.1244971138750537,
+        "boundary_A": 0.008750201897326297,
+        "origin": "solar_amplitude_peak",
+        "A": 0.008750201897326297,
+        "fraction": 1.0,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb2"
+      },
+      "mode": "saturated",
+      "reason": "solar_peak"
+    }
+  ],
+  "workers": 1,
+  "rows": 38,
+  "sha256": {
+    "evaluations.jsonl": "f00e1cf23033e002e887c76ac03de98913d7d636db934eb19f145c07f40e79f3",
+    "summary.json": "591c19d6207064bfef61518937c6021ea28927aad63904b79ba3f7c764b5e95f"
+  }
+}

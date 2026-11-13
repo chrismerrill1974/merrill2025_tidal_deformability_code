@@ -1,0 +1,120 @@
+[
+  {
+    "paper": "paper3",
+    "source": "paper3_NeutronStars/V8_Paper/paper3_v8.tex",
+    "tools": [
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 47296,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.3220101250335574,
+        "cpu_seconds": 0.294802,
+        "average_CPU_fraction": 0.9155053741533066,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 47297,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.3254769580089487,
+        "cpu_seconds": 0.297604,
+        "average_CPU_fraction": 0.9143627303774223,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/pdftoppm",
+          "-r",
+          "110",
+          "-png",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_paper3_step18_review_2026-11-11.pdf",
+          "/tmp/rdt-step18-build-c/paper3/render/page"
+        ],
+        "pid": 47298,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.7486635839450173,
+        "cpu_seconds": 0.676981,
+        "average_CPU_fraction": 0.9042526102748418,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      }
+    ],
+    "pdf": "output/pdf/rdt_paper3_step18_review_2026-11-11.pdf",
+    "render_dir": "/tmp/rdt-step18-build-c/paper3/render",
+    "pages": 4
+  },
+  {
+    "paper": "paper4",
+    "source": "paper4_TidalLoveNumbers/V6_Paper/paper4_v6.tex",
+    "tools": [
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 47825,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.33035529201151803,
+        "cpu_seconds": 0.29913599999999996,
+        "average_CPU_fraction": 0.9054978298624331,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/Library/TeX/texbin/pdflatex",
+          "-interaction=nonstopmode",
+          "-halt-on-error",
+          "main.tex"
+        ],
+        "pid": 47826,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.4443705420126207,
+        "cpu_seconds": 0.31254800000000005,
+        "average_CPU_fraction": 0.7033499533619474,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      },
+      {
+        "command": [
+          "/opt/homebrew/bin/pdftoppm",
+          "-r",
+          "110",
+          "-png",
+          "/Users/chris/Documents/rdt/output/pdf/rdt_paper4_step18_review_2026-11-11.pdf",
+          "/tmp/rdt-step18-build-e/paper4/render/page"
+        ],
+        "pid": 47827,
+        "nice": 19,
+        "returncode": 0,
+        "wall_seconds": 0.7765650830115192,
+        "cpu_seconds": 0.6722580000000001,
+        "average_CPU_fraction": 0.865681466636362,
+        "wall_duty_target": 0.94,
+        "one_child_at_a_time": true
+      }
+    ],
+    "pdf": "output/pdf/rdt_paper4_step18_review_2026-11-11.pdf",
+    "render_dir": "/tmp/rdt-step18-build-e/paper4/render",
+    "pages": 4
+  }
+]

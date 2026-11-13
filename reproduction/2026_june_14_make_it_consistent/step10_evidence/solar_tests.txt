@@ -1,0 +1,26 @@
+test_analysis_refuses_archive_before_figures (__main__.FailureHandling.test_analysis_refuses_archive_before_figures) ... ok
+test_calibration_nonconvergence_and_reference_validation (__main__.FailureHandling.test_calibration_nonconvergence_and_reference_validation) ... ok
+test_complete_roundtrip_and_resume (__main__.FailureHandling.test_complete_roundtrip_and_resume) ... ok
+test_duplicate_and_outside_grid_rejected (__main__.FailureHandling.test_duplicate_and_outside_grid_rejected) ... ok
+test_gate_false_or_exception_raises (__main__.FailureHandling.test_gate_false_or_exception_raises) ... ok
+test_incompatible_settings_refused (__main__.FailureHandling.test_incompatible_settings_refused) ... ok
+test_invalid_inputs (__main__.FailureHandling.test_invalid_inputs) ... ok
+test_legacy_csv_refused_without_mutation (__main__.FailureHandling.test_legacy_csv_refused_without_mutation) ... ok
+test_missing_surface (__main__.FailureHandling.test_missing_surface) ... ok
+test_nonfinite_row_not_appended (__main__.FailureHandling.test_nonfinite_row_not_appended) ... ok
+test_nonfinite_solution (__main__.FailureHandling.test_nonfinite_solution) ... ok
+test_partial_cannot_be_analysis_input (__main__.FailureHandling.test_partial_cannot_be_analysis_input) ... ok
+test_point_failure_stays_visible_and_not_complete (__main__.FailureHandling.test_point_failure_stays_visible_and_not_complete) ... ok
+test_producer_gate_blocks_output_and_records_failure (__main__.FailureHandling.test_producer_gate_blocks_output_and_records_failure) ... ok
+test_reference_iteration_must_converge_even_with_fixed_density (__main__.FailureHandling.test_reference_iteration_must_converge_even_with_fixed_density) ... ok
+test_row_algebra_checked_even_with_new_checksum (__main__.FailureHandling.test_row_algebra_checked_even_with_new_checksum) ... ok
+test_solver_failure_even_with_event (__main__.FailureHandling.test_solver_failure_even_with_event) ... ok
+test_tampered_csv_rejected (__main__.FailureHandling.test_tampered_csv_rejected) ... ok
+test_validator_cli_failure_nonzero (__main__.FailureHandling.test_validator_cli_failure_nonzero) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.405s
+
+OK
+Complete: 2 points; /var/folders/xm/1c5ybyhs5td7ldxby08k180c0000gn/T/tmp_c8poh89/data.csv
+broken: FAIL (ValueError: injected)

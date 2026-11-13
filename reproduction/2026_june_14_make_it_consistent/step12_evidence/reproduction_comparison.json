@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "byte_identical": {
+    "paper2_WhiteDwarfs/wd_step12/results/predictions.csv": true,
+    "paper2_WhiteDwarfs/wd_step12/results/evaluations.jsonl": true,
+    "paper2_WhiteDwarfs/wd_step12/results/summary.json": true,
+    "paper1_SolarCore/solar_step12/figures/summary.json": true,
+    "paper1_SolarCore/solar_step12/figures/slice_table.tex": true,
+    "paper2_WhiteDwarfs/wd_step12/figures/boundary_table.tex": true
+  },
+  "extracted_pdf_text_identical": {
+    "output/pdf/rdt_paper1_step12_review_2026-11-11.pdf": true,
+    "output/pdf/rdt_paper2_step12_review_2026-11-11.pdf": true
+  }
+}

@@ -1,0 +1,14 @@
+Gate 1 (A=0 regression): xi1 = 6.8968486 (ref 6.8968486, rel err 2.81e-09); rho_c/rho_bar = 54.1825 (ref 54.1825, rel err 3.49e-07); rho_c = 76.3877 g/cm^3 -> PASS
+Gate 2 (unit invariance): max flux-ratio diff cgs vs SI = 4.45e-11; xi1 diff = 1.51e-14 -> PASS
+Gate 3 (convergence): xi1 shift under 100x tighter tol = 2.66e-15 -> PASS
+Gate 3b (surface floor): xi1 shift, floor 1e-6 vs 1e-10 = 2.63e-09 -> PASS
+Gate 4 (fiducial model): xi1 = 6.839014 (std 6.896849), rho_c = 76.7792 g/cm^3 (std 76.3877), Tc_mod/Tc_std = 1.022198
+         flux ratios: pp=1.10198, pep=1.05411, be7=1.25811, b8=1.56778 -> PASS
+ALL GATES PASS
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+  File "/Users/chris/Documents/rdt/paper1_SolarCore/solarcore_v3/scan.py", line 71, in main
+    mod=calibrate(Params(A,alpha),**LE_OPTS)
+  File "/Users/chris/Documents/rdt/paper1_SolarCore/solarcore_v3/model.py", line 187, in calibrate
+    raise RuntimeError(f"Solar calibration did not converge after {max_iter} iterations")
+RuntimeError: Solar calibration did not converge after 60 iterations

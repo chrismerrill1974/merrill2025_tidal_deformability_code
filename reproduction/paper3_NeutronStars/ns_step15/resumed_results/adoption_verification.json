@@ -1,0 +1,53 @@
+{
+  "status": "pass",
+  "rows_structurally_verified": 1587,
+  "replays": [
+    {
+      "baseline": "primary",
+      "exact_match": true
+    },
+    {
+      "baseline": "crosscheck",
+      "exact_match": true
+    },
+    {
+      "row_index": 396,
+      "point": {
+        "alpha": 0.02,
+        "boundary_A": 0.004310677556525902,
+        "origin": "solar_slice",
+        "A": 0.0010776693891314756,
+        "fraction": 0.25,
+        "rstar_cm": 500000.0,
+        "embedding": "emb1"
+      },
+      "exact_match": true
+    },
+    {
+      "row_index": 991,
+      "point": {
+        "alpha": 0.0668740304976422,
+        "boundary_A": 0.006861947379479203,
+        "origin": "solar_slice",
+        "A": 0.006861947379479203,
+        "fraction": 1.0,
+        "rstar_cm": 2000000.0,
+        "embedding": "emb1"
+      },
+      "exact_match": true
+    },
+    {
+      "row_index": 1586,
+      "point": {
+        "alpha": 0.2351407043697704,
+        "boundary_A": 0.006588638007203308,
+        "origin": "solar_slice",
+        "A": 0.004941478505402481,
+        "fraction": 0.75,
+        "rstar_cm": 1000000.0,
+        "embedding": "emb2"
+      },
+      "exact_match": true
+    }
+  ]
+}

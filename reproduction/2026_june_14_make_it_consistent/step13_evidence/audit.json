@@ -1,0 +1,91 @@
+{
+  "scope": "RHS/central-series audit and synthetic EOS limit checks; no SLy inference",
+  "runtime": {
+    "python": "3.14.3",
+    "numpy": "2.4.2",
+    "scipy": "1.17.1"
+  },
+  "checks": {
+    "zero_A_modified_paths": {
+      "emb1": {
+        "rhs_relative_error": 0.0,
+        "synthetic_M_R_relative_errors": [
+          1.1102230246251565e-15,
+          6.059710511152616e-10
+        ]
+      },
+      "emb2": {
+        "rhs_relative_error": 0.0,
+        "synthetic_M_R_relative_errors": [
+          2.220446049250313e-16,
+          1.8040013927134169e-12
+        ]
+      }
+    },
+    "known_central_series_failures": {
+      "emb1": {
+        "delta_c": -0.025190667306232605,
+        "required_pressure_quadratic_coefficient": 1.4729628455051052e+21,
+        "coded_pressure_quadratic_coefficient": 1.4605945328394665e+21,
+        "relative_coefficient_error": -0.008396893854710541
+      },
+      "emb2": {
+        "delta_c": -0.025190667306232605,
+        "required_pressure_quadratic_coefficient": 1.4725633331487268e+21,
+        "coded_pressure_quadratic_coefficient": 1.4605945328394665e+21,
+        "relative_coefficient_error": -0.008127867942812284,
+        "weighted_mass_seed_relative_error": -0.00839688910207781
+      }
+    },
+    "cold_Newtonian_limit": {
+      "emb1": {
+        "relative_errors_for_c_multipliers_1_10_100": [
+          1.2871589847307519e-06,
+          1.287158424290169e-08,
+          1.2871592680596677e-10
+        ]
+      },
+      "emb2": {
+        "relative_errors_for_c_multipliers_1_10_100": [
+          1.2825341708655458e-06,
+          1.2825336348498695e-08,
+          1.2825362993851286e-10
+        ]
+      }
+    },
+    "physical_reference_length": {
+      "variable_delta": {
+        "fields": [
+          388152177.58310586,
+          388202833.15472823,
+          388253498.3985879
+        ],
+        "relative_span": 0.0002610337422628284
+      },
+      "constant_delta": {
+        "fields": [
+          388973211.0694408,
+          388973211.0694406,
+          388973211.06944066
+        ],
+        "relative_span": 4.440892098500626e-16
+      }
+    },
+    "quadrature_operator_relative_residual": 2.1265913773954636e-11,
+    "noncold_source_counterexample": {
+      "epsilon_over_rhob_c2": 1.2,
+      "gradient_over_minus_rhob_gop": 1.4400000001680506
+    },
+    "CGS_SI_RHS_max_relative_errors": {
+      "emb1": 6.661338147750939e-16,
+      "emb2": 2.220446049250313e-16
+    }
+  },
+  "status": "audit_complete_with_documented_central_initialization_failures",
+  "source_sha256": {
+    "2026_june_14_make_it_consistent/paper3_keystone/tov_operator.py": "98875e7357da0f3f5f147bad289776b98d0f42c38839a7f6fd7d60473acecb64",
+    "paper3_NeutronStars/ns_v7/tov.py": "48bac0a014d13dc841b738620c690897ab86a56726f4933a492bc47a9b0049da",
+    "paper3_NeutronStars/ns_v7/eos.py": "91844774c8550e413c5203d3e230a25ec8ac623f28d57d0ac8d0d8c221353101",
+    "2026_june_14_make_it_consistent/audit_step13.py": "beef7d092aa206acad1b2bb81beb76438e982827dc2541e51cffb50517d658e2"
+  }
+}

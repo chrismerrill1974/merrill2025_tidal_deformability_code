@@ -1,0 +1,75 @@
+{
+  "status": "pass_with_EOS_boundary_and_surface_scope_limits",
+  "evaluations_verified": 1400,
+  "configurations_verified": 11,
+  "independent_paired_cases": 18,
+  "observed_max_absolute_changes_in_fractional_shifts": {
+    "emb1": {
+      "numerical_controls": {
+        "delta_domain_peak_fraction": 1.1967061008810731e-08,
+        "delta_R14_fraction": 4.8598576829483875e-08
+      },
+      "seed_repair": {
+        "delta_domain_peak_fraction": 3.5143354892852585e-10,
+        "delta_R14_fraction": 1.5419102106228877e-08
+      },
+      "interpolation": {
+        "delta_domain_peak_fraction": 6.867566856305629e-07,
+        "delta_R14_fraction": 2.3291344114495516e-06
+      },
+      "nearest_table_floor": {
+        "delta_domain_peak_fraction": 4.170059852981467e-10,
+        "delta_R14_fraction": 2.774068752486869e-10
+      },
+      "raised_surface_floor": {
+        "delta_domain_peak_fraction": 4.1529335526035993e-10,
+        "delta_R14_fraction": 0.000136628557820484
+      }
+    },
+    "emb2": {
+      "numerical_controls": {
+        "delta_domain_peak_fraction": 5.8584165296693413e-08,
+        "delta_R14_fraction": 5.843179018416578e-08
+      },
+      "seed_repair": {
+        "delta_domain_peak_fraction": 2.2425017398575164e-10,
+        "delta_R14_fraction": 1.6507221478612166e-08
+      },
+      "interpolation": {
+        "delta_domain_peak_fraction": 1.0767057367910837e-06,
+        "delta_R14_fraction": 2.2587601951062908e-06
+      },
+      "nearest_table_floor": {
+        "delta_domain_peak_fraction": 4.1758663194002565e-10,
+        "delta_R14_fraction": 5.3490476492612515e-09
+      },
+      "raised_surface_floor": {
+        "delta_domain_peak_fraction": 5.284047643883127e-10,
+        "delta_R14_fraction": 0.00013545793873215306
+      }
+    }
+  },
+  "independent_paired_max_absolute_difference": {
+    "M": 1.5422250143615202e-09,
+    "R": 3.102437950985859e-08
+  },
+  "meaning": "observed changes in this bounded suite, not certified errors or a solar-parameter envelope",
+  "reference_comparison": {
+    "historical_GR_at_1p3e36": {
+      "M": 2.049455558551543,
+      "R": 10.038991481122103,
+      "Pc": 1.3e+36,
+      "P_surface": 3.4372973321125096e+25,
+      "steps": 884,
+      "nfev": 14654
+    },
+    "reference_tabulated_max_M": 2.052280367269244,
+    "reference_max_at_last_row": true,
+    "reference_R14_linear_interp": 11.700078555970373,
+    "fractional_domain_mass_difference": -0.0012159044901727256,
+    "fractional_R14_difference": -0.0012147475044013145
+  },
+  "source_sha256": {
+    "paper3_NeutronStars/ns_step14/verify.py": "90492d52b5381bbe66a7ae96fb4769beb7a94dd2d3218bcec166331f05e74caa"
+  }
+}

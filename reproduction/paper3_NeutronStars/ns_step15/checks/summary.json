@@ -1,0 +1,32 @@
+{
+  "direct": {
+    "cases": 4,
+    "max_abs_R14_change": 4.284596555326203e-08,
+    "max_abs_mass_change": null
+  },
+  "pchip": {
+    "cases": 4,
+    "max_abs_R14_change": 2.382338103568138e-06,
+    "max_abs_mass_change": 1.0961505330087107e-06
+  },
+  "saturated": {
+    "cases": 6,
+    "max_abs_R14_change": 0.0007737476786653374,
+    "max_abs_mass_change": 0.0012641842562751693
+  },
+  "start10": {
+    "cases": 4,
+    "max_abs_R14_change": 3.687763450166415e-08,
+    "max_abs_mass_change": 3.675104109923666e-08
+  },
+  "start1000": {
+    "cases": 4,
+    "max_abs_R14_change": 3.530773140525412e-08,
+    "max_abs_mass_change": 3.679787186072758e-08
+  },
+  "tight": {
+    "cases": 16,
+    "max_abs_R14_change": 2.2406711042144423e-07,
+    "max_abs_mass_change": 7.062620444031609e-08
+  }
+}

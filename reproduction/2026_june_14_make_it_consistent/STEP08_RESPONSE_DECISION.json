@@ -1,0 +1,59 @@
+{
+  "step": 8,
+  "date": "2026-11-11",
+  "decision": "retain_current_response_as_physically_unvalidated_toy",
+  "scope": "definition and source audit; no simulations or new inference",
+  "response": {
+    "polytropic_index": 3,
+    "calibration_targets": [
+      "solar_mass",
+      "solar_radius"
+    ],
+    "reference_length": "Lane-Emden a, recalibrated per model",
+    "density_reference_g_cm3": 150,
+    "volume_emissivity": "C_i rho^2 T^beta_i",
+    "beta": {
+      "pp": 4,
+      "pep": 2,
+      "be7": 10,
+      "b8": 20
+    },
+    "luminosity_calibration": false,
+    "composition_evolution": false,
+    "response_transfer": "Phi_B16 * (Phi_poly_modified / Phi_poly_standard)",
+    "sound_speed": "common-factor ideal-gas/polytropic differential",
+    "helioseismic_statistic": "nominal maximum-profile proxy, not observed inversion residual"
+  },
+  "physical_benchmark_completed": false,
+  "production_files_changed": false,
+  "next_step": 9,
+  "manuscript_update_step": 12,
+  "primary_sources": [
+    {
+      "url": "https://arxiv.org/html/astro-ph/9602012v2",
+      "locator": "Sections II-III; Table II",
+      "use": "Integrated flux slopes differ from local rate derivatives."
+    },
+    {
+      "url": "https://arxiv.org/html/1004.2318v3",
+      "locator": "Sections III, VIII (Eq. 46), IX",
+      "use": "Branch mechanisms and extra electron-density dependence of pep."
+    },
+    {
+      "url": "https://arxiv.org/abs/hep-ph/0108148",
+      "locator": "Abstract",
+      "use": "Energy-weighted luminosity constraint; no coefficients adopted here."
+    },
+    {
+      "url": "https://arxiv.org/html/1611.09867v4",
+      "locator": "Sections II-IV",
+      "use": "Realistic solar microphysics, abundance choices and correlated observables."
+    }
+  ],
+  "evidence_sha256": {
+    "paper1_SolarCore/solarcore_v3/model.py": "8ade362e1549a2737bec97cf711d9acc1ea8991b3a1f4a7b500d0c4d8c07eae9",
+    "paper1_SolarCore/solarcore_v3/analyze.py": "120f90d0e5544b0384eefbb24171b3615119e09ca8652ce601f717a7ecff0cda",
+    "paper1_SolarCore/V3_Paper/SolarCore_v3.tex": "c36cac67a7d1e1a0dde2ce869caaa2f221e1038da59e6cb98fe263001efa44f8",
+    "2026_june_14_make_it_consistent/STEP08_SOLAR_RESPONSE_MODEL.md": "4a3622c27d7f3220421fe370eea38ce939fcd47f78a210756c861bee669974b8"
+  }
+}

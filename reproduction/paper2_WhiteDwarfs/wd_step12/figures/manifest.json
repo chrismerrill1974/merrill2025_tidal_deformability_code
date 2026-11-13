@@ -1,0 +1,24 @@
+{
+  "status": "complete",
+  "contract": {
+    "schema": 1,
+    "source_sha256": {
+      "paper2_WhiteDwarfs/wd_step12/figures.py": "22caf7a88349cfa014137ec1fef3110dd8393e978aa6343665ce5c2b8274142f"
+    },
+    "guardrails_sha256": "59d137e9879222facc737bd7560649c53f813d00740c5e46bfc587edc3e3b54e",
+    "settings": {
+      "input_manifest_sha256": "0d32cb3a64ce0ef19ab2297eaecf31f0ff5a9549851de0fc1c1299719a2753b3"
+    },
+    "runtime": {
+      "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+      "numpy": "2.4.2",
+      "scipy": "1.17.1",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+    }
+  },
+  "sha256": {
+    "radius_shifts.png": "c1a08ed72c644277cdf76ecc17fc2d6c8d046f952c862b4703dce19e93ecd092",
+    "boundary_table.tex": "7ab71a1acfef97a6535ea9f14250e090064d75e4555bb25c20a429e9ac902637",
+    "radius_shifts.pdf": "bea8aabb0d49d433efc6044f3df993c154e181089d7a2e527029c700942b6b80"
+  }
+}

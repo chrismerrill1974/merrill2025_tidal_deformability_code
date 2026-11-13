@@ -1,0 +1,809 @@
+{
+  "scope": "Static evidence and manuscript-scope audit; no new EOS or stellar calculation",
+  "manuscripts": {
+    "paper1_SolarCore/V3_Paper/SolarCore_v3.tex": {
+      "sha256": "d8bb3cf5a8ddaa36792178a38c967ebbb4eda36605d66b5d2b19f88e226d20a2",
+      "scope_review_lines": [
+        {
+          "line": 43,
+          "text": "not universal observational bounds."
+        },
+        {
+          "line": 90,
+          "text": "stellar-structure equations must thread both needles simultaneously. The"
+        },
+        {
+          "line": 139,
+          "text": "with the saturating opening law"
+        },
+        {
+          "line": 150,
+          "text": "($d_{\\rm eff} \\to 3$) at low density and the saturated floor"
+        },
+        {
+          "line": 268,
+          "text": "universal derivation for all four branches. V2 printed $3+\\beta_i$ but its"
+        },
+        {
+          "line": 323,
+          "text": "With common EOS/composition factors, the model profile difference is"
+        },
+        {
+          "line": 379,
+          "text": "not sigma levels. Colors saturate above 12. Dashed curves show finite nominal"
+        },
+        {
+          "line": 454,
+          "text": "V3 additionally adopts a density-dependent saturating law, ordinary matter"
+        },
+        {
+          "line": 496,
+          "text": "part of that grid exceeds the non-relativistic EOS applicability estimate."
+        },
+        {
+          "line": 499,
+          "text": "from the new region. Reference scale, EOS and relativistic prescription remain"
+        },
+        {
+          "line": 645,
+          "text": "``The spectral dimension of the universe is scale dependent,''"
+        },
+        {
+          "line": 655,
+          "text": "``Spectral dimension of the universe in quantum gravity at a Lifshitz"
+        },
+        {
+          "line": 671,
+          "text": "``Fractal universe and quantum gravity,''"
+        }
+      ],
+      "balanced_braces": true,
+      "collaborator_entry_present": true
+    },
+    "paper2_WhiteDwarfs/V5_Paper/main.tex": {
+      "sha256": "aae95a9e958047d75c1e0133ec08f4c3e81eda07ba93491c28426627d1a610ea",
+      "scope_review_lines": [
+        {
+          "line": 35,
+          "text": "the non-relativistic EOS applicability estimate and is a mathematical"
+        },
+        {
+          "line": 39,
+          "text": "global continuum envelope or universal contraction. Earlier V4 numerical"
+        },
+        {
+          "line": 54,
+          "text": "accuracy of its EOS or modified response. Empirical tests of a specified"
+        },
+        {
+          "line": 152,
+          "text": "(modified vs.\\ standard model at identical $\\rho_c$ and EOS), which"
+        },
+        {
+          "line": 157,
+          "text": "equation of state and is outside this calculation."
+        },
+        {
+          "line": 216,
+          "text": "size; they do not validate the EOS approximation or prove domain extrema."
+        },
+        {
+          "line": 229,
+          "text": "the stated non-relativistic EOS estimate. The curves are polytropic samples,"
+        },
+        {
+          "line": 259,
+          "text": "That behavior does not follow from saturation over the full exponent range:"
+        },
+        {
+          "line": 260,
+          "text": "small-exponent models remain appreciably unsaturated at white-dwarf densities."
+        },
+        {
+          "line": 266,
+          "text": "The term $(2+\\delta)/\\xi$ alone does not prove a universal sign because"
+        },
+        {
+          "line": 309,
+          "text": "checked modified stellar responses within the specified EOS and structure assumptions. A null sample does not automatically"
+        },
+        {
+          "line": 317,
+          "text": "EOS degeneracy. Saturation and sign must be checked over the actual domain."
+        },
+        {
+          "line": 326,
+          "text": "realistic EOS, thermal, composition and envelope responses remain separate tasks."
+        },
+        {
+          "line": 364,
+          "text": "(University of Chicago Press, Chicago, 1939)."
+        }
+      ],
+      "balanced_braces": true,
+      "collaborator_entry_present": true
+    },
+    "paper3_NeutronStars/V8_Paper/paper3_v8.tex": {
+      "sha256": "f81dbeb62c43d7258c4a859b92968f14f4400d07c079c7d423b2b4d11a49a961",
+      "scope_review_lines": [
+        {
+          "line": 28,
+          "text": "The retained SLy baseline has $M_{\\rm max}=2.050M_\\odot$ and"
+        },
+        {
+          "line": 34,
+          "text": "EOS-independent predictions. Their spread does not bound relativistic"
+        },
+        {
+          "line": 37,
+          "text": "sub-percent tidal shift. Full saturation across the allowed exponent"
+        },
+        {
+          "line": 38,
+          "text": "range, universal contraction and a unique covariant completion are not"
+        },
+        {
+          "line": 55,
+          "text": "EOS independence or a unique relativistic completion."
+        },
+        {
+          "line": 65,
+          "text": "The equation of state (EOS) of ultra-dense nuclear matter remains one of the most significant open problems in astrophysics and nuclear physics. Neutron stars (NSs), with core densities reaching several times nuclear saturation density ($\\rho_0 \\approx 2.8 \\times 10^{14}$ g cm$^{-3}$), serve as natural laboratories for constraining the EOS through observations of their masses, radii, and tidal deformabilities \\cite{Lattimer2016,Oertel2017}."
+        },
+        {
+          "line": 69,
+          "text": "These observations create tension for many nuclear EOSs. ``Soft'' EOSs (those with lower pressure support at high density), while often favored by nuclear physics constraints from chiral effective field theory and laboratory experiments \\cite{Huth2022}, struggle to support NSs above $\\sim 2.0~M_\\odot$ without becoming acausal or violating other physical constraints. Conversely, ``stiff'' EOSs that comfortably accommodate heavy pulsars may produce radii inconsistent with NICER measurements or tidal deformabilities exceeding GW170817 constraints \\cite{Capano2020}."
+        },
+        {
+          "line": 71,
+          "text": "Several theoretical approaches have been proposed to reconcile soft nuclear EOSs with heavy pulsar observations through modifications to the gravitational sector. Scalar-tensor theories can produce spontaneous scalarization at high densities, modifying NS structure while remaining consistent with Solar System tests \\cite{Huang2021}. Models based on $f(R)$ gravity modify the gravitational action to stiffen stellar configurations, potentially raising maximum masses for a given EOS \\cite{Astashenok2015}. Silva et al.\\ \\cite{Silva2023} demonstrated quasi-universal relations between $f(R)$ parameters and NS maximum mass, while Minamitsuji \\cite{Minamitsuji2022} noted an inevitable degeneracy problem: modified gravity parameters and EOS stiffness can produce similar mass-radius relations, complicating unique attribution of observed properties. Extra-dimensional scenarios such as braneworld models \\cite{Linares2017,Choudhury2020} offer yet another avenue for geometric modifications at high density."
+        },
+        {
+          "line": 79,
+          "text": "The present work addresses the natural question: \\textit{Does RDT remain consistent and physically viable when extrapolated to neutron star densities---eight orders of magnitude beyond white dwarfs?} We test this through detailed TOV integration using the retained SLy calculation, comparing standard predictions with RDT-modified results. Earlier APR predictions are withdrawn; no corrected APR comparison is included here."
+        },
+        {
+          "line": 81,
+          "text": "Our retained numerical examples are SLy calculations under the two"
+        },
+        {
+          "line": 84,
+          "text": "parameter domain or for other EOSs. Neither matching signs across papers"
+        },
+        {
+          "line": 89,
+          "text": "or fixed by the Sun. Propagation retains EOS and gravity-model degeneracies."
+        },
+        {
+          "line": 91,
+          "text": "We validate our approach by reproducing the independently computed SLy"
+        },
+        {
+          "line": 92,
+          "text": "mass--radius relation to $\\sim$0.1\\% (Sec.~\\ref{sec:eos} and the Validation"
+        },
+        {
+          "line": 106,
+          "text": "where the spatial opening fraction follows a saturating functional form:"
+        },
+        {
+          "line": 112,
+          "text": "The reference density $\\rho_0 = 150$ g cm$^{-3}$ is a series convention; the amplitude and exponent are \\emph{bounded}, not fitted, by Paper~I: $A \\le A_{95}(\\alpha) \\le 0.0087$ over $\\alpha \\in [0.02, 0.5]$. We evaluate selected points on this nominal boundary; these do not certify the largest effects over the domain. The nominal amplitude-threshold point $(\\alpha, A_{95}) = (0.122, 0.0087)$ is the peak of Paper~I's computed $A_{95}(\\alpha)$ curve, i.e.\\ the nominal global proxy threshold $A < 0.0087$; it falls between the rows $\\alpha = 0.10$ and $0.15$ of Paper~I's tabulated subset, which both read $A_{95} = 0.0083$. The other two points used here, $(0.15, 0.0083)$ and $(0.334, 0.0061)$, are Paper~I tabulated values verbatim. The full density law is needed: saturation is not uniform over the stated exponent range."
+        },
+        {
+          "line": 119,
+          "text": "which saturates to $\\delta \\to -3A$ at high density. The high-density floor"
+        },
+        {
+          "line": 153,
+          "text": "It equals $1/(1-A)$ only in the fully saturated limit. A central ratio"
+        },
+        {
+          "line": 175,
+          "text": "The two prescriptions give the same sign at the reported SLy samples,"
+        },
+        {
+          "line": 182,
+          "text": "\\subsection{Equation of State Implementation}"
+        },
+        {
+          "line": 183,
+          "text": "\\label{sec:eos}"
+        },
+        {
+          "line": 185,
+          "text": "The only EOS used for the current neutron-star parameter predictions is"
+        },
+        {
+          "line": 186,
+          "text": "the CompOSE RG(SLy4) table distributed by the"
+        },
+        {
+          "line": 187,
+          "text": "CompOSE database \\cite{CompOSE} (RG(SLY4), 197 points), covering the full"
+        },
+        {
+          "line": 192,
+          "text": "crust and core only). This is not a second EOS-family test and does not"
+        },
+        {
+          "line": 193,
+          "text": "establish EOS robustness."
+        },
+        {
+          "line": 204,
+          "text": "EOS extrapolation and with a finite surface pressure of $1.001P_{\\min}$."
+        },
+        {
+          "line": 206,
+          "text": "upper EOS pressure edge; those are EOS-domain peak-mass differences, not"
+        },
+        {
+          "line": 257,
+          "text": "The validated GR baseline for SLy is: $M_{\\rm max} = 2.050~M_\\odot$ at"
+        },
+        {
+          "line": 260,
+          "text": "$\\sim$0.1\\% level of our solver validation. Standard SLy therefore already"
+        },
+        {
+          "line": 265,
+          "text": "(Sec.~\\ref{sec:eos} above)."
+        },
+        {
+          "line": 281,
+          "text": "\\caption{(a)~Mass--radius relation for SLy: GR baseline (solid), the"
+        },
+        {
+          "line": 295,
+          "text": "$A_{95}(\\alpha)$ boundary (SLy baseline $M_{\\rm max} = 2.0495~M_\\odot$,"
+        },
+        {
+          "line": 315,
+          "text": "The retained GR SLy baseline and reported primary example have maximum"
+        },
+        {
+          "line": 318,
+          "text": "soft EOS or a statistical pulsar exclusion. Earlier claims of a rise from"
+        },
+        {
+          "line": 322,
+          "text": "\\subsection{Full density law and restricted EOS scope}"
+        },
+        {
+          "line": 325,
+          "text": "fraction is about 0.9735. Complete saturation is therefore not valid"
+        },
+        {
+          "line": 328,
+          "text": "EOS-independent fractional stellar responses. Corrected APR results are"
+        },
+        {
+          "line": 330,
+          "text": "conclusions to the specified CompOSE RG(SLy4) implementation. A multi-EOS"
+        },
+        {
+          "line": 333,
+          "text": "scan measures parameter and reference-length dependence within this one EOS;"
+        },
+        {
+          "line": 334,
+          "text": "it does not supply an EOS uncertainty band."
+        },
+        {
+          "line": 343,
+          "text": "paper's SLy samples involve different approximations. Shared signs are"
+        },
+        {
+          "line": 355,
+          "text": "worsening of the SLy--NICER tension, not an easing; this is the honest"
+        },
+        {
+          "line": 367,
+          "text": "The retained SLy examples report $-0.71\\%$ in maximum mass and"
+        },
+        {
+          "line": 370,
+          "text": "conditional sample values, not universal caps or EOS-independent signatures."
+        },
+        {
+          "line": 372,
+          "text": "the whole parameter/EOS domain requires exploring that domain; quantified"
+        },
+        {
+          "line": 373,
+          "text": "sensitivity requires an explicit treatment of measurement and EOS uncertainty."
+        },
+        {
+          "line": 377,
+          "text": "sensitivity, multi-EOS scans and a covariant completion remain open."
+        },
+        {
+          "line": 383,
+          "text": "\\item The reported SLy GR baseline is $M_{\\rm max}=2.050M_\\odot$ and"
+        },
+        {
+          "line": 385,
+          "text": "\\item Earlier erroneous mass/radius predictions and unsupported APR results"
+        },
+        {
+          "line": 391,
+          "text": "\\item Neither universal contraction, EOS independence, full saturation nor"
+        },
+        {
+          "line": 398,
+          "text": "relativistic prescriptions. The reported SLy maximum-mass shift changes"
+        },
+        {
+          "line": 401,
+          "text": "proof that one sign must hold universally. Prior numerical withdrawals"
+        },
+        {
+          "line": 405,
+          "text": "results of V1--V6: (i)~the equation-of-state energy density is taken"
+        },
+        {
+          "line": 433,
+          "text": "``The equation of state of hot, dense matter and neutron stars,''"
+        },
+        {
+          "line": 503,
+          "text": "``A unified equation of state of dense matter and neutron star structure,''"
+        },
+        {
+          "line": 513,
+          "text": "``Equation of state of nucleon matter and neutron star structure,''"
+        },
+        {
+          "line": 543,
+          "text": "``Unveiling a universal relationship between the $f(R)$ parameter and the maximum mass of neutron stars,''"
+        },
+        {
+          "line": 548,
+          "text": "``Compact star in general $F(R)$ gravity: Inevitable degeneracy problem with the equation of state,''"
+        },
+        {
+          "line": 563,
+          "text": "``I-Love-Q: Unexpected universal relations for neutron stars and quark stars,''"
+        }
+      ],
+      "balanced_braces": true,
+      "collaborator_entry_present": true
+    },
+    "paper4_TidalLoveNumbers/V6_Paper/paper4_v6.tex": {
+      "sha256": "dee5991063181c487a7c9eb250dca758b3df04277c72a7850f45fb6c0bcd57d7",
+      "scope_review_lines": [
+        {
+          "line": 26,
+          "text": "SLy backgrounds of Paper~III using a phenomenological extension of the"
+        },
+        {
+          "line": 34,
+          "text": "global ceilings or EOS-independent predictions. Keeping a GR-form tidal"
+        },
+        {
+          "line": 56,
+          "text": "EOS independence or a unique relativistic completion."
+        },
+        {
+          "line": 72,
+          "text": "\\cite{Abbott2018} already constrains the equation of state (EOS), and any"
+        },
+        {
+          "line": 78,
+          "text": "dimensionality decreases weakly with density through the saturating"
+        },
+        {
+          "line": 90,
+          "text": "SLy mass/radius deficits under their stated assumptions. These do not"
+        },
+        {
+          "line": 92,
+          "text": "saturated even at nuclear density; the full density law and its derivatives"
+        },
+        {
+          "line": 99,
+          "text": "not a universal sign test. The revised EOS baseline and withdrawals of"
+        },
+        {
+          "line": 131,
+          "text": "crust-to-core CompOSE SLy table \\cite{Douchin2001,CompOSE} is used with the"
+        },
+        {
+          "line": 134,
+          "text": "and series-expansion initial conditions. The EOS scope is restricted to this"
+        },
+        {
+          "line": 135,
+          "text": "CompOSE RG(SLy4) implementation; neither an EOS ensemble nor a validated"
+        },
+        {
+          "line": 136,
+          "text": "APR tidal calculation is supplied. The repository source checks and background parameter scan concern stellar backgrounds, not a recomputation of the"
+        },
+        {
+          "line": 137,
+          "text": "tidal values retained here. Those values remain conditional SLy examples"
+        },
+        {
+          "line": 175,
+          "text": "$y(0) = 2$; for a tabulated EOS, the finite surface energy density requires"
+        },
+        {
+          "line": 204,
+          "text": "(iii)~\\emph{GR gate / published-SLy regression}: at $A = 0$ the operator"
+        },
+        {
+          "line": 207,
+          "text": "SLy \\cite{Hinderer2010,Postnikov2010}---so the RDT result below is"
+        },
+        {
+          "line": 223,
+          "text": "\\caption{(a)~Tidal deformability $\\Lambda(M)$ for SLy in GR (solid) and at"
+        },
+        {
+          "line": 236,
+          "text": "\\caption{SLy tidal properties in GR and at the nominal amplitude-threshold example"
+        },
+        {
+          "line": 282,
+          "text": "GR (SLy) & 359 & within $300^{+420}_{-230}$ \\\\"
+        },
+        {
+          "line": 293,
+          "text": "correctly computed, SLy requires no softening to accommodate GW170817, and"
+        },
+        {
+          "line": 295,
+          "text": "(this version) $\\tilde\\Lambda$---does not spoil the agreement. This sign belongs to the chosen calculation; it is not a universal"
+        },
+        {
+          "line": 305,
+          "text": "selected SLy example. Comparing this number with forecast detector"
+        },
+        {
+          "line": 307,
+          "text": "events depend on masses, EOS freedom, waveform errors and the chosen"
+        },
+        {
+          "line": 308,
+          "text": "tidal equations with quantified numerical errors. EOS independence, guaranteed population detection"
+        },
+        {
+          "line": 315,
+          "text": "not evidence of universal contraction. In particular, Paper~I calibrates"
+        },
+        {
+          "line": 325,
+          "text": "\\item The retained SLy example reports about $-4\\%$ in"
+        },
+        {
+          "line": 331,
+          "text": "completion or external endorsement. Global bounds require domain/EOS"
+        },
+        {
+          "line": 339,
+          "text": "superseded as a different prescription. This does not prove a universal"
+        },
+        {
+          "line": 343,
+          "text": "results of V1--V4: (i)~the unified saturating dimensional law of"
+        },
+        {
+          "line": 345,
+          "text": "nuclear saturation, evading the lower-density constraints by construction);"
+        },
+        {
+          "line": 346,
+          "text": "(ii)~the equation-of-state baseline was corrected---V4 inherited the"
+        },
+        {
+          "line": 361,
+          "text": "database, and the authors of the published SLy tables."
+        },
+        {
+          "line": 375,
+          "text": "``GW170817: Measurements of neutron star radii and equation of state,''"
+        },
+        {
+          "line": 421,
+          "text": "``A unified equation of state of dense matter and neutron star"
+        },
+        {
+          "line": 432,
+          "text": "``Constraining the equation of state with moment of inertia"
+        }
+      ],
+      "balanced_braces": true,
+      "collaborator_entry_present": true
+    },
+    "paper5_BlackHoles/V3_Paper/paper5_v3.tex": {
+      "sha256": "f215d5460090fd683bed7a2fa9ebcdccb9bb917e5ca8dbdc171cf6548be8f11a",
+      "scope_review_lines": [
+        {
+          "line": 54,
+          "text": "EOS independence or a unique relativistic completion."
+        },
+        {
+          "line": 59,
+          "text": "\\paragraph{EOS scope of inherited stellar results.}"
+        },
+        {
+          "line": 61,
+          "text": "are restricted to their specified SLy implementation. They do not constrain"
+        },
+        {
+          "line": 62,
+          "text": "all nuclear EOSs or supply an EOS uncertainty band. The updated background"
+        },
+        {
+          "line": 63,
+          "text": "scan is conditional on CompOSE RG(SLy4); it neither recomputes the inherited"
+        },
+        {
+          "line": 75,
+          "text": "series-canonical law is the saturating form"
+        },
+        {
+          "line": 86,
+          "text": "These are not established global ceilings or a universal sign law."
+        },
+        {
+          "line": 96,
+          "text": "dimensional law active only above nuclear saturation density, with"
+        },
+        {
+          "line": 121,
+          "text": "$|\\delta| \\to 0$ continuously with the density."
+        },
+        {
+          "line": 161,
+          "text": "near equality here do not establish saturation across all exponents.}"
+        },
+        {
+          "line": 179,
+          "text": "this example. Small exponents need not be saturated, even in a neutron-star"
+        },
+        {
+          "line": 180,
+          "text": "core. The local law tends continuously to dimension three as density"
+        },
+        {
+          "line": 190,
+          "text": "in one SLy tidal example, not an EOS-independent maximum. Source masses,"
+        },
+        {
+          "line": 191,
+          "text": "waveform systematics and EOS freedom affect attribution; no superiority"
+        },
+        {
+          "line": 220,
+          "text": "and cannot use the reported $4\\%$ sample as a universal exclusion ceiling."
+        },
+        {
+          "line": 226,
+          "text": "and inference qualifications. No universal black-hole or tidal prediction"
+        },
+        {
+          "line": 230,
+          "text": "V2 replaced the earlier logarithmic law with the shared saturating law."
+        }
+      ],
+      "balanced_braces": true,
+      "collaborator_entry_present": true
+    },
+    "companionpaper_GeometricCompletion/V3_Paper/paper6_v3.tex": {
+      "sha256": "75de1e358af76a21d22045fffd082df0c2ccaa3e31a0d440a3ae2e427a5b00de",
+      "scope_review_lines": [
+        {
+          "line": 58,
+          "text": "EOS independence or a unique relativistic completion."
+        },
+        {
+          "line": 87,
+          "text": "prescription. Neither universal contraction nor unique relativistic"
+        },
+        {
+          "line": 128,
+          "text": "conformal matter coupling provides the dynamics, reproducing the saturating"
+        },
+        {
+          "line": 146,
+          "text": "equilibrium reproduces the saturating law with $\\alpha = 1$, \\emph{outside} the"
+        },
+        {
+          "line": 268,
+          "text": "To realize the saturating density law of the series (the logarithmic form of"
+        },
+        {
+          "line": 301,
+          "text": "leading to a saturating dimensional deficit $\\epsilon \\propto \\rho/(\\rho + \\rho_*)$"
+        },
+        {
+          "line": 309,
+          "text": "This \\emph{reproduces} the series saturating law with density exponent"
+        },
+        {
+          "line": 333,
+          "text": "$A < 0.0087$; its saturation floor is $\\deff > 3 - 3(0.012) = 2.964$, to be"
+        },
+        {
+          "line": 433,
+          "text": "case. This is not a universal maximum or a systematics-free discriminant."
+        },
+        {
+          "line": 702,
+          "text": "Whether this can simultaneously yield GW-observable dipole AND stellar phenomenology"
+        },
+        {
+          "line": 865,
+          "text": "reproduces the saturating law with $\\alpha = 1$---an extension point outside the"
+        },
+        {
+          "line": 875,
+          "text": "vacuum boundary conditions; no universal maximum or exact null follows here."
+        },
+        {
+          "line": 1022,
+          "text": "\\bibitem{Fujii} Y.~Fujii and K.~Maeda, \\textit{The Scalar-Tensor Theory of Gravitation} (Cambridge University Press, Cambridge, 2003)."
+        }
+      ],
+      "balanced_braces": true,
+      "collaborator_entry_present": true
+    },
+    "paper6/V1_Paper/paper6_v1.tex": {
+      "sha256": "f360e2e75df47e3cbc855cdffb807c0ef6bbe91ce0378da22889bdc1318688fa",
+      "scope_review_lines": [
+        {
+          "line": 34,
+          "text": "necessary. Reported SLy local-multiplier comparisons give $-0.60\\%$ in"
+        },
+        {
+          "line": 53,
+          "text": "EOS independence or a unique relativistic completion."
+        },
+        {
+          "line": 58,
+          "text": "\\paragraph{EOS scope of stellar comparisons.}"
+        },
+        {
+          "line": 60,
+          "text": "SLy implementation and the local-multiplier prescription used here. They are"
+        },
+        {
+          "line": 61,
+          "text": "not EOS-independent predictions. The full-operator CompOSE RG(SLy4) checks retained in"
+        },
+        {
+          "line": 63,
+          "text": "multi-EOS comparison. Extending either calculation to another EOS requires"
+        },
+        {
+          "line": 72,
+          "text": "matter density, through the series-canonical saturating opening law"
+        },
+        {
+          "line": 81,
+          "text": "samples in Papers~II--IV do not establish universal contraction or global"
+        },
+        {
+          "line": 121,
+          "text": "Full saturation does not hold over the whole exponent range. At"
+        },
+        {
+          "line": 122,
+          "text": "$\\rho=10^{15}~{\\rm g\\,cm^{-3}}$ and $\\alpha=0.02$ the saturation"
+        },
+        {
+          "line": 129,
+          "text": "The ratio $3/(3+\\delta_c)$ is a regular-center limit, not a universal"
+        },
+        {
+          "line": 130,
+          "text": "replacement for this integral. The local saturated ansatz gives"
+        },
+        {
+          "line": 137,
+          "text": "phenomenological comparison, not a solution of all scalar-field equations. On the SLy equation of state, with the GR baseline"
+        },
+        {
+          "line": 176,
+          "text": "\\section{The potential and the saturating law}"
+        },
+        {
+          "line": 303,
+          "text": "Numerically, on the SLy equation of state with the validated baseline"
+        },
+        {
+          "line": 314,
+          "text": "(SLy, illustrative $A=0.0087$, $\\alpha=0.12$), against Paper~III~V8's full"
+        },
+        {
+          "line": 341,
+          "text": "inherited solely from a shared density-law shape. No universal contraction,"
+        },
+        {
+          "line": 352,
+          "text": "a verified completion of the operator. Small differences at selected SLy"
+        },
+        {
+          "line": 353,
+          "text": "points do not establish that the omitted physics is universally subleading."
+        },
+        {
+          "line": 363,
+          "text": "a demonstrated field-theoretic origin of Papers~I--V. The retained SLy"
+        },
+        {
+          "line": 417,
+          "text": "(Cambridge University Press, 2003)."
+        }
+      ],
+      "balanced_braces": true,
+      "collaborator_entry_present": true
+    },
+    "paper6/terrestrial_G_note/note_terrestrial_G_v2.tex": {
+      "sha256": "c31057b0bb84cfeecd9d03c3a80d522097e0a45da1a2d309092a594d250fb630",
+      "scope_review_lines": [
+        {
+          "line": 50,
+          "text": "EOS independence or a unique relativistic completion."
+        },
+        {
+          "line": 96,
+          "text": "principle constraints or universal cancellation of geometry/systematics"
+        }
+      ],
+      "balanced_braces": true,
+      "collaborator_entry_present": true
+    }
+  },
+  "scientific_manifests": {
+    "paper3_NeutronStars/ns_step14/results": {
+      "manifest_sha256": "16b3b84834184bdbf1d93ead51b9d3b5058a94171f088825843f8fda78562b5a",
+      "source_hashes_verified": 7,
+      "artifact_hashes_verified": 2
+    },
+    "paper3_NeutronStars/ns_step15/resumed95_results": {
+      "manifest_sha256": "4c41adfefc2188322adb568160ed8cdfd052fb93eaf86293deb7a4f69f688389",
+      "source_hashes_verified": 8,
+      "artifact_hashes_verified": 4
+    },
+    "paper3_NeutronStars/ns_step15/refinement": {
+      "manifest_sha256": "b8629bad40c879d7701e3b8e5842ed0ef3faeaab31f1b73acfc3a7d8f6b8a714",
+      "source_hashes_verified": 6,
+      "artifact_hashes_verified": 4
+    },
+    "paper3_NeutronStars/ns_step15/analysis": {
+      "manifest_sha256": "7655d3918ef1b0e8a87363a1e6f1793c60adcc8db6fd6dba11853d6018b00a2c",
+      "source_hashes_verified": 3,
+      "artifact_hashes_verified": 4
+    },
+    "paper3_NeutronStars/ns_step15/checks": {
+      "manifest_sha256": "8b2ddf996db95753e7b72278052287f058addd865bc27d8010c8358c2f06c77b",
+      "source_hashes_verified": 7,
+      "artifact_hashes_verified": 2
+    }
+  },
+  "resource_controls": {
+    "pid": 39935,
+    "nice": 19,
+    "worker_processes": 1,
+    "cpu_fraction_target": 0.95,
+    "cpu_quantum_seconds": 0.01,
+    "wall_seconds": 0.01956091698957607,
+    "cpu_seconds": 0.018894,
+    "measured_cpu_fraction": 0.9659056377606701,
+    "throttle_sleeps": 1,
+    "throttle_sleep_seconds": 0.0005261973513554976,
+    "native_thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1"
+    }
+  },
+  "status": "pass"
+}

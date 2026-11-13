@@ -1,0 +1,86 @@
+{
+  "step": 9,
+  "date": "2026-11-11",
+  "status": "nominal_proxy_procedure_defined; coverage_not_established",
+  "response_model": "STEP08_RESPONSE_DECISION.json",
+  "next_score": "source_precision_diagonal_proxy_v1",
+  "implementation_step": 11,
+  "inputs": "STEP09_INPUT_AUDIT.json",
+  "parameters": {
+    "A": [
+      0,
+      0.04
+    ],
+    "alpha": [
+      0.02,
+      0.5
+    ],
+    "A_upper_is_initial_scan_edge": true
+  },
+  "y": {
+    "pp": 1.0200668896321068,
+    "pep": 0.8819444444444445,
+    "be7": 1.0121703853955377,
+    "b8": 1.0402930402930401
+  },
+  "variance": {
+    "pp": 0.011780835068958958,
+    "pep": 0.022524768518518517,
+    "be7": 0.004303561833210587,
+    "b8": 0.019800582323659246
+  },
+  "covariance": "diagonal approximation; not measured zero cross-correlations",
+  "nuisance_parameters_fitted": [],
+  "helioseismic": {
+    "type": "deterministic maximum-profile penalty",
+    "sigma": 0.002,
+    "radius_fraction": [
+      0.01,
+      0.98
+    ],
+    "observational_likelihood": false
+  },
+  "slice_statistic": "Q(A,alpha) - min_A Q(A,alpha)",
+  "slice_threshold": 2.71,
+  "endpoint_rule": "all accepted components; supremum only if closed; refine crossings; edge means grid-limited",
+  "confidence_coverage_claimed": false,
+  "alternative_scores": [
+    "legacy_diagonal_proxy",
+    "measurement_only",
+    "helioseismic_scale_0.001",
+    "helioseismic_scale_0.004",
+    "omit_pep",
+    "all_lower_error_sides",
+    "all_upper_error_sides"
+  ],
+  "new_amplitude_threshold_computed": false,
+  "sources": [
+    {
+      "url": "https://unige.iris.cineca.it/bitstream/11567/930098/5/11567_930098_merged_1534757340.pdf",
+      "locator": "Table 2 and caption, page 15",
+      "download_sha256": "99df5a4c4d1aa223d36d3ca23cd9feb83a8806867d296d3b0358ac2fc006f804",
+      "status": "author manuscript visually verified; publisher table inaccessible"
+    },
+    {
+      "url": "https://arxiv.org/html/1611.09867v4",
+      "locator": "Table 6 and correlated-error discussion"
+    },
+    {
+      "url": "https://arxiv.org/abs/1109.0763",
+      "locator": "Abstract; combined SNO result, comparison only"
+    },
+    {
+      "url": "https://arxiv.org/html/1007.1727v3",
+      "locator": "Sections 2-3"
+    },
+    {
+      "url": "https://arxiv.org/html/1005.1891v3",
+      "locator": "Sections 1-2"
+    }
+  ],
+  "evidence_sha256": {
+    "2026_june_14_make_it_consistent/STEP09_INPUT_AUDIT.py": "35dc98dc6dd70ec8385ff809cbf674cf9bfd79d12a385c80f19689b4db96f23c",
+    "2026_june_14_make_it_consistent/STEP09_INPUT_AUDIT.json": "5cdc7cea6429e0f8850fdd1daa76bab408f8b0738cfcc56babdbda12efb1a0d5",
+    "2026_june_14_make_it_consistent/STEP09_SOLAR_INFERENCE.md": "72736dae0e561d8481c8a8b9d5f88bf60beccf4197451be7e936f0dd515010ba"
+  }
+}

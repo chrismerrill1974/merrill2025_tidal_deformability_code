@@ -1,0 +1,21 @@
+{
+  "status": "pass",
+  "step11_hashes_unchanged": 54,
+  "wd_rows_checked": 3960,
+  "solar_boundary_bindings_checked": 66,
+  "maximum_mass_comparison_identity_error": 4.0072112295064244e-16,
+  "selected_tight_difference": 2.776158157524744e-10,
+  "selected_start_difference": 8.04585773006572e-11,
+  "pdfs": [
+    {
+      "path": "output/pdf/rdt_paper1_step12_review_2026-11-11.pdf",
+      "sha256": "cb12230102138a7369a9eca88e7fd7e0acbd838f56699fec9d389f523af1da3e",
+      "pages": 7
+    },
+    {
+      "path": "output/pdf/rdt_paper2_step12_review_2026-11-11.pdf",
+      "sha256": "8e0371d55155a84012a12d23c447865bc1f0c178e6d5af5bd4194089fa29c0b7",
+      "pages": 5
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "paper1_SolarCore/solar_step11/run.py": "ed76ba1c234ae3f004c5fd1fba65717de423e4c687413ad7f7e36f467fedd571",
+  "paper1_SolarCore/solar_step11/produce.py": "6292031517874bf8cf7b3a690921206bc340b6754c586d322fe88f407e8f46f6",
+  "paper1_SolarCore/solar_step11/audit.py": "5caaa1dac6c136280d8769220861e54d1097c5e495e659d20280fce214b1f2d2",
+  "paper1_SolarCore/solar_step11/solver.py": "df14607070439065ae6e51cd5f8da304295eef20e7d5909b2de19021d6f2648a",
+  "paper1_SolarCore/solar_step11/reproduce.py": "e7957c4b00e795019a4d00fbd303b1f192cbb05d8988e2a7976c52860d1cadcd",
+  "paper1_SolarCore/solar_step11/reference_run.py": "3a129b41bed5d6d6d42c44ef709116c8681b60a3ce41ddace1980a905d6ccdbb",
+  "paper1_SolarCore/solar_step11/summarize.py": "eae713efb1c08aadcedbd62435fa2564b72daf1e187f97f9ff49a73e84ed8988",
+  "paper1_SolarCore/solar_step11/peak.py": "9b97e093872da8d844c1f35bef31e57b09ca9543cc8e6105f5ce701d287d481a",
+  "paper1_SolarCore/solar_step11/peak_numerics.py": "301a6a337d6d4b8deb125e71970acb4e8a7f5d5c168935f6abd555bae124c740",
+  "paper1_SolarCore/solar_step11/inference.py": "b5011e0f2a63cb45550705a6cd796ab37d65a53387a663bfb0bc02cce13a52af",
+  "paper1_SolarCore/solar_step11/local_checks.py": "51d479ad632a5916cc4c66114216fdd7cea149f02629cd3dca587cd59a0f6e44",
+  "paper1_SolarCore/solar_step11/verify.py": "a8b2c3c7f0f7718b444a697b3b0fa648f43f90df12b1c57fa29b5ddbc0818b8b",
+  "paper1_SolarCore/solar_step11/README.md": "308a0f95fa317b832e7f64751b84e9fa61dd24062cdee802e59c357c2b5a2a9d",
+  "paper1_SolarCore/solar_step11/requirements.txt": "91c6ce8ff0a3514b81d79d8671fdfe17046ad8bf44f6bf570b78bbaa2be855d3",
+  "numerical_guardrails.py": "59d137e9879222facc737bd7560649c53f813d00740c5e46bfc587edc3e3b54e",
+  "tests/test_step11_inference.py": "468966e6a521182bd38461779a27dabb224868a10e2ba15f8e8fb0be04620eaf",
+  "paper1_SolarCore/solarcore_v3/model.py": "e0f3033c9996aa7f1e1df3a20d29e47eedb16837a5c7042b70d8582c7b0ba034",
+  "2026_june_14_make_it_consistent/STEP08_RESPONSE_DECISION.json": "d85accdd0d9280af487e33921239420becd30784ab7a344c03b3438df18941be",
+  "2026_june_14_make_it_consistent/STEP09_INFERENCE_CONTRACT.json": "d4fa6bd75ad286b525247383436d310c6b865bfac2f79eff95d301c65364993d",
+  "2026_june_14_make_it_consistent/STEP09_INPUT_AUDIT.json": "5cdc7cea6429e0f8850fdd1daa76bab408f8b0738cfcc56babdbda12efb1a0d5"
+}

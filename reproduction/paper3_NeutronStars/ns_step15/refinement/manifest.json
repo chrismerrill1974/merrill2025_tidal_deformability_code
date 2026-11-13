@@ -1,0 +1,54 @@
+{
+  "status": "complete",
+  "parent_manifest_sha256": "4c41adfefc2188322adb568160ed8cdfd052fb93eaf86293deb7a4f69f688389",
+  "source_sha256": {
+    "paper3_NeutronStars/ns_step15/refine.py": "526c39188324449631c36a8001e65ee22eaa4d38babececa4e3f9ec8518a25b8",
+    "paper3_NeutronStars/ns_step15/scan.py": "dd99d02c9688f8488eae0908d1763bdd1bbc0694c43d7fa1aa8cfa2828fa9ec4",
+    "paper3_NeutronStars/ns_step15/resource_control.py": "714c417ab8708215cd2feead52ce99c7fbc5dfd74f1de3feea49eafc8ea3cd1a",
+    "paper1_SolarCore/solar_step11/solver.py": "df14607070439065ae6e51cd5f8da304295eef20e7d5909b2de19021d6f2648a",
+    "paper1_SolarCore/solar_step11/inference.py": "b5011e0f2a63cb45550705a6cd796ab37d65a53387a663bfb0bc02cce13a52af",
+    "paper3_NeutronStars/ns_step14/model.py": "12cf740a1bc67e49af1444f8244b9d8dfe2f425b79088977d52e80cf80498061"
+  },
+  "rounds": 2,
+  "solar_settings": {
+    "rtol": 2e-12,
+    "atol": 2e-14,
+    "max_step": 0.04,
+    "xi0": 1e-06,
+    "floor": 1e-08,
+    "calibration_tol": 1e-12,
+    "max_iter": 60,
+    "reference": "a",
+    "si": false,
+    "profile_n": 801
+  },
+  "solar_A_mesh": [
+    0.0,
+    0.0025,
+    0.005,
+    0.0075,
+    0.01,
+    0.0125,
+    0.015,
+    0.0175,
+    0.02,
+    0.0225,
+    0.025,
+    0.0275,
+    0.03,
+    0.0325,
+    0.035,
+    0.0375,
+    0.04
+  ],
+  "alpha_refinement": "geometric midpoints on each side of observed minima",
+  "workers": 1,
+  "rows": 24,
+  "solar_evaluations": 303,
+  "sha256": {
+    "evaluations.jsonl": "d3338644d40ceb656be663e45eeec4da1b86f5efb007217386f04ba99a0e2904",
+    "solar_endpoints.json": "9053f7498ed47c2606e449d57bb7864639519fbcffe469b37db6c73f89ed12e5",
+    "solar_evaluations.json": "f1f9681adeec8695a1e1733cbafbc575ebf72019c8f13a7d2f2fac4a041b703a",
+    "rounds.json": "f6fd8f4f71c827d95cf04fc393b9c850372c9396c0e137e7453c773571f6b1b8"
+  }
+}

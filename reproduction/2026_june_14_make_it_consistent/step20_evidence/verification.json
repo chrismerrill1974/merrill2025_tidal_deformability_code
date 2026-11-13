@@ -1,0 +1,9 @@
+{
+  "status": "pass",
+  "historical_scripts_unchanged": true,
+  "assigned_source_samples": 20,
+  "generated_tables_identical": true,
+  "solar_values_consistent": true,
+  "pdf_pages_reviewed": 11,
+  "max_child_average_cpu_fraction": 0.9394475316857475
+}

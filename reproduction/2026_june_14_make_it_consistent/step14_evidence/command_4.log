@@ -1,0 +1,15 @@
+{
+  "paired_comparison": {
+    "emb1": {
+      "direct_delta_R14_fraction": -0.004210458091651437,
+      "flux_delta_R14_fraction": -0.0042104774845722615,
+      "difference": 1.9392920824756743e-08
+    },
+    "emb2": {
+      "direct_delta_R14_fraction": -0.003984238069829726,
+      "flux_delta_R14_fraction": -0.003984460118341859,
+      "difference": 2.2204851213292187e-07
+    }
+  },
+  "evaluations": 27
+}

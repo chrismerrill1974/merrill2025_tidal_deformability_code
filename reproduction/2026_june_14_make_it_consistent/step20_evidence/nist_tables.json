@@ -1,0 +1,14 @@
+{
+  "source": "https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=961075",
+  "doi": "10.1088/1681-7575/ae570f",
+  "retrieved": "2026-11-12",
+  "locations": "Table 16 p25 and Table 18 p26 (printed pages; PDF pages 26 and 27)",
+  "order": ["copper_servo", "copper_free", "sapphire_servo", "sapphire_free"],
+  "G_in_1e_minus_11_SI": [6.673642, 6.674021, 6.672637, 6.673636],
+  "relative_standard_uncertainty_ppm_table18": [23.2, 30.3, 37.5, 93.9],
+  "correlation": [[1,0.42,0.38,0.12],[0.42,1,0.23,0.23],[0.38,0.23,1,0.25],[0.12,0.23,0.25,1]],
+  "consensus_G": 6.67387,
+  "consensus_standard_uncertainty": 0.00038,
+  "consensus_density": null,
+  "note": "Mixed-material consensus is not a copper-only datum. Published PDF differs from NIST landing-page abstract; use final PDF. Table16 rounded uncertainties are ppm, not last-digit errors."
+}

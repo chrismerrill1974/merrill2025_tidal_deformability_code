@@ -1,0 +1,48 @@
+{
+  "status": "pass",
+  "official_archive_url": "https://compose.obspm.fr/download/1D/NS/Skyrme/SLY4/eos.zip",
+  "official_archive_sha256": "2993201b8b674b4d8ffe0021c35f2f34b266fe727954e4c8cc60aba542769419",
+  "official_members": {
+    "eos.nb": {
+      "sha256": "2aaa0129e05fa57a5c5e5f52adf5fdb66e5f1ab5c46c3bc25284f27109ad175f",
+      "identical_to_official_archive": true
+    },
+    "eos.thermo": {
+      "sha256": "2bd6548281a66938e87b24db83555deb89cdbcbf61f2bf9dbf909e63cc376f5d",
+      "identical_to_official_archive": true
+    },
+    "eos.mr": {
+      "sha256": "a1579a26e509759760ba67a9448cf44741084995d715805d948c706d77828dd2",
+      "identical_to_official_archive": true
+    }
+  },
+  "DH_PDF_url": "https://arxiv.org/pdf/astro-ph/0111092",
+  "DH_PDF_sha256": "3d23f03f841142a7923e870ff18b344a9ef56629b513c4bf94db7a469c7fbd6b",
+  "DH_source_rows": 78,
+  "DH_local_rows_matched": 77,
+  "DH_omitted_source_rows_nb_rho_P": [
+    [
+      0.0771,
+      130380000000000.0,
+      5.3739e+32
+    ]
+  ],
+  "DH_wrong_epsilon_over_rho_c2_range": [
+    1.0033854484855325,
+    1.4012873826595216
+  ],
+  "independent_vs_legacy_compose_loader_max_relative_differences": {
+    "P": 0.0,
+    "eps": 0.0,
+    "rho": 0.0
+  },
+  "compose_manual": "https://compose.obspm.fr/download/pdf/manual_v2.00.pdf",
+  "compose_formulas": {
+    "pressure": "Q1 * nb * MeV_fm3_to_cgs",
+    "energy_density": "mn * (1+Q7) * nb * MeV_fm3_to_cgs",
+    "law_density": "mu * nb * 1e39; mu=1.66053906660e-24 g"
+  },
+  "source_sha256": {
+    "paper3_NeutronStars/ns_step14/audit_sources.py": "8e5c7c0d481f8b67b592d1eb64f3928c3c9ee50007f8833d404cd9afb0faaf17"
+  }
+}

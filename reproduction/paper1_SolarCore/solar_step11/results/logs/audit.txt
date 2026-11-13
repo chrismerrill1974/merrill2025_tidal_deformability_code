@@ -1,0 +1,9 @@
+audited endpoint 0.02
+audited endpoint 0.029906975624424414
+audited endpoint 0.044721359549995794
+audited endpoint 0.0668740304976422
+audited endpoint 0.1
+audited endpoint 0.14953487812212204
+audited endpoint 0.22360679774997896
+audited endpoint 0.334370152488211
+audited endpoint 0.5

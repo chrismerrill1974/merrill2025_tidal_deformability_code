@@ -1,0 +1,48 @@
+test_boundary_minimum (__main__.InferenceTests.test_boundary_minimum) ... ok
+test_corrupt_region_refused (__main__.InferenceTests.test_corrupt_region_refused) ... ok
+test_disconnected (__main__.InferenceTests.test_disconnected) ... ok
+test_grid_edge (__main__.InferenceTests.test_grid_edge) ... ok
+test_incomplete_region_refused (__main__.InferenceTests.test_incomplete_region_refused) ... ok
+test_nonconvergence (__main__.InferenceTests.test_nonconvergence) ... ok
+test_null (__main__.InferenceTests.test_null) ... ok
+test_source_score_and_legacy (__main__.InferenceTests.test_source_score_and_legacy) ... ok
+test_standard_polytrope (__main__.InferenceTests.test_standard_polytrope) ... ok
+test_unit_invariance (__main__.InferenceTests.test_unit_invariance) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.247s
+
+OK
+Rsun alpha 0.02 endpoint 0.003415328947564294 evaluations 203
+Rsun alpha 0.022116460340604705 endpoint 0.0034230115518779315 evaluations 406
+Rsun alpha 0.02445689089987704 endpoint 0.0034315489667305424 evaluations 611
+Rsun alpha 0.027044992882081332 endpoint 0.0034410416796303513 evaluations 818
+Rsun alpha 0.029906975624424414 endpoint 0.003451598731781949 evaluations 1046
+Rsun alpha 0.033071822015250704 endpoint 0.0034633567714971655 evaluations 1269
+Rsun alpha 0.03657158199959149 endpoint 0.003476458303638393 evaluations 1480
+Rsun alpha 0.0404416971443569 endpoint 0.003491069752314805 evaluations 1706
+Rsun alpha 0.044721359549995794 endpoint 0.003507381181133822 evaluations 1934
+Rsun alpha 0.049453908743270276 endpoint 0.0035256102748144943 evaluations 2177
+Rsun alpha 0.05468727057042106 endpoint 0.0035460070734313377 evaluations 2429
+Rsun alpha 0.06047444253533181 endpoint 0.0035688595926567043 evaluations 2677
+Rsun alpha 0.0668740304976422 endpoint 0.0035945004685228113 evaluations 2905
+Rsun alpha 0.07395084216587466 endpoint 0.0036233147827777084 evaluations 3131
+Rsun alpha 0.08177654339579425 endpoint 0.0036557492145067403 evaluations 3370
+Rsun alpha 0.09043038394024115 endpoint 0.0036923226660781567 evaluations 3622
+Rsun alpha 0.1 endpoint 0.0037336384978051843 evaluations 3878
+Rsun alpha 0.11058230170302352 endpoint 0.003780398491043973 evaluations 4126
+Rsun alpha 0.12228445449938519 endpoint 0.0038334186758148957 evaluations 4377
+Rsun alpha 0.13522496441040663 endpoint 0.003893646721280249 evaluations 4624
+Rsun alpha 0.14953487812212204 endpoint 0.003962181726818899 evaluations 4889
+Rsun alpha 0.1653591100762535 endpoint 0.004040294475312616 evaluations 5157
+Rsun alpha 0.18285790999795742 endpoint 0.004129448546758757 evaluations 5448
+Rsun alpha 0.2022084857217845 endpoint 0.0042313190702695245 evaluations 5740
+Rsun alpha 0.22360679774997896 endpoint 0.004347806182239236 evaluations 6024
+Rsun alpha 0.24726954371635132 endpoint 0.004481034823869298 evaluations 6295
+Rsun alpha 0.27343635285210527 endpoint 0.004633331467172018 evaluations 6556
+Rsun alpha 0.302372212676659 endpoint 0.004807160950723719 evaluations 6847
+Rsun alpha 0.334370152488211 endpoint 0.005005002092539143 evaluations 7153
+Rsun alpha 0.36975421082937326 endpoint 0.005229137223614407 evaluations 7475
+Rsun alpha 0.4088827169789712 endpoint 0.005481333740287847 evaluations 7769
+Rsun alpha 0.4521519197012057 endpoint 0.005762415578817043 evaluations 8079
+Rsun alpha 0.5 endpoint 0.006071773681226125 evaluations 8361

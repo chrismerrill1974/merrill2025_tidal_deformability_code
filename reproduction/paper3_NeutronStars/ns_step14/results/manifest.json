@@ -1,0 +1,30 @@
+{
+  "status": "complete",
+  "contract": {
+    "source_sha256": {
+      "paper3_NeutronStars/ns_step14/run.py": "3d96ae7c14dc3b8b8153287cdebabbcff62b009736efd14da8427f9c1eaa3f45",
+      "paper3_NeutronStars/ns_step14/model.py": "12cf740a1bc67e49af1444f8244b9d8dfe2f425b79088977d52e80cf80498061",
+      "paper3_NeutronStars/ns_step14/direct.py": "044f1e34d729ffe4cedfb410b38200bbc1fa028551905f3c454f3869ca019820",
+      "paper3_NeutronStars/ns_v7/eos.nb": "2aaa0129e05fa57a5c5e5f52adf5fdb66e5f1ab5c46c3bc25284f27109ad175f",
+      "paper3_NeutronStars/ns_v7/eos.thermo": "2bd6548281a66938e87b24db83555deb89cdbcbf61f2bf9dbf909e63cc376f5d",
+      "paper3_NeutronStars/ns_v7/eos.mr": "a1579a26e509759760ba67a9448cf44741084995d715805d948c706d77828dd2",
+      "paper3_NeutronStars/037/eos_sly4_dh2001_v2.dat": "91389fbdc35ddba6fad6ef2bf5d7cdf02e3d3ad211f2a3ae33211036fd3cfb90"
+    },
+    "runtime": {
+      "python": "3.14.3",
+      "numpy": "2.4.2",
+      "scipy": "1.17.1"
+    },
+    "reference_sample": {
+      "A": 0.0087,
+      "alpha": 0.12,
+      "meaning": "historical canonical sample, not a new solar-domain envelope"
+    },
+    "rstar_cm": 1000000.0
+  },
+  "evaluations": 1400,
+  "sha256": {
+    "summary.json": "b4a853aa57c23e690df429fcc98f7f51336f14485eeeafbad7c6ddf0ddb19ff0",
+    "evaluations.jsonl": "160cd9b877a8d7cbd71dd0a16a84f7eed7b5469f5126f0b9a2aa7c8b39efe02a"
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "status": "pass",
+  "new_stellar_runs": 0,
+  "source_sign_checks": [
+    {
+      "alpha": 0.02,
+      "rho_over_rho0": 0.01,
+      "sigma": 0.004149816590511208,
+      "assigned_equilibrium_residual": 7.28583859910259e-17,
+      "action_source_residual_over_rho0": 0.015000000000000072
+    },
+    {
+      "alpha": 0.02,
+      "rho_over_rho0": 1,
+      "sigma": 0.00435,
+      "assigned_equilibrium_residual": 0.0,
+      "action_source_residual_over_rho0": 1.5
+    },
+    {
+      "alpha": 0.02,
+      "rho_over_rho0": 100,
+      "sigma": 0.004550183409488791,
+      "assigned_equilibrium_residual": -6.536993168992922e-13,
+      "action_source_residual_over_rho0": 149.99999999999935
+    },
+    {
+      "alpha": 0.02,
+      "rho_over_rho0": 100000000.0,
+      "sigma": 0.005142357687940007,
+      "assigned_equilibrium_residual": 5.364418029785156e-07,
+      "action_source_residual_over_rho0": 150000000.00000054
+    },
+    {
+      "alpha": 0.12,
+      "rho_over_rho0": 0.01,
+      "sigma": 0.0031777329850448434,
+      "assigned_equilibrium_residual": -3.469446951953614e-18,
+      "action_source_residual_over_rho0": 0.014999999999999996
+    },
+    {
+      "alpha": 0.12,
+      "rho_over_rho0": 1,
+      "sigma": 0.00435,
+      "assigned_equilibrium_residual": 0.0,
+      "action_source_residual_over_rho0": 1.5
+    },
+    {
+      "alpha": 0.12,
+      "rho_over_rho0": 100,
+      "sigma": 0.005522267014955156,
+      "assigned_equilibrium_residual": 8.526512829121202e-14,
+      "action_source_residual_over_rho0": 150.00000000000009
+    },
+    {
+      "alpha": 0.12,
+      "rho_over_rho0": 100000000.0,
+      "sigma": 0.00784032541335851,
+      "assigned_equilibrium_residual": 1.0281801223754883e-06,
+      "action_source_residual_over_rho0": 150000000.000001
+    },
+    {
+      "alpha": 0.334,
+      "rho_over_rho0": 0.01,
+      "sigma": 0.0015382273538249289,
+      "assigned_equilibrium_residual": 3.469446951953614e-18,
+      "action_source_residual_over_rho0": 0.015000000000000003
+    },
+    {
+      "alpha": 0.334,
+      "rho_over_rho0": 1,
+      "sigma": 0.00435,
+      "assigned_equilibrium_residual": 0.0,
+      "action_source_residual_over_rho0": 1.5
+    },
+    {
+      "alpha": 0.334,
+      "rho_over_rho0": 100,
+      "sigma": 0.00716177264617507,
+      "assigned_equilibrium_residual": -5.684341886080802e-14,
+      "action_source_residual_over_rho0": 149.99999999999994
+    },
+    {
+      "alpha": 0.334,
+      "rho_over_rho0": 100000000.0,
+      "sigma": 0.008681524508714348,
+      "assigned_equilibrium_residual": -9.98377799987793e-06,
+      "action_source_residual_over_rho0": 149999999.99999002
+    },
+    {
+      "alpha": 0.5,
+      "rho_over_rho0": 0.01,
+      "sigma": 0.0007909090909090908,
+      "assigned_equilibrium_residual": -1.734723475976807e-18,
+      "action_source_residual_over_rho0": 0.015
+    },
+    {
+      "alpha": 0.5,
+      "rho_over_rho0": 1,
+      "sigma": 0.00435,
+      "assigned_equilibrium_residual": 0.0,
+      "action_source_residual_over_rho0": 1.5
+    },
+    {
+      "alpha": 0.5,
+      "rho_over_rho0": 100,
+      "sigma": 0.007909090909090909,
+      "assigned_equilibrium_residual": 1.4210854715202004e-13,
+      "action_source_residual_over_rho0": 150.00000000000014
+    },
+    {
+      "alpha": 0.5,
+      "rho_over_rho0": 100000000.0,
+      "sigma": 0.0086991300869913,
+      "assigned_equilibrium_residual": 9.375810623168945e-05,
+      "action_source_residual_over_rho0": 150000000.00009376
+    },
+    {
+      "alpha": 1,
+      "rho_over_rho0": 0.01,
+      "sigma": 8.613861386138614e-05,
+      "assigned_equilibrium_residual": 1.734723475976807e-18,
+      "action_source_residual_over_rho0": 0.015000000000000003
+    },
+    {
+      "alpha": 1,
+      "rho_over_rho0": 1,
+      "sigma": 0.00435,
+      "assigned_equilibrium_residual": 0.0,
+      "action_source_residual_over_rho0": 1.5
+    },
+    {
+      "alpha": 1,
+      "rho_over_rho0": 100,
+      "sigma": 0.008613861386138613,
+      "assigned_equilibrium_residual": -4.973799150320701e-13,
+      "action_source_residual_over_rho0": 149.9999999999995
+    },
+    {
+      "alpha": 1,
+      "rho_over_rho0": 100000000.0,
+      "sigma": 0.008699999913,
+      "assigned_equilibrium_residual": -0.1019359678030014,
+      "action_source_residual_over_rho0": 149999999.89806402
+    }
+  ],
+  "trace_elimination_exact": true,
+  "nonlocal_counterexample": {
+    "operator_ratio": 1.008663211048313,
+    "local_central_ratio": 1.0067114093959733
+  },
+  "schwarzschild_dimension_at_r_over_GM_10": 2.875,
+  "nist_contrasts": [
+    {
+      "name": "copper_minus_sapphire_servo",
+      "ppm_at_fixed_Gref_6_6737": 150.5911263617101,
+      "standard_uncertainty_ppm_excludes_dark_bias": 35.818204343592534
+    },
+    {
+      "name": "copper_minus_sapphire_free",
+      "ppm_at_fixed_Gref_6_6737": 57.68913795939818,
+      "standard_uncertainty_ppm_excludes_dark_bias": 91.79537357722879
+    },
+    {
+      "name": "free_minus_servo_copper",
+      "ppm_at_fixed_Gref_6_6737": 56.7900864587388,
+      "standard_uncertainty_ppm_excludes_dark_bias": 29.42616685295032
+    },
+    {
+      "name": "free_minus_servo_sapphire",
+      "ppm_at_fixed_Gref_6_6737": 149.6920748610507,
+      "standard_uncertainty_ppm_excludes_dark_bias": 91.99193041380543
+    }
+  ],
+  "nist_covariance_positive_definite": true,
+  "material_ansatz": [
+    {
+      "alpha": 0.02,
+      "leading_ppm": 85.47666456562575,
+      "exact_ppm": 85.84242320153201
+    },
+    {
+      "alpha": 0.12,
+      "leading_ppm": 496.18665522407554,
+      "exact_ppm": 498.08810443052744
+    },
+    {
+      "alpha": 0.334,
+      "leading_ppm": 1113.2559548242245,
+      "exact_ppm": 1116.5117150730985
+    },
+    {
+      "alpha": 0.5,
+      "leading_ppm": 1267.6746817564224,
+      "exact_ppm": 1270.5930139775835
+    }
+  ],
+  "historical_local_alpha": 0.122,
+  "resource": {
+    "pid": 4535,
+    "nice": 19,
+    "worker_processes": 1,
+    "cpu_fraction_target": 0.95,
+    "cpu_quantum_seconds": 0.01,
+    "wall_seconds": 0.030883457999948405,
+    "cpu_seconds": 0.009133000000000002,
+    "measured_cpu_fraction": 0.295724656222605,
+    "throttle_sleeps": 0,
+    "throttle_sleep_seconds": 0.0,
+    "native_thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "BLIS_NUM_THREADS": "1"
+    }
+  }
+}

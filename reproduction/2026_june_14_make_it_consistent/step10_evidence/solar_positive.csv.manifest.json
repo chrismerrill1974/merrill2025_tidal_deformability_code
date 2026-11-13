@@ -1,0 +1,62 @@
+{
+  "contract": {
+    "schema": 1,
+    "source_sha256": {
+      "model.py": "e0f3033c9996aa7f1e1df3a20d29e47eedb16837a5c7042b70d8582c7b0ba034",
+      "scan.py": "b8cb3a2bcb823fff5cbc55fb2b706072677b356b8e7b6a3f74f0f533917451d7",
+      "validate.py": "28057af0debecf5837826b4964be114549cb6ccca72e5eefdc1ac1c448c57bfd"
+    },
+    "guardrails_sha256": "59d137e9879222facc737bd7560649c53f813d00740c5e46bfc587edc3e3b54e",
+    "settings": {
+      "A": [
+        0.0,
+        0.0042
+      ],
+      "alpha": [
+        0.15
+      ],
+      "solver": {
+        "rtol": 1e-09,
+        "atol": 1e-11,
+        "max_step": 0.05
+      },
+      "theta_floor": 1e-08,
+      "reference": "a",
+      "calibration_tol": 1e-12,
+      "max_iter": 60,
+      "score": "legacy_measurement_v1",
+      "observed": {
+        "pp": 1.02,
+        "pep": 0.88,
+        "be7": 1.01,
+        "b8": 1.04
+      },
+      "sigma": {
+        "pp": 0.1,
+        "pep": 0.15,
+        "be7": 0.03,
+        "b8": 0.08
+      },
+      "beta": {
+        "pp": 4.0,
+        "pep": 2.0,
+        "be7": 10.0,
+        "b8": 20.0
+      },
+      "sound_speed_grid": [
+        0.01,
+        0.98,
+        400
+      ]
+    },
+    "runtime": {
+      "python": "3.14.3 (main, Feb  3 2026, 15:32:20) [Clang 17.0.0 (clang-1700.6.3.2)]",
+      "numpy": "2.4.2",
+      "scipy": "1.17.1",
+      "platform": "macOS-26.6.2-arm64-arm-64bit-Mach-O"
+    }
+  },
+  "status": "complete",
+  "rows": 2,
+  "sha256": "8eafcd3e5a71edbdfac843214f82006c86da84578aa3073030d2de0aaae5c908"
+}

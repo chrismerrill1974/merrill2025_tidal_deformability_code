@@ -1,0 +1,227 @@
+{
+  "status": "pass",
+  "settings": {
+    "rtol": 2e-12,
+    "atol": 1e-20,
+    "max_step": 0.02
+  },
+  "rows": [
+    {
+      "embedding": "emb1",
+      "A": 0.0,
+      "alpha": 0.12,
+      "pressure_fraction": 0.98,
+      "result": {
+        "M": 2.049767527486593,
+        "R": 9.995474291088565,
+        "Pc": 1.3562914268664046e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1584,
+        "nfev": 24278
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0,
+      "alpha": 0.12,
+      "pressure_fraction": 0.99,
+      "result": {
+        "M": 2.0497842685327194,
+        "R": 9.98503636886427,
+        "Pc": 1.3701311353038168e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1591,
+        "nfev": 24566
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0,
+      "alpha": 0.12,
+      "pressure_fraction": 0.995,
+      "result": {
+        "M": 2.049784343261172,
+        "R": 9.979854803120114,
+        "Pc": 1.377050989522523e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1590,
+        "nfev": 25262
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0,
+      "alpha": 0.12,
+      "pressure_fraction": 0.999,
+      "result": {
+        "M": 2.0497805117685424,
+        "R": 9.9757273010487,
+        "Pc": 1.3825868728974877e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1580,
+        "nfev": 24410
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0,
+      "alpha": 0.12,
+      "pressure_fraction": 1.0,
+      "result": {
+        "M": 2.049779019939146,
+        "R": 9.97469786713197,
+        "Pc": 1.383970843741229e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1588,
+        "nfev": 25142
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 0.98,
+      "result": {
+        "M": 2.0352869679788177,
+        "R": 9.976372175717618,
+        "Pc": 1.3562914268664046e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1566,
+        "nfev": 24554
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 0.99,
+      "result": {
+        "M": 2.0353286625857114,
+        "R": 9.966010709609215,
+        "Pc": 1.3701311353038168e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1583,
+        "nfev": 24734
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 0.995,
+      "result": {
+        "M": 2.035341145371197,
+        "R": 9.960867137841369,
+        "Pc": 1.377050989522523e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1590,
+        "nfev": 24626
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 0.999,
+      "result": {
+        "M": 2.035347206856355,
+        "R": 9.956769829591646,
+        "Pc": 1.3825868728974877e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1580,
+        "nfev": 24770
+      }
+    },
+    {
+      "embedding": "emb1",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 1.0,
+      "result": {
+        "M": 2.0353481842140684,
+        "R": 9.955747926279072,
+        "Pc": 1.383970843741229e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1596,
+        "nfev": 24674
+      }
+    },
+    {
+      "embedding": "emb2",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 0.98,
+      "result": {
+        "M": 2.038142587966603,
+        "R": 9.972934825019049,
+        "Pc": 1.3562914268664046e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1583,
+        "nfev": 24818
+      }
+    },
+    {
+      "embedding": "emb2",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 0.99,
+      "result": {
+        "M": 2.0381763649334466,
+        "R": 9.962531972696583,
+        "Pc": 1.3701311353038168e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1576,
+        "nfev": 24554
+      }
+    },
+    {
+      "embedding": "emb2",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 0.995,
+      "result": {
+        "M": 2.0381848773855555,
+        "R": 9.957367642497912,
+        "Pc": 1.377050989522523e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1581,
+        "nfev": 24314
+      }
+    },
+    {
+      "embedding": "emb2",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 0.999,
+      "result": {
+        "M": 2.0381877594677964,
+        "R": 9.953253792606935,
+        "Pc": 1.3825868728974877e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1593,
+        "nfev": 25010
+      }
+    },
+    {
+      "embedding": "emb2",
+      "A": 0.0087,
+      "alpha": 0.12,
+      "pressure_fraction": 1.0,
+      "result": {
+        "M": 2.038187940943357,
+        "R": 9.95222775319509,
+        "Pc": 1.383970843741229e+36,
+        "P_surface": 3.4372973321125096e+25,
+        "steps": 1601,
+        "nfev": 25226
+      }
+    }
+  ],
+  "finding": "GR has a shallow interior turnover; both nonzero examples increase through the checked near-edge points",
+  "source_sha256": {
+    "paper3_NeutronStars/ns_step14/endpoint_probe.py": "f0859d8ea4b481543283255c2646952a1a42d4214ff3103702ec4fc5c30398f6",
+    "paper3_NeutronStars/ns_step14/model.py": "12cf740a1bc67e49af1444f8244b9d8dfe2f425b79088977d52e80cf80498061",
+    "paper3_NeutronStars/ns_v7/eos.nb": "2aaa0129e05fa57a5c5e5f52adf5fdb66e5f1ab5c46c3bc25284f27109ad175f",
+    "paper3_NeutronStars/ns_v7/eos.thermo": "2bd6548281a66938e87b24db83555deb89cdbcbf61f2bf9dbf909e63cc376f5d"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "input_commit": "387cccc5da3e2fc582afb9b2ef7087a2ecdd9ad6",
+  "historical_sha256": {
+    "paper6/V1_Paper/paper6_v1.tex": "f360e2e75df47e3cbc855cdffb807c0ef6bbe91ce0378da22889bdc1318688fa",
+    "paper6/terrestrial_G_note/note_terrestrial_G_v2.tex": "c31057b0bb84cfeecd9d03c3a80d522097e0a45da1a2d309092a594d250fb630",
+    "companionpaper_GeometricCompletion/V3_Paper/paper6_v3.tex": "75de1e358af76a21d22045fffd082df0c2ccaa3e31a0d440a3ae2e427a5b00de",
+    "paper6/u_sigma.py": "38d5a3687ca89bf1012ed95463e6a19b2e2bdef09af63e0b563cbf59051b52b2",
+    "paper6/geff_check.py": "5a8edb204dfc7364391768d059ce096917fa37d5fe93c3e48333f29efa9c8ce0",
+    "paper6/g_regression_v2.py": "55785959539c5bd5dd06c6242f997e77d762908f1ee8d4a0af3975d284916404",
+    "2026_June_14_Revisions/paper6_units_note.md": "9ac830b1c065c721a5e4a93c8a1d10b79116d31b40a0ee40ec42a7ef5b82fdd6"
+  },
+  "alpha1_legacy": {
+    "repo": "git@github.com:chrismerrill1974/merrill2025_neutronstar_code.git",
+    "head": "85b01b11311a856a1109cd7de749084098face8d",
+    "files": {
+      "companion_alpha1_bound.py": "4f5fef574fb134d2b406be13ebbfce2cf18b6fee5bd77b560af3c70b61b18013",
+      "solar_model.py": "8ade362e1549a2737bec97cf711d9acc1ea8991b3a1f4a7b500d0c4d8c07eae9"
+    },
+    "path_status": ""
+  },
+  "alpha1_recomputed": false,
+  "historical_scientific_scripts_modified": false
+}

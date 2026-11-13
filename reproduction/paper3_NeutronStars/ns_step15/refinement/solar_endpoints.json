@@ -1,0 +1,74 @@
+[
+  {
+    "alpha": 0.1265280087696055,
+    "boundary_A": 0.00874731837421021,
+    "origin": "NS_alpha_refinement_1",
+    "solar_slice": {
+      "minimum_A": 0.0009096383117287364,
+      "minimum_Q": 0.7340463635017036,
+      "intervals": [
+        {
+          "lower": 0.0,
+          "upper": 0.00874731837421021,
+          "upper_grid_limited": false
+        }
+      ],
+      "upper_endpoint": 0.00874731837421021,
+      "maximum_root_score_residual": 6.689901965728495e-10
+    }
+  },
+  {
+    "alpha": 0.13186680065741144,
+    "boundary_A": 0.008713720365022068,
+    "origin": "NS_alpha_refinement_1",
+    "solar_slice": {
+      "minimum_A": 0.0009264751282435635,
+      "minimum_Q": 0.7323328156087986,
+      "intervals": [
+        {
+          "lower": 0.0,
+          "upper": 0.008713720365022068,
+          "upper_grid_limited": false
+        }
+      ],
+      "upper_endpoint": 0.008713720365022068,
+      "maximum_root_score_residual": 7.204237206792641e-10
+    }
+  },
+  {
+    "alpha": 0.12755584622802546,
+    "boundary_A": 0.008743789462346042,
+    "origin": "NS_alpha_refinement_2",
+    "solar_slice": {
+      "minimum_A": 0.000913560791058929,
+      "minimum_Q": 0.7336896248427027,
+      "intervals": [
+        {
+          "lower": 0.0,
+          "upper": 0.008743789462346042,
+          "upper_grid_limited": false
+        }
+      ],
+      "upper_endpoint": 0.008743789462346042,
+      "maximum_root_score_residual": 6.805462859915679e-10
+    }
+  },
+  {
+    "alpha": 0.13021912306085653,
+    "boundary_A": 0.008728136977533798,
+    "origin": "NS_alpha_refinement_2",
+    "solar_slice": {
+      "minimum_A": 0.0009222238574125198,
+      "minimum_Q": 0.7328238302516477,
+      "intervals": [
+        {
+          "lower": 0.0,
+          "upper": 0.008728136977533798,
+          "upper_grid_limited": false
+        }
+      ],
+      "upper_endpoint": 0.008728136977533798,
+      "maximum_root_score_residual": 7.055538375766446e-10
+    }
+  }
+]
